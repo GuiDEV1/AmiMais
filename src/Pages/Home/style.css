@@ -1,0 +1,27 @@
+
+body {
+ background: #fcfcfc;
+}
+
+.carroselHome {
+background-image: url(Imagens/dogHome.jpg);
+background-size: cover;
+background-position: center 29%;
+width: 100%;
+height: 420px;
+}
+
+.menuHome {
+    background: #fdfdfd;
+    width: 400px;
+    height: 276px;
+    float: left;
+    margin-top: 55px;
+    margin-left: 36px;
+}
+
+.tiltleMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

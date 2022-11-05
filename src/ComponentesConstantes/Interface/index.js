@@ -8,7 +8,7 @@ export function Interface () {
      
    <header>
  <div className = 'imgMenu'> 
-   <img src="https://media.discordapp.net/attachments/834862603792285717/1037725076126179328/amimaisLogo.png" />
+   <img src="https://media.discordapp.net/attachments/834862603792285717/1037725076126179328/amimaisLogo.png" /> 
 </div>     
 
       <div className = 'interface'> 
