@@ -1,15 +1,18 @@
+/*
+Estilização do menu da nossa página
+*/
 
 header {
-
     width: 100%;
     height: 85px;
     background-color: #F9813D;
 }
 
 header .interface {
-    /* border: 2px solid blue; */
+    /*border: 2px solid blue;*/ 
     height: 90px;
     width: 80%;
+    min-width: 76%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -18,34 +21,36 @@ header .interface {
 }
 
 header .interface a {
-    
     font-size: 22px;
     color: #ffff;
     text-decoration: none;
-    padding-left: 68px;
-    transition: 0.7;
+    margin-left: 68px;
+    transition: 0.7; 
+    padding: 4px;
 }
 
 header .interface a:hover {
-    color: #03ffff;    
+    color: #F9813D; 
+    background: #ffff; 
+    border-radius: 3%;    
 }
 
-.imgMenu img {
+#Logo {
     height: 70px;
-    width: 180px;
+    width: 160px;
     min-width: 145px;
-    max-width: 200px;
+    max-width: 170px;
     margin-left: 86px;
     margin-top: 7px;
     float: left;
 }
 
 .perfilLateral {
-    margin-left: 11.5em;
-    margin-bottom: 29px;
     width: 54px;
     height: 52px;
     background-color: #fff;
-    border-radius: 35%;  
+    border-radius: 35%; 
+    margin-left: 2.8em;
+    margin-bottom: 18px;
 }
 

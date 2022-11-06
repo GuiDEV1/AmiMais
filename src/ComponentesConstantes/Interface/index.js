@@ -1,15 +1,13 @@
 import "./style.css";
-//import Imagens from './AmiMais\src\ComponentesConstantes\Imagens\amimaisLogo.png';
+import Logo from "./Imagens/amiMaisLogo.png";
 
 export function Interface () {
    
    return ( 
  <>
-     
    <header>
- <div className = 'imgMenu'> 
-   <img src="https://media.discordapp.net/attachments/834862603792285717/1037725076126179328/amimaisLogo.png" /> 
-</div>     
+        <img src={Logo} id="Logo"/> 
+       
 
       <div className = 'interface'> 
          <a href="#">Inicio </a> 
@@ -20,10 +18,11 @@ export function Interface () {
          <a href="#">Cadastrar </a>
 
          <div className="perfilLateral">
-        
-        </div>
+          
+          </div>
       </div> 
       
+     
    
    </header>
  </>

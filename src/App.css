@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
  }
+
+
+ /* Paleta de cores */
+ :root {
+    --Laranja: #F9813D;
+    --branco: #fff;
+    --backgroundMain: #fcfcfc;
+    --preto: #090909;
+    --turquesa: #09A9A9;
+    --azulClaro: #83DDDD;
+ }

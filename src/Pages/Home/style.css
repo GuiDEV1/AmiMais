@@ -13,8 +13,8 @@ height: 420px;
 
 .menuHome {
     background: #fdfdfd;
-    width: 400px;
-    height: 276px;
+    width: 425px;
+    height: 300px;
     float: left;
     margin-top: 55px;
     margin-left: 36px;
@@ -23,5 +23,43 @@ height: 420px;
 .tiltleMenu {
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 19px;
+}
+
+.iconsMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 19px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+}
+
+#titleICons {
+    font-size: 36px;
+    color:#090909;
+    font-weight: 700;
+    margin-left:23px;
+    margin-top: 16px;
+    padding-bottom: 5px;
+}
+
+span {
+    margin: 23px;
+}
+
+#buttonMenuHome {
+ width: 189px;
+ height: 45px;
+ border-radius: 25px;
+ border: none;
+ background-color: #090909;
+ color: #fff;
+ font-size: 24px;
+ font-weight: 700;
+ margin-left: 23px;
+ margin-top: 24px;
 }
