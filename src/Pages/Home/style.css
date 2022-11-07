@@ -1,8 +1,8 @@
 
 body {
- background: #fcfcfc;
+ background: var(--backgroundMain);
 }
-
+/*************************    Menu do carrosel    **************/
 .carroselHome {
 background-image: url(Imagens/dogHome.jpg);
 background-size: cover;
@@ -12,7 +12,7 @@ height: 420px;
 }
 
 .menuHome {
-    background: #fdfdfd;
+    background: var(--backgroundMain);
     width: 425px;
     height: 300px;
     float: left;
@@ -26,6 +26,7 @@ height: 420px;
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 19px;
+    cursor: pointer;
 }
 
 .iconsMenu {
@@ -38,14 +39,20 @@ height: 420px;
     padding-top: 9px;
 }
 
+#tracoMenu {
+   float: left;
+   margin-top: 45px;
+}
+
 #titleICons {
     font-size: 36px;
-    color:#090909;
+    color: var(--preto);
     font-weight: 700;
     margin-left:23px;
     margin-top: 16px;
     padding-bottom: 5px;
 }
+
 
 span {
     margin: 23px;
@@ -56,10 +63,84 @@ span {
  height: 45px;
  border-radius: 25px;
  border: none;
- background-color: #090909;
- color: #fff;
+ cursor: pointer;
+ background-color: var(--preto);
+ color: var(--branco);
  font-size: 24px;
  font-weight: 700;
  margin-left: 23px;
  margin-top: 24px;
 }
+/*************************   Fim Menu do carrosel    **************/
+
+/*************************    corpo da página    **************/
+
+h2 {
+    font-size: 32px;
+    color: var(--Laranja);
+    margin: 21px 0px 0px 17px;
+}
+/* Cor secundaria */
+.scd {
+    color: var(--azulClaro);
+}
+
+.imgBody {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgBody  img{
+    width: 19%;
+    min-width: 14%;
+    max-width: 20%;
+    height: 180px;
+    border-radius: 39px;
+}
+
+.titleParaquem { 
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.titleParaquem h3 {
+font-size: 24px;
+margin: 0px 29px 5px 0px;
+color: var(--Laranja);
+}
+
+.titleParaquem  p {
+ font-size: 15px;
+ width: 20%;
+ margin-left: 29px;
+ margin-bottom: 40px;
+}
+
+#catBody {
+    width: 100%;
+    background-image: url(Imagens/CatBody.png);
+    background-size: cover;
+    background-position: center 60%;
+    height: 400px;
+    margin-bottom: 45px;
+}
+
+.information {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information img {
+    width: 37px;
+    height: 33px;
+    margin-right: 6px;
+}
+
