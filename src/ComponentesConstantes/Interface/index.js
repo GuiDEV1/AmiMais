@@ -1,6 +1,7 @@
 import "./style.css";
 import Logo from "./Imagens/amiMaisLogo.png";
 
+
 export function Interface () {
    
    return ( 

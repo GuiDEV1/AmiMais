@@ -1,0 +1,82 @@
+
+#h1Sobrenos {
+    margin-top: 21px;
+    color: var(--Laranja);
+    text-align: center;
+}
+
+.scd {
+    color: var(--turquesa);
+}
+
+.titleIcon {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.titleIcon h2 {
+    font-size: 26px;
+}
+
+.titleIcon img {
+    width: 33px;
+    padding-right: 10px;
+    margin-left: 60px;
+}
+
+.conteudo {  
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 28px;
+}
+
+.conteudo p {  
+ width: 430px;
+ margin-left: 7.2em;
+}
+
+.conteudo img {
+    width: 300px;
+    height: 340px;
+    margin-right: 19.6em;
+}
+
+.titleIcon2 {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: end;
+}
+
+.titleIcon2 h2 {
+    font-size: 26px;
+    margin-right: 18.8em;
+}
+
+.titleIcon2 img {
+    width: 33px;
+    padding-right: 2px;
+}
+
+.conteudo1 { 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+   }
+
+   .conteudo1 p {  
+    width: 430px;
+    margin-right: 7.2em;
+   }
+   
+   .conteudo1 img {
+       width: 300px;
+       height: 340px;
+       margin-left: 19.6em;
+   }
+
+   #img2 {
+    width: 410px;
+   }

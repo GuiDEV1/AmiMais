@@ -8,6 +8,8 @@ import Empresas from "./Imagens/Empresas.png";
 import Bag from "./Icons/bag.png";
 import Objective from "./Icons/objective.png";
 import Engajament from "./Icons/engajement.png";
+import Draw1 from "./Imagens/draw1.png";
+import Draw2 from "./Imagens/draw2.png";
 //import traco from "./Icons/tracoMenu.png";
 
 
@@ -91,11 +93,41 @@ export function Home () {
     <div>
       <h2><img src={Engajament} />Alcan<strong className="scd">ce</strong></h2>
     </div>
+</div>
 
-    
+<div id="vermaisTXT">
 
-   </div>
-    
+        <p>
+         Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
+         Etiam interdum mauris in nisl tempus euismod.
+        </p>
+
+        <p>
+         Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
+         Etiam interdum mauris in nisl tempus euismod.
+        </p>
+
+        <p>
+         Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
+         Etiam interdum mauris in nisl tempus euismod.
+        </p>
+
+     </div>
+
+  <div id="buttonVermais">
+     <button>Ver mais</button>
+     <button>Ver mais</button>
+     <button>Ver mais</button>
+  </div> 
+
+  <div id="Slogan">
+   <img src={Draw2}/>
+   <h2>
+       Faça parte dessa <br />
+       <strong className="scd">comunidade</strong>
+    </h2>
+   <img src={Draw1}/>
+  </div>
  </>
    )
 }
