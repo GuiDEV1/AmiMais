@@ -1,0 +1,103 @@
+
+ #h2Reporta {
+    text-align: center;
+    font-size: 31px;
+    color: var(--Laranja);
+    margin-top: 20px;
+} 
+
+body {
+    background: var(--backgroundMain);
+}
+
+.scd {
+    color: var(--turquesa);
+}
+
+.titleTopiics {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.titleTopiics h2 {
+    font-size: 27px;
+}
+
+.titleImg {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.titleImg img {
+ width: 386px;
+ height: 325px;
+ margin-left: 68px;
+}
+
+/*  Div mãe da estruturação do corpo da página   */
+
+.divMain {
+margin-top: 21px;
+width: 100%;
+height: 267px;
+display: flex;
+justify-content: space-around;
+margin-bottom: 28px;
+}
+
+.divMain div {
+    margin-left: 98px;
+    margin-top: 7px;
+}
+
+.divMain h3 {
+    font-size: 24.5px;
+    color: var(--Laranja);
+}
+
+.divMain p {
+    margin-top: 7px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.divMain #BodyReporta img {
+    width: 350px;
+    height: 255px;
+    border-radius: 36px;
+}
+
+.divMain #BodyReporta2 img {
+    width: 350px;
+    height: 255px;
+    border-radius: 36px;
+}
+
+.divMain button {
+    border-left: 2px solid #09A9A9;
+    border-top: 2px solid #09A9A9;
+    border-right: 2px solid #F9813D;
+    border-bottom: 2px solid #F9813D;
+    background: #fcfcfc;
+    border-radius: 13px;
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 33px;
+    margin-left: 199px;
+    transition: all 0.6;
+}
+
+.divMain button:hover {
+    transform: scale(1) translateY(-12px);
+    border: 2px solid blueviolet;
+}
+
+

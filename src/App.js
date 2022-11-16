@@ -1,15 +1,12 @@
 import './App.css';
-import { Interface } from './ComponentesConstantes/Interface';
-import { Footer } from './ComponentesConstantes/Rodape';
 import { Home } from './Pages/Home';
+import { Reporta } from './Pages/Reporta';
 import { Sobrenos } from './Pages/SobreNos';
 
 function App() {
   return (
     <>
-       <Interface />
-       <Sobrenos />
-       <Footer />
+      <Reporta/>
     </>
   );
 }

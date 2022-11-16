@@ -4,7 +4,7 @@ import instagram from './images/instagram.png';
 import gitHub from './images/GitHub.png';
 
 import './style.css'
-export function Footer() {
+export function Rodape() {
     return (
         <>
             <div id="FOOTER">

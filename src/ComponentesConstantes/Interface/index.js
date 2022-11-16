@@ -1,5 +1,6 @@
 import "./style.css";
 import Logo from "./Imagens/amiMaisLogo.png";
+import { Sobrenos } from "../../Pages/SobreNos";
 
 
 export function Interface () {
@@ -12,7 +13,7 @@ export function Interface () {
 
       <div className = 'interface'> 
          <a href="#">Inicio </a> 
-         <a href="#">Sobre nós </a>
+         <a onClick={Sobrenos}>Sobre nós </a>
          <a href="#">Resgate</a>
          <a href="#">Curiosidades </a> 
          <a href="#">Login </a> 

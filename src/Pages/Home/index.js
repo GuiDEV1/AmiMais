@@ -10,14 +10,20 @@ import Objective from "./Icons/objective.png";
 import Engajament from "./Icons/engajement.png";
 import Draw1 from "./Imagens/draw1.png";
 import Draw2 from "./Imagens/draw2.png";
+import { Interface } from '../../ComponentesConstantes/Interface';
+import { Rodape } from '../../ComponentesConstantes/Rodape';
 //import traco from "./Icons/tracoMenu.png";
 
 
 
 export function Home () {
-   
+  const interegerMenu  = () => {
+    return "okay";
+  };
+  console.log(interegerMenu());
    return (
  <>
+    <Interface />
      <div className="carroselHome">
       <div className='menuHome'>
         <div className='iconsMenu'>
@@ -35,7 +41,7 @@ export function Home () {
               <h1 id='titleICons'>Faça a diferença</h1>
               <span>Salvando a vida de um animalzinho</span> <br />
               
-              <button id='buttonMenuHome'>Cadastra-se</button>
+              <button id='buttonMenuHome'>Cadastre-se</button>
        </div>   
      </div>
 
@@ -128,6 +134,8 @@ export function Home () {
     </h2>
    <img src={Draw1}/>
   </div>
+
+  <Rodape />
  </>
    )
 }
