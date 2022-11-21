@@ -1,7 +1,9 @@
 
-body {
+body {   
  background: var(--backgroundMain);
 }
+
+
 /*************************    Menu do carrosel    **************/
 .carroselHome {
 background-image: url(Imagens/dogHome.jpg);
@@ -56,7 +58,7 @@ height: 420px;
 }
 
 
-span {
+.menuHome span {
     margin-left: 23px;
     font-size: 16px;
     font-weight: 700px;
@@ -73,7 +75,7 @@ span {
  color: var(--branco);
  font-size: 24px;
  font-weight: 700;
- margin-left: 23px;
+ margin-left: 0.9em;
  margin-top: 24px;
 }
 /*************************   Fim Menu do carrosel    **************/
@@ -203,3 +205,38 @@ color: var(--Laranja);
     height: 185px;
     margin-left: 11px;
 }
+
+
+
+#NavegarFooter button {
+   background: var(--Laranja);
+   color: var(--branco);
+   width: 153px;
+   height: 40px;
+   border-radius: 24px;
+   font-size: 21px;
+   font-weight: 700;
+   margin-left: 53px;
+   margin-top: 33px;
+   cursor: pointer;
+ }
+
+ /* Animação scroll */
+
+ [data-anime] {
+    opacity: 0;   
+    transition: .3s; 
+ }
+
+ [data-anime="left"] {
+    transform: translate3d(0, 0, -50px);
+ }
+
+ [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+ }
+
+ [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+ }

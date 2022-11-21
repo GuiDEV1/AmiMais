@@ -1,6 +1,6 @@
 import "./style.css";
 import Logo from "./Imagens/amiMaisLogo.png";
-import { Sobrenos } from "../../Pages/SobreNos";
+import { Link } from 'react-router-dom';
 
 
 export function Interface () {
@@ -12,20 +12,17 @@ export function Interface () {
        
 
       <div className = 'interface'> 
-         <a href="#">Inicio </a> 
-         <a onClick={Sobrenos}>Sobre nós </a>
-         <a href="#">Resgate</a>
-         <a href="#">Curiosidades </a> 
-         <a href="#">Login </a> 
-         <a href="#">Cadastrar </a>
-
+         <Link to="/">Inicio </Link> 
+         <Link to="/SobreNos">Sobre nós </Link>
+         <Link to="/" >Resgate</Link>
+         <Link to="/" >Curiosidades </Link> 
+         <Link to="/Reporta">Reporta</Link> 
+         <Link to="/" >Login </Link> 
+         <Link to="/" >Cadastra-se</Link>
          <div className="perfilLateral">
-          
           </div>
       </div> 
       
-     
-   
    </header>
  </>
    )

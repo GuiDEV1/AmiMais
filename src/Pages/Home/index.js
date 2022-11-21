@@ -17,14 +17,18 @@ import { Rodape } from '../../ComponentesConstantes/Rodape';
 
 
 export function Home () {
-  const interegerMenu  = () => {
-    return "okay";
-  };
-  console.log(interegerMenu());
+
+  // const interegerMenu  = () => {
+  //   return "okay";
+  // };
+
+  // console.log(interegerMenu());
+
    return (
  <>
     <Interface />
-     <div className="carroselHome">
+   <div id="dataAnime Home" >
+     <div  className="carroselHome">
       <div className='menuHome'>
         <div className='iconsMenu'>
           <img src={Resgatar} alt="Icone de resgate"/>
@@ -45,7 +49,7 @@ export function Home () {
        </div>   
      </div>
 
-       <h2><strong className="scd">Para</strong> quem?</h2>
+       <h2 ><strong className="scd">Para</strong> quem?</h2>
 
        <div className="imgBody">
          <img src={Resgatadores} />
@@ -53,13 +57,13 @@ export function Home () {
          <img src={Empresas} /> 
        </div>
     
-      <div className="titleParaquem">
+      <div  data-anime="left" className="titleParaquem">
         <h3>Resgat<strong className="scd">adores(a)</strong></h3>
         <h3>Pessoas c<strong className="scd">omo você</strong></h3>
         <h3>Instituições<strong className="scd">/ongs</strong></h3>
       </div>
 
-     <div className="titleParaquem">
+     <div  data-anime="left" className="titleParaquem">
        <p>
          Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
          Etiam interdum mauris in nisl tempus euismod. Vivamus ut congue 
@@ -82,11 +86,11 @@ export function Home () {
         </p>
      </div>
 
-  <div id="catBody">
+  <div  data-anime="left" id="catBody">
 
    </div>
 
-   <div className="information">
+   <div  data-anime="right" className="information">
 
     <div>
       <h2><img src={Bag} />Quem <strong className="scd">somos</strong></h2>
@@ -101,7 +105,7 @@ export function Home () {
     </div>
 </div>
 
-<div id="vermaisTXT">
+<div  data-anime="right" id="vermaisTXT">
 
         <p>
          Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
@@ -120,22 +124,78 @@ export function Home () {
 
      </div>
 
-  <div id="buttonVermais">
+  <div  data-anime="left" id="buttonVermais">
      <button>Ver mais</button>
      <button>Ver mais</button>
      <button>Ver mais</button>
   </div> 
 
-  <div id="Slogan">
+  <div  data-anime="right" id="Slogan">
    <img src={Draw2}/>
+
+  <div id="NavegarFooter">
    <h2>
        Faça parte dessa <br />
        <strong className="scd">comunidade</strong>
     </h2>
+   <a id="inicio" onClick={scrollSuave}><button>Navegar</button></a>
+  </div> 
+
    <img src={Draw1}/>
   </div>
-
+  </div> 
   <Rodape />
  </>
+
    )
 }
+
+// Função para rolar a pagina para cima
+function scrollSuave() {
+  const scroll = document.querySelector('#inicio');
+
+ scroll.addEventListener('click', () => {
+  window.scroll({top: "700px", behavior: 'smooth'})
+  })
+}
+
+ /* Função para animação de rolagem da página */
+
+ const debounce = function(func, wait, immediate) {
+  let timeout;
+  return function(...args) {
+    const context = this;
+    const later = function () {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    const callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+};
+
+function animationScroll() {
+ const target = document.querySelectorAll('[data-anime]');
+ const animationClass = "animate";
+//630
+ const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+ target.forEach(function(element) {
+  if(windowTop > element.offsetTop) {
+    element.classList.add(animationClass);
+  }
+  else {
+    element.classList.remove(animationClass);
+  }
+ })
+}
+
+animationScroll();
+
+
+window.addEventListener('scroll', debounce(function() {
+  animationScroll();
+  console.log("okay!!");
+}, 13));
+
