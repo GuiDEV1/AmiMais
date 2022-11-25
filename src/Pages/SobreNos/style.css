@@ -1,5 +1,10 @@
+/* IDSobreNos criado para não da conflito nas outras páginas*/
 
-#h1Sobrenos {
+body {
+    background: var(----backgroundMain);
+}
+
+#SobreNos #h1Sobrenos {
     margin-top: 21px;
     color: var(--Laranja);
     text-align: center;
@@ -9,44 +14,51 @@
     color: var(--turquesa);
 }
 
-.titleIcon {
+/* Formatação do title da página */
+#SobreNos .titleIcon {
     width: 100%;
     margin-bottom: 25px;
 }
 
-.titleIcon h2 {
+#SobreNos .titleIcon h2 {
     font-size: 26px;
+    color: var(--Laranja);
 }
 
-.titleIcon img {
+/* Formatação ds icons da página */
+#SobreNos .titleIcon img {
     width: 33px;
     min-width: 20px;
     padding-right: 10px;
     margin-left: 60px;
 }
 
-.conteudo {  
+
+#SobreNos .conteudo {  
  width: 100%;
  display: flex;
  justify-content: space-between;
  margin-bottom: 28px;
 }
 
-.conteudo p {  
+/* Formatação dos paragrafos da página */
+#SobreNos .conteudo p {  
  width: 27%;
  max-width: 27%;
  min-width: 20%;
  margin-left: 7.2em;
 }
 
-#conteudoimg1 {
+/* Formatação necessaria para essa imagem por ela ser diferente das outras */
+#SobreNos #conteudoimg1 {
     width: 23%;
     min-width: 18%;
     height: 310px;
     min-height: 150px;
 }
 
-.conteudo img {
+/* Formatação das imagens da página*/
+#SobreNos .conteudo img {
     width: 20%;
     min-width: 16%;
     height: 360px;
@@ -54,41 +66,62 @@
     margin-right: 19.6em;
 }
 
-.titleIcon2 {
+#SobreNos .titleIcon2 {
     width: 100%;
     margin-bottom: 25px;
     display: flex;
     justify-content: end;
 }
 
-.titleIcon2 h2 {
+#SobreNos .titleIcon2 h2 {
     font-size: 26px;
     margin-right: 18.8em;
+    color: var(--Laranja);
 }
 
-.titleIcon2 img {
+#SobreNos .titleIcon2 img {
     width: 33px;
     padding-right: 2px;
 }
 
-.conteudo1 { 
+#SobreNos .conteudo1 { 
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 26px;
    }
 
-   .conteudo1 p {  
+   #SobreNos .conteudo1 p {  
     width: 430px;
     margin-right: 7.2em;
    }
    
-   .conteudo1 img {
+   #SobreNos .conteudo1 img {
        width: 300px;
        height: 340px;
        margin-left: 19.6em;
    }
 
-   #img2 {
+   #SobreNos #img2 {
     width: 410px;
    }
+
+   /* Animação scroll */
+
+ #SobreNos [data-anime] {
+    opacity: 0;   
+    transition: .3s; 
+ }
+
+ #SobreNos [data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+ }
+
+ #SobreNos [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+ }
+
+ #SobreNos [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+ }

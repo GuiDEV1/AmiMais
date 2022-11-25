@@ -18,16 +18,10 @@ import { Rodape } from '../../ComponentesConstantes/Rodape';
 
 export function Home () {
 
-  // const interegerMenu  = () => {
-  //   return "okay";
-  // };
-
-  // console.log(interegerMenu());
-
    return (
  <>
     <Interface />
-   <div id="dataAnime Home" >
+   <div id="Home" >
      <div  className="carroselHome">
       <div className='menuHome'>
         <div className='iconsMenu'>
@@ -38,7 +32,7 @@ export function Home () {
 
           <div className='tiltleMenu'>
               <h3>Resgate <br /> um animal</h3>
-              <h3>Buscar por <br /> adoções</h3>
+              <h3 onClick={TrasitionAdocao}>Buscar por <br /> adoções</h3>
               <h3>Solicitar um <br /> resgatador</h3>  
           </div>  
               <hr />
@@ -138,7 +132,7 @@ export function Home () {
        Faça parte dessa <br />
        <strong className="scd">comunidade</strong>
     </h2>
-   <a id="inicio" onClick={scrollSuave}><button>Navegar</button></a>
+   <button id="inicio" onClick={scrollSuave}>Navegar</button>
   </div> 
 
    <img src={Draw1}/>
@@ -193,9 +187,13 @@ function animationScroll() {
 
 animationScroll();
 
-
+ // evento do scroll 
 window.addEventListener('scroll', debounce(function() {
   animationScroll();
   console.log("okay!!");
-}, 13));
+}, 14));
 
+// Função para transição do carrosel na home. 
+function TrasitionAdocao() {
+  console.log("Hellow world");
+}

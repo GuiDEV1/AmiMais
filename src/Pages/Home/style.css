@@ -1,20 +1,21 @@
-
+/*Background padrão do site e id Home criado para n prejudicar as outras páginas*/
 body {   
  background: var(--backgroundMain);
 }
 
 
 /*************************    Menu do carrosel    **************/
-.carroselHome {
+#Home .carroselHome {
 background-image: url(Imagens/dogHome.jpg);
 background-size: cover;
 background-position: center 29%;
 width: 100%;
 height: 420px;
+transition: 0.5s;
 }
 
 /* Menu do carrosel*/
-.menuHome {
+#Home .menuHome {
     background: var(--backgroundMain);
     width: 27%;
     height: 300px;
@@ -24,19 +25,19 @@ height: 420px;
 }
 
 /*Title das interações*/
-.tiltleMenu {
+#Home .tiltleMenu {
     color: var(--turquesa);
     display: flex;
     width: 100%;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 19px;
     cursor: pointer;
 }
 
 /* Formatação dos icons do menu interativo */
-.iconsMenu  {
+#Home .iconsMenu  {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -48,7 +49,7 @@ height: 420px;
 }
 
 /* Titulo do menu interativo. */
-#titleICons {
+#Home #titleICons {
     font-size: 36px;
     color: var(--Laranja);
     font-weight: 700;
@@ -57,15 +58,16 @@ height: 420px;
     padding-bottom: 5px;
 }
 
-
-.menuHome span {
+/*  Mini titulo do menu carrosel*/
+#Home .menuHome span {
     margin-left: 23px;
     font-size: 16px;
     font-weight: 700px;
     color: var(--turquesa);
 }
 
-#buttonMenuHome {
+/*  butão cadastra do mini menu carrosel*/
+#Home #buttonMenuHome {
  width: 50%;
  height: 45px;
  border-radius: 25px;
@@ -82,17 +84,19 @@ height: 420px;
 
 /*************************    corpo da página    **************/
 
-h2 {
+#Home h2 {
     font-size: 32px;
     color: var(--Laranja);
     margin: 21px 0px 0px 17px;
 }
+
 /* Cor secundaria */
-.scd {
+#Home .scd {
     color: var(--azulClaro);
 }
 
-.imgBody {
+/*  Formatação das imagens de resumo da página */
+#Home .imgBody {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 8px;
@@ -101,7 +105,7 @@ h2 {
     justify-content: space-evenly;
 }
 
-.imgBody  img{
+#Home .imgBody  img{
     width: 19%;
     min-width: 14%;
     max-width: 20%;
@@ -109,27 +113,30 @@ h2 {
     border-radius: 39px;
 }
 
-.titleParaquem { 
+/*  Titulos do mini resumo da página */
+#Home .titleParaquem { 
  width: 100%;
  display: flex;
  justify-content: space-evenly;
  align-items: center;
 }
 
-.titleParaquem h3 {
+#Home .titleParaquem h3 {
 font-size: 24px;
 margin: 0px 29px 5px 0px;
 color: var(--Laranja);
 }
 
-.titleParaquem  p {
+#Home .titleParaquem  p {
  font-size: 15px;
  width: 20%;
  margin-left: 29px;
  margin-bottom: 40px;
 }
 
-#catBody {
+
+/*  formatação para o fundo da div*/
+#Home #catBody {
     width: 100%;
     background-image: url(Imagens/CatBody.png);
     background-size: cover;
@@ -138,7 +145,8 @@ color: var(--Laranja);
     margin-bottom: 45px;
 }
 
-.information {
+/*  Mini titulo do sobre nós*/
+#Home .information {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -146,17 +154,17 @@ color: var(--Laranja);
     margin-bottom: 12px;
 }
 
-.information h2 {
+#Home .information h2 {
     margin-right: 2.0em;
 }
 
-.information img {
+#Home .information img {
     width: 37px;
     height: 33px;
     margin-right: 6px;
 }
 
-#vermaisTXT {
+#Home #vermaisTXT {
     width: 100%;
     display: flex;
     align-items: center;
@@ -164,14 +172,14 @@ color: var(--Laranja);
     margin-bottom: 27px;
 }
 
-#vermaisTXT p {
+#Home #vermaisTXT p {
     font-size: 14px;
     font-weight: 700;
     width: 265px;
     margin-left: 7.3em;
 }
 
-#buttonVermais {
+#Home #buttonVermais {
     width: 100%;
     display: flex;
     align-items: center;
@@ -179,7 +187,7 @@ color: var(--Laranja);
     margin-bottom: 2.8em;
 } 
 
-#buttonVermais button{
+#Home #buttonVermais button{
   background-color: var(--azulClaro);
   width: 192px;
   height: 32px;
@@ -191,7 +199,8 @@ color: var(--Laranja);
   cursor: pointer;
 }
 
-#Slogan {
+/*  Formatação do slogan da página */
+#Home #Slogan {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -200,15 +209,15 @@ color: var(--Laranja);
 }
 
 
-#Slogan img {
+#Home #Slogan img {
     width: 293px;
     height: 185px;
     margin-left: 11px;
 }
 
 
-
-#NavegarFooter button {
+/*  Botão de rolagem dinamica */
+#Home #NavegarFooter button {
    background: var(--Laranja);
    color: var(--branco);
    width: 153px;
@@ -223,20 +232,20 @@ color: var(--Laranja);
 
  /* Animação scroll */
 
- [data-anime] {
+ #Home [data-anime] {
     opacity: 0;   
     transition: .3s; 
  }
 
- [data-anime="left"] {
+ #Home [data-anime="left"] {
     transform: translate3d(0, 0, -50px);
  }
 
- [data-anime="right"] {
+ #Home [data-anime="right"] {
     transform: translate3d(50px, 0, 0);
  }
 
- [data-anime].animate {
+ #Home [data-anime].animate {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
  }

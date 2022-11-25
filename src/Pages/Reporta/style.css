@@ -1,5 +1,8 @@
+/* Id Reporta criado para não da conflito em outras abas. */
 
- #h2Reporta {
+
+/* Formatação do h1 da página */
+ #Reporta #h2Reporta {
     text-align: center;
     font-size: 31px;
     color: var(--Laranja);
@@ -14,26 +17,31 @@ body {
     color: var(--turquesa);
 }
 
-.titleTopiics {
+/* Formatação dos titulos h2 da página */
+#Reporta .titleTopiics {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 17px;
+    color: var(--Laranja);
+    
 }
 
-.titleTopiics h2 {
+ #Reporta .titleTopiics h2 {
     font-size: 27px;
-}
+} 
 
-.titleImg {
+
+#Reporta .titleImg {
  width: 100%;
  display: flex;
  align-items: center;
  justify-content: space-around;
 }
 
-.titleImg img {
+/* Formatação das imagens do menu da página */
+#Reporta .titleImg img {
  width: 386px;
  height: 325px;
  margin-left: 68px;
@@ -41,7 +49,7 @@ body {
 
 /*  Div mãe da estruturação do corpo da página   */
 
-.divMain {
+#Reporta .divMain {
 margin-top: 21px;
 width: 100%;
 height: 267px;
@@ -50,35 +58,39 @@ justify-content: space-around;
 margin-bottom: 28px;
 }
 
-.divMain div {
+/* 
+Formatação dos paragrafos e imagens da div
+e butão
+*/
+#Reporta .divMain div {
     margin-left: 98px;
     margin-top: 7px;
 }
 
-.divMain h3 {
+#Reporta .divMain h3 {
     font-size: 24.5px;
     color: var(--Laranja);
 }
 
-.divMain p {
+#Reporta .divMain p {
     margin-top: 7px;
     width: 300px;
     font-size: 16px;
 }
 
-.divMain #BodyReporta img {
+#Reporta .divMain #BodyReporta img {
     width: 350px;
     height: 255px;
     border-radius: 36px;
 }
 
-.divMain #BodyReporta2 img {
+#Reporta .divMain #BodyReporta2 img {
     width: 350px;
     height: 255px;
     border-radius: 36px;
 }
 
-.divMain button {
+#Reporta .divMain button {
     border-left: 2px solid #09A9A9;
     border-top: 2px solid #09A9A9;
     border-right: 2px solid #F9813D;
@@ -95,7 +107,7 @@ margin-bottom: 28px;
     transition: all 0.6;
 }
 
-.divMain button:hover {
+#Reporta .divMain button:hover {
     transform: scale(1) translateY(-12px);
     border: 2px solid blueviolet;
 }

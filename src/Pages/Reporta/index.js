@@ -5,6 +5,7 @@ import Reporta2 from "./Imagens/Reporta2_2.png";
 import Dog1 from "./Imagens/DogRe1.png";
 import Dog2 from "./Imagens/DogRe2.png";
 import { Rodape } from "../../ComponentesConstantes/Rodape";
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,6 +15,7 @@ export function Reporta () {
    return (
  <>
     <Interface />
+  <div id="Reporta">
     <h1 id = "h2Reporta">Rep<strong  className ="scd" >orta</strong></h1>
 
     <div className="titleTopiics">
@@ -35,7 +37,7 @@ export function Reporta () {
            tempus euismod interdum mauris in nisl interdum mauris 
            in nisl 
            </p>
-             <button>Denunciar</button>
+           <Link to="/MausTratos"><button>Denunciar</button></Link> 
        </div>
 
        <div id="BodyReporta">
@@ -59,7 +61,7 @@ export function Reporta () {
              <button>Denunciar</button>
        </div>
     </div>
-    
+</div>    
     <Rodape />
  </>
    )
