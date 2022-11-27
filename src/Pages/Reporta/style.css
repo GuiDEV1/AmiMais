@@ -112,4 +112,23 @@ e butão
     border: 2px solid blueviolet;
 }
 
+/* Animação scroll */
+
+#Reporta [data-anime] {
+    opacity: 0;   
+    transition: .3s; 
+ }
+
+ #Reporta [data-anime="left"] {
+    transform: translate3d(0, 50px, 0);
+ }
+
+ #Reporta [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+ }
+
+ #Reporta [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+ }
 

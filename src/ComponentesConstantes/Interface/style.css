@@ -20,7 +20,7 @@ header .interface {
     padding-left: 27px;
 }
 
-header .interface a {
+header .interface  a  {
     font-size: 22px;
     color: #ffff;
     text-decoration: none;
@@ -28,12 +28,12 @@ header .interface a {
     margin-bottom: 11px;
     transition: 0.7; 
     padding: 4px;
+    transition: 0.2s;
 }
 
 header .interface a:hover {
-    color: #F9813D; 
-    background: #ffff; 
-    border-radius: 3%;    
+    border-bottom: 3.2px solid #fff;
+    transform: scale(1);
 }
 
 #Logo {

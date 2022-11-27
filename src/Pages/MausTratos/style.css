@@ -1,17 +1,33 @@
 /* Id MausTratos criado para não da conflito nas outras páginas */
 
 /* Formatação do h1 da página */
-#MausTratos h1 {
+#MausTratos #headerM {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#MausTratos #headerM img {
+   width: 30px;
+   height: 30px;
+   margin-right: 100px;
+}
+
+
+#MausTratos #headerM h1 {
     text-align: center;
     margin-top: 26px;
     color: var(--Laranja);
     font-size: 31px;
+    margin-right: 336px;
 }
 
 #MausTratos .scd {
 color: var(--turquesa);
 }
 
+/* Headerimg responsavel para um elemento fica do lado do outro */
 #MausTratos #headerimg {
     /* border: 1px solid blue; */
     margin-top: 25px;
@@ -20,6 +36,7 @@ color: var(--turquesa);
     justify-content: space-around;
 }
 
+/* Formatação das imagens do header */
 #MausTratos #headerimg img {
     width: 416px;
     height: 370px;
@@ -32,6 +49,7 @@ color: var(--turquesa);
     font-size: 32px;
 }
 
+/* Responsavel por deixar os elementos lado lado no footer */
 #MausTratos #footerPai {
     margin-top: 27px;
      /* border: 1px solid blue;  */
@@ -41,6 +59,7 @@ color: var(--turquesa);
      margin-bottom: 33px;
 }
 
+/* Formatação do paragrafo da div conteudo1*/
 #MausTratos #footerPai #Conteudo1 p {
     width: 300px;
     font-size: 18px;
@@ -48,18 +67,27 @@ color: var(--turquesa);
     margin: 20px 0px 28px 18px;
 }
 
+/* Formatação da imagem da div conteudo1*/
 #MausTratos #footerPai #Conteudo1 img {
     width: 320px;
     height: 260px;
 }
 
+/* Formatação da div definindo seu comportamento conteudo2*/
 #MausTratos #footerPai #Conteudo2 div {
     width: 305px;
     height: 324px;
     background: #FCD1AA;
     border-radius: 29px;
+    transition: all 0.5s;
 }
 
+#MausTratos #footerPai #Conteudo2 div:hover {
+     background: #fbddc0;
+     transform: scale(1.2) translateY(-13px);
+}
+
+/* Formatação do paragrafo da div conteudo2*/
 #MausTratos #footerPai #Conteudo2 p {
     padding: 20px;
     font-size: 19.3px;
@@ -69,6 +97,7 @@ color: var(--turquesa);
     margin-left: 17px;
 }
 
+/* Formatação do button denunciar da div conteudo2 */
 #MausTratos #footerPai #Conteudo2 button {
     cursor: pointer;
     background: var(--Laranja);
@@ -81,3 +110,23 @@ color: var(--turquesa);
     margin-top: 62px;
     margin-left: 6px;
 }
+
+/* Animação scroll */
+
+#MausTratos [data-anime] {
+    opacity: 0;   
+    transition: .3s; 
+ }
+
+ #MausTratos [data-anime="left"] {
+    transform: translate3d(0, 50px, 0);
+ }
+
+ #MausTratos [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+ }
+
+ #MausTratos [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+ }
