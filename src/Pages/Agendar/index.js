@@ -1,10 +1,10 @@
+import "./style.css";
 
-
-export function Interface () {
+export function Agendar () {
    
    return (
  <>
-    <h2>Hello world</h2>
+    <h2>Agendar</h2>
  </>
    )
 }

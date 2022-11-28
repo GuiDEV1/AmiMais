@@ -90,12 +90,17 @@ color: var(--turquesa);
 /* Formatação do paragrafo da div conteudo2*/
 #MausTratos #footerPai #Conteudo2 p {
     padding: 20px;
-    font-size: 19.3px;
+    font-size: 20.2px;
     font-weight: 700;
     margin-top: 17px;
     width: 280px;
     margin-left: 17px;
 }
+
+#MausTratos .caution {
+    color: red;
+}
+
 
 /* Formatação do button denunciar da div conteudo2 */
 #MausTratos #footerPai #Conteudo2 button {

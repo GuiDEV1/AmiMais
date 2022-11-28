@@ -1,6 +1,6 @@
 import React from "react"
 import './style.css'
-
+import { Link } from 'react-router-dom';
 import { BiBone } from 'react-icons/bi'
 import { AiFillCloseCircle } from 'react-icons/ai'
 import { GiSittingDog } from 'react-icons/gi'
@@ -44,7 +44,7 @@ export function PreVisualization() {
                   </div>
                   <section>
                      <div >
-                        <p>Visualizar Ong</p>
+                     <p>Visualizar Ong</p>
                      </div>
                   </section>
                </div>
@@ -52,9 +52,9 @@ export function PreVisualization() {
                   <div className="buttonIcon">
                      <CgNotes />
                   </div>
-                  <section>
+                  <section className="openAbs">
                      <div>
-                        <p>Agendamento</p>
+                     <p><Link to="/Agendar">Agendamento</Link></p>
                      </div>
                   </section>
                </div>

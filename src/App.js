@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import './App.css';
 import { Home } from './Pages/Home';
 import { Chat } from './Pages/Resgatador/Chat';
@@ -21,6 +20,7 @@ import { Rescue10 } from './Pages/Resgatador/Rescue10';
 import { Rescue11 } from './Pages/Resgatador/Rescue11';
 import {Resgate} from './Pages/Resgate'
 import { MausTratos } from "./Pages/MausTratos";
+import { Agendar } from "./Pages/Agendar";
 var asd = "Resgatador";
 
 function App() {
@@ -35,6 +35,7 @@ function App() {
           <Route path="Reportar" element={<Reporta />} />
           <Route path="MausTratos" element={<MausTratos />} />
           <Route path="Resgate" element={<Resgate />} />
+          <Route path="Agendar" element={<Agendar />} />
           <Route path="Rescue1" element={<Rescue1 />} />
           <Route path="Rescue2" element={<Rescue2 />} />
           <Route path="Rescue3" element={<Rescue3 />} />
@@ -48,7 +49,6 @@ function App() {
           <Route path="Rescue11" element={<Rescue11 />} />
           <Route path="Chat" element={<Chat />} />
           <Route path="Notifications" element={<Notifications />} />
-          
         </Routes>
       </Router>
       <body>

@@ -32,10 +32,7 @@ export function Reporta () {
        <div>
           <h3 >Maus <strong className="scd">tratos</strong></h3>
            <p>
-           Lorem ipsum dolor sit amet, consectetur  
-           dadipiscing elit. Etiam interdum mauris in nisl 
-           tempus euismod interdum mauris in nisl interdum mauris 
-           in nisl 
+           Se você conhece algum animal que esta sofrendo maus tratos, denuncie.
            </p>
            <Link to="/MausTratos"><button>Denunciar</button></Link> 
        </div>
@@ -53,12 +50,10 @@ export function Reporta () {
       <div>
           <h3>Animais <strong className="scd">desaparecidos</strong></h3>
            <p>
-           Lorem ipsum dolor sit amet, consectetur  
-           dadipiscing elit. Etiam interdum mauris in nisl 
-           tempus euismod interdum mauris in nisl interdum mauris 
-           in nisl 
+           Se você acabou perdendo seu animalzinho ou encountrou algúm 
+           animal na rua que você acha que tem dono.
            </p>
-             <button>Denunciar</button>
+             <button>Visualizar</button>
        </div>
     </div>
 </div>    

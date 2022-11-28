@@ -54,8 +54,7 @@ const ApiMap = () => {
 function preVisuaizacao() {
    let overlay = document.querySelector(".saida");
    const viewOverlay = "viewOverlay";
-   overlay.classList.toggle(viewOverlay);
-   
+   overlay.classList.toggle(viewOverlay); 
 }
 
 

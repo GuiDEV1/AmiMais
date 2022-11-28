@@ -38,12 +38,13 @@ export function MausTratos () {
           <div id="Conteudo2">
               <div>
                   <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                  Quisque sed venenatis urna, in porta enim. Quisque tristique, 
-                  orci vel  <br/><br/>
+                  A <strong className="caution">Lei Federal 9.605
+                  Art. 32.</strong> Praticar ato de abuso, maus-tratos, 
+                  ferir ou mutilar animais silvestres, 
+                  domésticos ou domesticados, nativos ou exóticos.
+                   <br/><br/><br/><br/>
 
-                  commodo rutrum, sapien elit eleifend lacus, euismod fermentum 
-                  erat ex eget lacus. Aliquam ornare nec quam id scxcs 
+                   Pena – detenção, de três meses a um ano, e multa.
                 </p>   
               </div>
               <button>Denunciar</button>

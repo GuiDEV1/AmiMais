@@ -4,7 +4,7 @@
 
 #PreView  {
     position: fixed;
-    z-index: 4;
+    z-index: 0;
     background: var(--backgroundMain);
     margin: 10% 30%;
     border-radius: 30px;
@@ -95,3 +95,5 @@ font-size: 15px;
     background-color: var(--turquoiseMain);
     border-radius: 30px;
 }
+
+

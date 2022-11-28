@@ -57,27 +57,23 @@ export function Home () {
         <h3>Instituições<strong className="scd">/ongs</strong></h3>
       </div>
 
-     <div  data-anime="left" className="titleParaquem">
+     <div  data-anime="left" className="paraParaquem">
        <p>
-         Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
-         Etiam interdum mauris in nisl tempus euismod. Vivamus ut congue 
-         sem, n luctus turpis. Ut ac suscipit justo, a pretium nulla. Quisque 
-         maximus nisl sit amet mauris scelerisque feugiat.
-        </p>
+       Qualquer pessoa que tem como missão de vida ajudar animais em situação 
+       de rua e queira fazer parte da nossa plataforma.    
+      </p>
 
-        <p>
-         Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
-         Etiam interdum mauris in nisl tempus euismod. Vivamus ut congue 
-         sem, n luctus turpis. Ut ac suscipit justo, a pretium nulla. Quisque 
-         maximus nisl sit amet mauris scelerisque feugiat.
-        </p>
+     <p>
+        Qualquer pessoa que quer ajudar, pode se cadastrar em nossa plataforma e 
+        fazer doações,registrar a localização de algum animal ou colaborar com outros 
+        resgatadores.
+      </p>
 
-        <p>
-         Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
-         Etiam interdum mauris in nisl tempus euismod. Vivamus ut congue 
-         sem, n luctus turpis. Ut ac suscipit justo, a pretium nulla. Quisque 
-         maximus nisl sit amet mauris scelerisque feugiat.
-        </p>
+      <p>
+        Instituições que tem como meta ajudar a dar um novo lar para pets em situação de rua, 
+        e colaborar com nossa plataforma       
+      </p>
+
      </div>
 
   <div  data-anime="left" id="catBody">
@@ -102,18 +98,18 @@ export function Home () {
 <div  data-anime="right" id="vermaisTXT">
 
         <p>
-         Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
-         Etiam interdum mauris in nisl tempus euismod.
+        Somos uma plataforma web que conecta pessoas com 
+        resgatadores de animais
         </p>
 
         <p>
-         Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
-         Etiam interdum mauris in nisl tempus euismod.
+           Nosso objetivo é diminuir a população de animais em situação 
+           de rua.  
         </p>
 
         <p>
-         Lorem ipsum dolor sit amet, consectetur  dadipiscing elit. 
-         Etiam interdum mauris in nisl tempus euismod.
+        Nosso público alvo é resgatadores, ongs e pessoas que tem iniciativa 
+        de ajudar. 
         </p>
 
      </div>

@@ -22,20 +22,10 @@ export function Sobrenos () {
 
       <div className="conteudo">
          <p>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-         Nullam pretium cursus consectetur. Nulla tortor dolor, lobortis 
-         eu enim vitae, tincidunt tempor enim. Class aptent taciti sociosqu ad 
-         litora torquent per conubia nostra, per inceptos himenaeos. wdaaawawdsDonec 
-         sagittis eget orci et condimentum. Nulla id augue varius, maximus mi nec, dignissim 
-         orci. Suspendisse mollis porttitor ligula in ullamcorper. Nullam 
-         eu enim vitae, tincidunt tempor enim. Class aptent taciti sociosqu ad 
-         litora torquent per conubia nostra, per inceptos himenaeos. wdaaawawdsDonec 
-         sagittis eget orci et condimentum. Nulla id augue varius, maximus mi nec, dignissim 
-         orci. Suspendisse mollis porttitor ligula in ullamcorper. Nullam 
-         eu enim vitae, tincidunt tempor enim. Class aptent taciti sociosqu ad 
-         litora torquent per conubia nostra, per inceptos himenaeos. wdaaawawdsDonec 
-         sagittis eget orci et condimentum. Nulla id augue varius, maximus mi nec, dignissim 
-         orci. Suspendisse mollis porttitor ligula in ullamcorper. Nullam 
+         Somos a AmiMais uma plataforma web fundada por estudantes  do instituto 
+         Proa em 2022 que teve como inspiração o resgate e proteção de animais,  
+         temos como os nossos valores amor a todos os animais, bem como a vontade 
+         de ajudar o máximo de animais possivel.
          </p>
          <img id="conteudoimg1" src={Dog1}/>
       </div>
@@ -49,20 +39,10 @@ export function Sobrenos () {
          <img src={Cat1}/>
 
          <p>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-         Nullam pretium cursus consectetur. Nulla tortor dolor, lobortis 
-         eu enim vitae, tincidunt tempor enim. Class aptent taciti sociosqu ad 
-         litora torquent per conubia nostra, per inceptos himenaeos. wdaaawawdsDonec 
-         sagittis eget orci et condimentum. Nulla id augue varius, maximus mi nec, dignissim 
-         orci. Suspendisse mollis porttitor ligula in ullamcorper. Nullam 
-         eu enim vitae, tincidunt tempor enim. Class aptent taciti sociosqu ad 
-         litora torquent per conubia nostra, per inceptos himenaeos. wdaaawawdsDonec 
-         sagittis eget orci et condimentum. Nulla id augue varius, maximus mi nec, dignissim 
-         orci. Suspendisse mollis porttitor ligula in ullamcorper. Nullam 
-         eu enim vitae, tincidunt tempor enim. Class aptent taciti sociosqu ad 
-         litora torquent per conubia nostra, per inceptos himenaeos. wdaaawawdsDonec 
-         sagittis eget orci et condimentum. Nulla id augue varius, maximus mi nec, dignissim 
-         orci. Suspendisse mollis porttitor ligula in ullamcorper. Nullam 
+         Nosso objetivo é dar visibilidade para os resgatadores e Ongs, fornecendo ajuda para os 
+         animais que eles possuem. Também queremos auxiliar na diminuição do abandono por meio da 
+         conscientização das pessoas, reforçando a importância da castração, o único meio para diminuir 
+         a quantidade de animais na rua, abrigos e consequentemente, abandonos.
          </p>
       </div>
 
@@ -72,20 +52,10 @@ export function Sobrenos () {
 
       <div data-anime="right" className="conteudo">
          <p>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-         Nullam pretium cursus consectetur. Nulla tortor dolor, lobortis 
-         eu enim vitae, tincidunt tempor enim. Class aptent taciti sociosqu ad 
-         litora torquent per conubia nostra, per inceptos himenaeos. wdaaawawdsDonec 
-         sagittis eget orci et condimentum. Nulla id augue varius, maximus mi nec, dignissim 
-         orci. Suspendisse mollis porttitor ligula in ullamcorper. Nullam 
-         eu enim vitae, tincidunt tempor enim. Class aptent taciti sociosqu ad 
-         litora torquent per conubia nostra, per inceptos himenaeos. wdaaawawdsDonec 
-         sagittis eget orci et condimentum. Nulla id augue varius, maximus mi nec, dignissim 
-         orci. Suspendisse mollis porttitor ligula in ullamcorper. Nullam 
-         eu enim vitae, tincidunt tempor enim. Class aptent taciti sociosqu ad 
-         litora torquent per conubia nostra, per inceptos himenaeos. wdaaawawdsDonec 
-         sagittis eget orci et condimentum. Nulla id augue varius, maximus mi nec, dignissim 
-         orci. Suspendisse mollis porttitor ligula in ullamcorper. Nullam 
+         Buscamos alcançar o máximo de resgatadores possível a 
+         abraçar nossa causa, queremos ajudar não só cães e gatos, mas 
+         qualquer animal que esteja precisando de ajuda. Futuramente iremos 
+         implantar mutirões de cuidados para resgate de pets.
          </p>
          <img id="img2" src={CatDog}/>
       </div>
@@ -133,4 +103,4 @@ const debounce = function(func, wait, immediate) {
  window.addEventListener('scroll', debounce(function() {
    animationScroll();
    console.log("okay!!");
- }, 14));
+ }, 20));

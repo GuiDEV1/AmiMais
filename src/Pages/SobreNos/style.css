@@ -8,6 +8,7 @@ body {
     margin-top: 21px;
     color: var(--Laranja);
     text-align: center;
+    font-size: 29px;
 }
 
 .scd {
@@ -21,13 +22,13 @@ body {
 }
 
 #SobreNos .titleIcon h2 {
-    font-size: 26px;
+    font-size: 28px;
     color: var(--Laranja);
 }
 
 /* Formatação ds icons da página */
 #SobreNos .titleIcon img {
-    width: 33px;
+    width: 38px;
     min-width: 20px;
     padding-right: 10px;
     margin-left: 60px;
@@ -39,29 +40,31 @@ body {
  display: flex;
  justify-content: space-between;
  margin-bottom: 28px;
+ align-items: center;
 }
 
 /* Formatação dos paragrafos da página */
 #SobreNos .conteudo p {  
- width: 27%;
+ width: 28%;
  max-width: 27%;
  min-width: 20%;
  margin-left: 7.2em;
+ font-size: 23px;
 }
 
 /* Formatação necessaria para essa imagem por ela ser diferente das outras */
 #SobreNos #conteudoimg1 {
-    width: 23%;
-    min-width: 18%;
-    height: 310px;
+    width: 19%;
+    min-width: 20%;
+    height: 250px;
     min-height: 150px;
 }
 
 /* Formatação das imagens da página*/
 #SobreNos .conteudo img {
-    width: 20%;
+    width: 14%;
     min-width: 16%;
-    height: 360px;
+    height: 250px;
     min-height: 160px;
     margin-right: 19.6em;
 }
@@ -74,13 +77,13 @@ body {
 }
 
 #SobreNos .titleIcon2 h2 {
-    font-size: 26px;
+    font-size: 28px;
     margin-right: 18.8em;
     color: var(--Laranja);
 }
 
 #SobreNos .titleIcon2 img {
-    width: 33px;
+    width: 38px;
     padding-right: 2px;
 }
 
@@ -94,16 +97,17 @@ body {
    #SobreNos .conteudo1 p {  
     width: 430px;
     margin-right: 7.2em;
+    font-size: 23px;
    }
    
    #SobreNos .conteudo1 img {
-       width: 300px;
-       height: 340px;
+       width: 264px;
+       height: 276px;
        margin-left: 19.6em;
    }
 
    #SobreNos #img2 {
-    width: 410px;
+    width: 345px;
    }
 
    /* Animação scroll */
