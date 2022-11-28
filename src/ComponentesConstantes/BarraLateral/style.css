@@ -1,0 +1,86 @@
+:root {
+    --orangeMain: #F9813D;
+    --branco: #fff;
+    --preto: #090909;
+    --turquoiseMain: #09A9A9;
+    --turquoiseLight: #83DDDD;
+    --backgroundMain: #fcfcfc;
+    --backgroundName: #F1F1F1;
+
+}
+
+.sideBar a{
+    text-decoration: none;
+    color: black;
+}
+
+.sideBar {
+    min-height: 100%;
+    padding-bottom: 40px;
+    min-width: 180px;
+    background: var(--backgroundMain);
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 6px 0px #00000040;
+    position: relative;
+}
+
+
+
+.FooterMin {
+    position: absolute;
+    left: -70px;
+    width: 98.9vw;
+}
+
+.sideBar ul{
+    margin-bottom: 100px;
+}
+.sideBar .rescueUsers{
+    width: 1150px;
+    overflow-y: auto;
+}
+.sideBar li {
+    list-style: none;
+}
+
+.sideButton{
+    margin: 30px 0px;
+}
+
+.sideBar .sideButton div,
+.sideBar .sideButton p {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.sideBar p {
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.sideBar .notify {
+    margin-top: 40px;
+}
+
+.sideBar .config {
+    margin-top: 100px;
+}
+.sideBar .sideButton:hover, .sideBar .sideButton:hover a{
+    transition: 70ms;
+    color: var(--orangeMain);
+    cursor: pointer;
+}
+
+#notifyButton,
+#mensageButton,
+#searchButton,
+#ongButton,
+#configButton{
+    color: var(--orangeMain);
+    cursor:default;
+}
+

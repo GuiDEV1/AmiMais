@@ -7,7 +7,7 @@ import './style.css'
 export function Rodape() {
     return (
         <>
-            <div id="FOOTER">
+            <div id="Footer">
                 <div className="footer footer_space">
                     <div className="footer">
                         <img id="PETLOGO" src={PetLove_icon} alt="AmiMais Logo" />

@@ -1,73 +1,73 @@
 
 @media only screen and (min-width: 1px){
-    .contact_large{display: none;}
-    .contact_responsive{display: block;}
+    #Footer .contact_large{display: none;}
+    #Footer .contact_responsive{display: block;}
 }
 
 @media only screen and (min-width: 1180px){
-    .contact_large{display: block;}
-    .contact_responsive{display: none;}
+    #Footer .contact_large{display: block;}
+    #Footer .contact_responsive{display: none;}
 
 }
 
-#FOOTER{
+#Footer{
     background: #F9813D;
 }
-.footer {
+#Footer .footer {
     margin: 0 auto;
     display: flex;
 }
-.footer_space {
+#Footer .footer_space {
     justify-content: space-between;
 
 }
-.footer div {
+#Footer .footer div {
     padding: 20px 20px 0px 20px;
     margin-bottom: 10px;
     margin-left: 50px;
 }
-.contact_responsive{
+#Footer .contact_responsive{
     margin-left: 247px;
 }
 
 
-.footer span, .footer p, .footer img{
+#Footer .footer span, #Footer .footer p, #Footer .footer img{
     cursor: pointer;
-} #PETLOGO{
+} #Footer #PETLOGO{
     pointer-events: none;
 }
 
-.footer p {
+#Footer .footer p {
     font-size: 19px;
     color: #e6e6e6;
     margin: 5px 0;
     white-space: nowrap 
-} .footer span {
+} #Footer .footer span {
     margin: 0px;
     font-size: 23px;
     font-weight: 600;
     color: #fff;
 }
-.footer p:hover {
+#Footer .footer p:hover {
     color: #ffffff;
-} .footer span:hover {
+} #Footer .footer span:hover {
     color: #e6e6e6;
 }
 
-.social_rede{
+#Footer .social_rede{
     width: 36px;
     margin: 10px 10% 0px 0px;
 }
-.social_rede:hover{
+#Footer .social_rede:hover{
     transition: 0.2s;
     width: 40px;
 }
 
-.footer_copyright {
+#Footer .footer_copyright {
     margin-top:40px;
     padding: 10px;
     text-align: center;
     background: #FB752A;
-} .footer_copyright p{
+} #Footer .footer_copyright p{
     color: rgb(255, 241, 214);
 }

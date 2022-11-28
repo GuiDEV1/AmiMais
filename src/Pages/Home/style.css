@@ -85,7 +85,7 @@ transition: 0.5s;
 /*************************    corpo da página    **************/
 
 #Home h2 {
-    font-size: 32px;
+    font-size: 28px;
     color: var(--Laranja);
     margin: 21px 0px 0px 17px;
 }
@@ -155,13 +155,16 @@ color: var(--Laranja);
 }
 
 #Home .information h2 {
-    margin-right: 2.0em;
+    margin-right: 2em;
+    font-size: 26px;
 }
 
 #Home .information img {
-    width: 37px;
-    height: 33px;
+    width: 35px;
+    height: 30px;
     margin-right: 6px;
+    float: left;
+    padding-right:2px;
 }
 
 #Home #vermaisTXT {
@@ -225,7 +228,7 @@ color: var(--Laranja);
    border-radius: 24px;
    font-size: 21px;
    font-weight: 700;
-   margin-left: 53px;
+   margin-left: 30px;
    margin-top: 33px;
    cursor: pointer;
  }

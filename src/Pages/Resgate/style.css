@@ -1,0 +1,12 @@
+
+#Resgate .map {
+    height: 87vh;
+}
+
+  #Resgate .saida {
+   opacity: 0;
+}  
+
+ #Resgate .viewOverlay {
+ opacity: 1;
+}

@@ -1,0 +1,399 @@
+/* Paleta de cores */
+:root {
+    --orangeMain: #F9813D;
+    --branco: #fff;
+    --preto: #090909;
+    --turquoiseMain: #09A9A9;
+    --turquoiseLight: #83DDDD;
+    --backgroundMain: #fcfcfc;
+    --backgroundName: #F1F1F1;
+
+}
+
+/* Solicite CSS -------------------------------------------------------------*/
+#Solicite .sideBar { min-height: 722px; }
+#Solicite .container { margin: 12px; }
+#Solicite .justify { justify-content: space-between; }
+#Solicite .flex { display: flex; }
+#Solicite .iIcon { margin: 2px 4px 0px 4px }
+#Solicite a{ text-decoration: none; }
+
+#Solicite h2{
+    left: 335px;
+    position: absolute;
+    padding-top: 50px;
+}
+
+#Solicite .perfilRescue {
+    width: fit-content;
+    height: 600px;
+    margin: 40px 10px 80px;
+    max-width: 480px;
+}
+
+/* 
+Carrosel Style
+*/
+#Solicite .rec.rec-arrow {
+    color:orange;
+    font-size: 40px;
+    box-shadow:none;
+    background-color:white;
+}
+
+#Solicite .rec.rec-arrow:disabled {
+    color:white;
+    box-shadow:none;
+    transition: 0.5s;
+    background-color:white;
+}
+
+#Solicite .rec.rec-arrow:hover:enabled, 
+#Solicite .rec.rec-arrow:focus:enabled{
+    color:black;
+    box-shadow:none;
+    background-color:white;
+}
+
+#Solicite .rec .rec-dot:hover{
+    border: 1px solid rgb(0 0 0 / 50%);
+    box-shadow: 0 0 1px 3px white;
+}
+
+#Solicite .rec.rec-dot_active, 
+#Solicite .rec.rec-dot_active:focus{
+    background: orange;
+    box-shadow: 0 0 1px 3px orange;
+}
+
+#Solicite .rec.rec-dot_active:hover{
+    background: orange;
+    box-shadow: 0 0 1px 3px white;
+}
+
+#Solicite .rec-pagination{
+    color:orange;
+    z-index: 1;
+    position: absolute;
+    padding-top: 29px;
+}
+
+
+/* PerfilRescue const --------------------------------------
+MainBorder 
+*/
+#Solicite .mainBorder {
+    margin: 20px 0px 0px 0px;
+    max-width: 550px;
+    background: var(--backgroundMain);
+}
+
+#Solicite .mainBorder, #Solicite .PerfilHeader {
+    border: 1px solid var(--turquoiseLight);
+    border-radius: 10px;
+}
+
+/*
+MainTop Style
+*/
+#Solicite .mainTop{
+    transition: 1s;
+    margin-top: 135px;
+}
+
+#Solicite .mainTop.show { margin-top: 50px; }
+
+#Solicite .PerfilHeader {
+    height: 180px;
+    z-index: 2;
+    position: relative;
+    border-color: var(--backgroundMain);
+    margin-bottom: 42px;
+    background-size: 100%;
+    background-position: center;
+    border-bottom-left-radius: 35px;
+}
+
+/* 
+ButtonMoreOption Style
+*/
+#Solicite .buttonMoreOption {
+    width: fit-content;
+    margin: 0px auto 20px;
+}
+
+#Solicite .buttonMoreOption button {
+    border: var(--turquoiseMain) solid 1px;
+    padding: 6px 18px 6px 18px;
+    background: none;
+    border-radius: 13px;
+
+}
+
+/* 
+MainBottom Style
+*/
+#Solicite .mainBottom {
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+  
+#Solicite .mainBottom.show {
+    height: 175px;
+    margin-top: 0px;
+}
+
+/* 
+PerfilHeader const -------------------------------------------
+*/
+#StarICon { color: orange; }
+#StarIConOrange { color: gray;}
+
+#Solicite .PerfilHeader button, #Solicite .PerfilHeader img, #Solicite .PerfilHeader p {
+    margin: auto 10px;
+}
+
+#Solicite .headerDetails {
+    display: flex;
+    background: var(--backgroundMain);
+    padding-right: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#Solicite .headerContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+  
+#Solicite .headerContainer div {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+#Solicite .perfilPhoto  {
+    margin: 120px 0px 0px 20px;
+}
+
+#Solicite .perfilPhoto img {
+    width: 94px;
+    border: 3px solid var(--orangeMain);
+    position: relative;
+    border-radius: 50%;
+}
+
+#Solicite .headerName {
+    margin: 150px 0px 0px 80px;
+    background: var(--backgroundName);
+    padding-left: 10px;
+}
+
+#Solicite .headerName p {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: -1px;
+}
+
+#Solicite .justify,
+#Solicite .headerTitle {  
+    margin-left: 60px; 
+}
+
+#Solicite .borderIcon, 
+#Solicite .headerDetails button {
+    border: 1px solid black;
+    padding: 2px 3px 1px 3px;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+#Solicite .headerDetails button {
+    padding: 6px 18px 7px 18px;
+    background: none;
+}
+
+#Solicite .borderIcon, #Solicite .headerDetails button, #Solicite .buttonMoreOption button {
+    color:  var(--turquoiseMain) ;
+
+}
+
+#Solicite .borderIcon:hover, #Solicite .headerDetails button:hover, #Solicite .buttonMoreOption button:hover {
+    color: var(--orangeMain);
+    cursor: pointer;
+    font-style: var(--orangeMain);
+    border-color: var(--orangeMain);
+}
+
+#buttonMensage p{
+    color:gray;
+}
+
+/*
+PerfilBody const---------------------------------------------------------
+*/
+#Solicite .bodyContainer { padding: 0px 20px; }
+#Solicite .bodyComponent { margin: 20px auto; }
+
+#Solicite .bodyComponent span {
+    margin: 0 2px;
+    font-size: 27px;
+}
+
+/*
+PerfilFooter const---------------------------------------------------------
+*/
+#Solicite .footerContainer {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#Solicite .footerContainer span {
+    margin: 4px 0px;
+    font-weight: 550;
+    white-space: nowrap;
+}
+
+#Solicite .footerComponent {
+    margin: 0px 0px 0px 24px;
+    word-wrap: none;
+    min-height: 56px;
+}
+
+#Solicite .footerContainer div p { 
+    padding-top: 10px; 
+}
+
+#Solicite .footerComponent + .right{
+     margin: 10px 44px 10px 0px;
+}
+
+.footerComponent p{
+    padding-right: 10px
+}
+
+#Solicite .right, #Solicite .right span{
+    float: right;
+    white-space: nowrap;
+}
+
+#Solicite .footerIcon{
+    margin: 10px 5px 0;
+}
+
+/*
+Donate button  
+*/
+#Solicite .buttonDonate {
+    margin: 15px 20px 0 0 ;
+    padding: 1px;
+    background: linear-gradient(to right, var(--turquoiseLight), var(--orangeMain));
+    white-space: nowrap;
+}
+
+#Solicite .buttonDonate:hover {
+    padding: 2px;
+    cursor: pointer;
+}
+
+#Solicite .buttonDonate, #Solicite .buttonDonate div {
+    border-radius: 10px;
+}
+
+#Solicite .buttonDonate div .iIcon {
+    color: var(--orangeMain);
+    margin: auto;
+}
+
+#Solicite .buttonDonate div {
+    padding: 9px;
+    background: var(--backgroundMain);
+}
+
+#Solicite .buttonDonate div p {
+    color: var(--turquoiseMain);
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/*
+Social Media Icons 
+*/
+#Solicite .vermais {
+    border: 1px solid var(--turquoiseLight);
+    margin: 15px 40px auto 0px;
+    padding: 1px;
+    background: var(--turquoiseLight);
+    white-space: nowrap;
+    border-radius: 9px;
+}
+
+#Solicite .vermais div p{
+    color:#0c7070;
+    margin: 0 auto;
+    padding: 2px;
+    font-weight: 600;
+}
+
+#Solicite .vermais:hover {
+    border: 1px solid var(--orangeMain);
+    background: var(--orangeMain);
+}
+#Solicite .vermais div p:hover{
+    color:white;
+}
+
+#searchButton a{
+    color: var(--orangeMain)
+}
+
+
+.favOngcursor:hover{
+    color: var(--orangeMain);
+    cursor: pointer;
+}
+
+/*DATABASE CSS---------------------------------------------------------*/
+
+#Solicite .id1_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1039361184907939850/Rectangle_188_1.png");
+}
+
+#Solicite .id2_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261103594639420/b1.png");
+}
+
+#Solicite .id3_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261103909216337/b2.jpg");
+}
+
+#Solicite .id4_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261122687111238/b7.jpg");
+}
+
+#Solicite .id5_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104412528650/b4.jpg");
+}
+
+#Solicite .id6_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104618053662/b5.jpg");
+}
+
+#Solicite .id7_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104790011974/b6.jpg");
+}
+
+#Solicite .id8_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261123295289344/b9.png");
+}
+
+#Solicite .id9_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261123752476733/b11.jpg");
+}
+
+#Solicite .id10_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104156672010/b3.jpg");
+}
+
+#Solicite .id11_banner {
+    background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261122896838666/b8.png");
+}

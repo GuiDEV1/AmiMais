@@ -1,0 +1,194 @@
+
+
+.flex{ display: flex;}
+.justify{ justify-content: space-between;}
+.right{ float: right;}
+
+/* Root Component Sytle*/
+.CHAT {
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.CHAT span{ font-weight: 600; }
+
+/* Chat list syyle*/
+.CHAT .list {
+    width: 450px;
+    background: #E9E9E9;
+    border-right: 1px solid var(--turquoiseMain);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.CHAT .list section{ margin: 10px 10px; }
+.CHAT .list .container{  background: white; }
+.CHAT .list div:first-child .container{ border-top-left-radius: 10px; }
+
+.CHAT .list div:last-child .container{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 10px -10px rgb(124, 124, 124);
+}
+
+/* When Contact is Selected*/
+.CHAT .select .container { background: var(--turquoiseLight); }
+.CHAT .select .container section { padding-bottom: 10px; }
+
+
+/*
+-------------------------------------------------------------------------------
+Const ChatContacts Syle
+*/
+.container{ 
+    padding: 10px;
+    border-bottom: 1px solid var(--turquoiseMain);
+}
+
+.container img{
+    width: 80px;
+    border-radius: 100%;
+}
+
+.container .contact div{ width: 150px; }
+.container .lastViewed{ padding: 10px 0px; }
+
+/*
+-------------------------------------------------------------------------------
+*/
+
+.conversation{
+    width: 100%;
+    background: rgb(248, 248, 248);
+    border-radius: 10px;
+}
+
+.perfilheader{
+    padding:10px;
+    background:var(--backgroundMain);
+    box-shadow: 0px 10px 10px -10px black;
+    border-top-right-radius: 10px;
+}
+.perfilheader section{
+    width: 100%;
+    margin: auto 50px auto 10px ;
+}
+
+.perfilheader img{
+    border-radius: 100%;
+    height: 60px;
+}
+.status span{
+    margin-right: 5px;
+}
+.contactChat div{
+    padding: 10px;
+    border: 1px solid black;
+    width: 285px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contactChat .left{
+    margin-left: 10px;
+    margin-right: 50%;
+    float: left;
+
+}
+.contactChat .right{
+    margin-right: 10px;
+
+    margin-left: 65%;
+    float: right;
+}
+.contactChat .center{
+    margin: 10px 0px;
+    text-align: center;
+}
+.contact .right{
+    padding-left: 80px;
+    float: right;
+
+}
+
+
+
+
+.contactChat .bollon{
+    width: 300px;
+    padding: 20px;
+    background: url("./bollon.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 36px;
+
+}
+
+.contactChat .bfirst.right{
+    width: 333px;
+    padding: 20px;
+    background: url("./bollonFirst.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 5px;
+
+}
+.contactChat .bfirstLeft{
+    width: 333px;
+    padding: 20px;
+    background: url("./bollonFirstLeft.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 5px;
+    float: left;
+}
+.contactChat .bfirstLeft p{
+    margin:0px 40px;
+}
+.contactChat .bfirstLeft span{
+    margin:0px;
+}
+
+.contactChat section span{
+    float: right;
+    margin: 0px 40px
+}
+
+.contactChat .bollon span{
+    margin: 0px 5px;
+    color: #848484;
+
+}
+.conversation .contactFoot{
+    margin-top: 30px;
+    float: right;
+    margin-right: 20%;
+}
+.conversation .contactFoot .bollon{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 120px;
+}
+.contactChat .byUser{
+    border: 1px solid black;
+    background: var(--turquoiseLight);
+    border-radius: 10px;
+
+}
+.conversation .contactFoot section{
+    margin: 10px 0px;
+}
+.conversation .contactFoot section p{
+    margin: 0px 10px;
+}
+.conversation .contactFoot .bottom{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+

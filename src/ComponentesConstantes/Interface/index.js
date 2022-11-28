@@ -1,29 +1,55 @@
-import "./style.css";
-import Logo from "./Imagens/amiMaisLogo.png";
+
+import { AiOutlineUser } from 'react-icons/ai';
+import { VscThreeBars } from 'react-icons/vsc';
+import { IconContext } from 'react-icons';
+
 import { Link } from 'react-router-dom';
 
+import './style.css';
+import Logo from './Imagens/amiMaisLogo.png';
 
-export function Interface () {
-   
-   return ( 
- <>
-   <header>
-        <img src={Logo} id="Logo"/> 
-       
+export function Interface() {
+  return (
+    <>
+      <IconContext.Provider value={{ size: "40px" }}>
+        <header>
+          <section className="interface">
+            <div>
+              <img src={Logo} id="Logo" />
+              <div className="viewLarge" >
+                <Link to="/" >Inicio</Link>
+                <Link to="/Sobrenos" >Sobre nós </Link>
+                <Link to="/Resgate" >Resgate </Link>
+                <Link to="/SolicitarResgatador" >Curiosidades </Link>
+                <Link to="/Reportar" >Reportar </Link>
+                <LoginRegister />
+              </div>
+            </div>
 
-      <div className = 'interface'> 
-         <Link to="/">Inicio </Link> 
-         <Link to="/SobreNos">Sobre nós </Link>
-         <Link to="/" >Resgate</Link>
-         <Link to="/" >Curiosidades </Link> 
-         <Link to="/Reporta">Reporta</Link> 
-         <Link to="/" >Login </Link> 
-         <Link to="/" >Cadastra-se</Link>
-         <div className="perfilLateral">
-          </div>
-      </div> 
-      
-   </header>
- </>
-   )
+            <div className="viewMedium">
+              <LoginRegister />
+              <div className="moreOptions"><VscThreeBars /></div>
+            </div>
+
+            <div className="viewMobile">
+              <div className="perfilLateral"><AiOutlineUser /></div>
+              <div className="moreOptions"><VscThreeBars /></div>
+            </div>
+
+
+          </section>
+        </header>
+      </IconContext.Provider>
+    </>
+  )
+}
+
+const LoginRegister = () => {
+  return (
+    <>
+      <Link to="/" id="Login">Login </Link>
+      <Link to="/">Cadastrar </Link>
+      <div className=" perfilLateral"><AiOutlineUser /></div>
+    </>
+  )
 }

@@ -1,0 +1,32 @@
+
+#FooterMin .footer_button{
+    z-index: 12;
+    transition: 0.1s;
+    width: 250px;
+    margin: 0px auto;
+    border: 1px solid  #e96f29;
+    border-bottom: none;
+    background: #e96f29;
+    padding:8px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    color: rgb(255, 241, 214);
+    cursor: pointer;
+    font-size: 12px;
+
+}
+#FooterMin .footer_button:hover{
+    width: 260px;
+    color: #e96f29;
+    background: rgb(255, 255, 255);
+}
+
+#FooterMin .footer_copyright {
+    background: #FB752A;
+    padding: 10px;
+    text-align: center;
+} 
+#FooterMin .footer_copyright p{
+    color: rgb(255, 241, 214);
+}
