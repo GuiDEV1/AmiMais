@@ -21,6 +21,7 @@ import { Rescue11 } from './Pages/Resgatador/Rescue11';
 import {Resgate} from './Pages/Resgate'
 import { MausTratos } from "./Pages/MausTratos";
 import { Agendar } from "./Pages/Agendar";
+import { Cadastrar } from "./Pages/Cadastrar";
 var asd = "Resgatador";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="MausTratos" element={<MausTratos />} />
           <Route path="Resgate" element={<Resgate />} />
           <Route path="Agendar" element={<Agendar />} />
+          <Route path="Cadastrar" element={<Cadastrar />} />
           <Route path="Rescue1" element={<Rescue1 />} />
           <Route path="Rescue2" element={<Rescue2 />} />
           <Route path="Rescue3" element={<Rescue3 />} />

@@ -1,0 +1,110 @@
+/* ID Cadastrar criado para não da conflito com outras abas */
+
+/* div pai responsavel pelo comportamento das outras div */
+#Cadastrar #main {
+    margin: 22px 0px 22px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+#Cadastrar #cadastro {
+    width: 500px;
+    height: 545px;
+    border: 1px solid blue;
+}
+
+#Cadastrar #cadastro h1 {
+    color: var(--Laranja);
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 9px; 
+    margin-bottom: 3px;
+}
+/* Cor secundaria */
+.scd {
+   color: var(--turquesa);
+}
+
+#Cadastrar #cadastro span {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--turquesa);
+}
+
+#Cadastrar #cadastro h4 {
+    margin-top: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#Cadastrar #selectS select {
+    display: block;
+    margin: 12px auto;
+    border: 1.3px solid #9b9b9b; 
+    border-radius: 6px;
+    font-size: 15px;
+    width: 173px;
+    padding: 7.8px;   
+}
+
+#Cadastrar h5 {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#Cadastrar #redeSocial {
+    margin-top: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+#Cadastrar #redeSocial button {
+    width: 98.2px;
+    height: 40px;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: var(--backgoundMain);
+    }
+
+#Cadastrar #redeSocial button img {
+    width: 23px;
+    padding-right: 4px;
+    margin-left: 2px;
+    transition: all 0.5ms
+}
+
+#Cadastrar #redeSocial #face {
+    color: #0033E7;
+    border: 1px solid #0033E7;;
+}
+
+#Cadastrar #redeSocial #google {
+    color: #E70000;
+    border-left: 1px solid #E70000;
+    border-top: 1px solid #E70000;
+    border-right: 1px solid #2E0FED ;
+    border-bottom: 1px solid #2E0FED ;
+}
+
+#Cadastrar #redeSocial #twiter {
+    color: #00A2F5;
+    border: 1px solid #00A2F5;
+}
+
+#Cadastrar #cadastrarimg img {
+    margin-top: 96px;
+}
+
+
+
+
+

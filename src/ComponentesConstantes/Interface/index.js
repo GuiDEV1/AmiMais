@@ -48,7 +48,7 @@ const LoginRegister = () => {
   return (
     <>
       <Link to="/" id="Login">Login </Link>
-      <Link to="/">Cadastrar </Link>
+      <Link to="/Cadastrar">Cadastrar </Link>
       <div className=" perfilLateral"><AiOutlineUser /></div>
     </>
   )

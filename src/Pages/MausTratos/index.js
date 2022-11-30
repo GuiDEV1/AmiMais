@@ -42,7 +42,7 @@ export function MausTratos () {
                   Art. 32.</strong> Praticar ato de abuso, maus-tratos, 
                   ferir ou mutilar animais silvestres, 
                   domésticos ou domesticados, nativos ou exóticos.
-                   <br/><br/><br/><br/>
+                   <br/><br/><br/>
 
                    Pena – detenção, de três meses a um ano, e multa.
                 </p>   
