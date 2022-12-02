@@ -5,15 +5,17 @@
     margin: 22px 0px 22px 0px;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
+/* Div cadastro ira ficar todo o conteudo do cadastro */
 #Cadastrar #cadastro {
     width: 500px;
     height: 545px;
     border: 1px solid blue;
 }
 
+/* Formatação do h1 do cadastro*/
 #Cadastrar #cadastro h1 {
     color: var(--Laranja);
     font-weight: 700;
@@ -22,11 +24,13 @@
     margin-top: 9px; 
     margin-bottom: 3px;
 }
+
 /* Cor secundaria */
 .scd {
    color: var(--turquesa);
 }
 
+/* Formatação do mini titulo */
 #Cadastrar #cadastro span {
     display: flex;
     justify-content: center;
@@ -34,12 +38,14 @@
     color: var(--turquesa);
 }
 
+/* Formatação do mini titulo */
 #Cadastrar #cadastro h4 {
     margin-top: 36px;
     text-align: center;
     font-size: 16px;
 }
 
+/* Estilização dos selects do cadastro */
 #Cadastrar #selectS select {
     display: block;
     margin: 12px auto;
@@ -56,14 +62,16 @@
     font-size: 14px;
 }
 
+/* Formatação da div pai dos botões dad rede sociais */
 #Cadastrar #redeSocial {
     margin-top: 19px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 11px;
+    gap: 15px;
 }
 
+/* Estilização dos botões da rede social */
 #Cadastrar #redeSocial button {
     width: 98.2px;
     height: 40px;
@@ -75,6 +83,7 @@
     background: var(--backgoundMain);
     }
 
+/* Estilização dos icons do botão */
 #Cadastrar #redeSocial button img {
     width: 23px;
     padding-right: 4px;
@@ -91,17 +100,18 @@
     color: #34A853;
    }
 
-#Cadastrar #redeSocial #face {
-    color: #0033E7;
-    border: 1px solid #0033E7;;
-}
-
 #Cadastrar #redeSocial #google {
     color: #E70000;
     border-left: 1px solid #E70000;
     border-top: 1px solid #E70000;
     border-right: 1px solid #2E0FED ;
     border-bottom: 1px solid #2E0FED ;
+}
+
+/* Fim dos colors do google */
+#Cadastrar #redeSocial #face {
+    color: #0033E7;
+    border: 1px solid #0033E7;;
 }
 
 #Cadastrar #redeSocial #twiter {
@@ -122,21 +132,26 @@
  padding: 6px;
  border-radius: 6px;
  font-size: 14px;
- margin-bottom: 34px;
+ margin-bottom: 45px;
 }
 
-#cadastrar #cadastro #next  {
+#Cadastrar form #next {
+    width: 140px;
+    height: 46px;
     cursor: pointer;
-    border: 1px solid blue;
+    border-radius: 9px;  
+    font-size: 17px;
+    font-weight: 700;
+    background: var(--backgoundMain);
+    display: block;
+    margin: auto;
+    border-left: 2.3px solid var(--turquesa);
+    border-top: 2.3px solid var(--turquesa);
+    border-right: 2.3px solid var(--Laranja);
+    border-bottom: 2.3px solid var(--Laranja);
 }
 
+/* Formatação da imagem do lado */
 #Cadastrar #cadastrarimg img {
     margin-top: 96px;
 }
-
-
-
-
-
-
-

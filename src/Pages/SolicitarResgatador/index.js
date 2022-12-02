@@ -139,7 +139,6 @@ export function CallRescue() {
                   <div className="perfilRescue">
                      <PerfilRescue
                         RESGATADOR={"Rescue8"}
-
                         TEL={id8_Tel}
                         CITY={id8_City}
                         USER={id8_User}
@@ -205,7 +204,7 @@ export function CallRescue() {
    )
 }
 
-const PerfilRescue = ({ RESGATADOR, TEL, USER, CITY, NAME, BANNER, FAVONG, RESCUES, PROFILE, VOLUNTTIME, DESCRIPTION }) => {
+const PerfilRescue = ({ RESGATADOR, TEL, USER, CITY, NAME, BANNER, FAVONG, RESCUES, PROFILE, VOLUNTTIME, DESCRIPTION, star_line, star_fill}) => {
    // Botão mais informações physics
    const [toggle, setToggle] = React.useState(false);
    const toggleFunction = () => setToggle(!toggle);
@@ -213,7 +212,7 @@ const PerfilRescue = ({ RESGATADOR, TEL, USER, CITY, NAME, BANNER, FAVONG, RESCU
    //
    return (
       <>
-         <div className={`mainBorder mainTop ${toggle ? 'show' : ''}`}>
+         <div className={`mainBorder mainTop ${toggle ? "show" : ''}`}>
             {/* Trocar Background no CSS*/}
             <div className={`PerfilHeader ${BANNER}`}>
                <PerfilHeader
@@ -248,7 +247,7 @@ const PerfilRescue = ({ RESGATADOR, TEL, USER, CITY, NAME, BANNER, FAVONG, RESCU
       </>
    )
 }
-const PerfilHeader = ({ NAME, USER, PROFILE }) => {
+const PerfilHeader = ({ NAME, USER, PROFILE , star_line, star_fill}) => {
    // Botão estrela physics
    const [star_state, star_change] = useState("Unliked");
    const star_function = () => { star_change(!star_state) };
@@ -276,7 +275,7 @@ const PerfilHeader = ({ NAME, USER, PROFILE }) => {
                         </div>
                      </div>
                      <div className="headerDetails">
-                        <div onClick={star_function} className={`borderIcon ${star_state ? 'show' : ''}`}>
+                        <div onClick={star_function} className={`borderIcon ${star_state ? '' : 'show'}`}>
                            <div className="iIcon">{star_icon}</div>
                         </div>
                         <button id="buttonMensage"><p>Mensagem</p></button>
@@ -360,17 +359,17 @@ const PerfilFooter = ({ TEL, CITY, DESCRIPTION, RESGATADOR }) => {
    )
 }
 
-const id1_Tel = "(11) 7667-9865";
-const id1_City = "São Paulo";
-const id1_Rescue = "22 Animais";
-const id1_FavOng = "Petlove";
-const id1_VoluntTime = "3 meses";
-const id1_Description = "Olá sou maju possuo uma ONG que faz uma reabilitação de crianças com à ajuda de gatos."
+const id9_Tel = "(11) 7667-9865";
+const id9_City = "São Paulo";
+const id9_Rescue = "22 Animais";
+const id9_FavOng = "Petlove";
+const id9_VoluntTime = "3 meses";
+const id9_Description = "Olá sou maju possuo uma ONG que faz uma reabilitação de crianças com à ajuda de gatos."
 
-const id1_Name = "Mariju Carmo";
-const id1_User = "@majuupe";
-const id1_Banner = "id1_banner"
-const id1_Profile = "https://cdn.discordapp.com/attachments/1026668645033709692/1044261001534644274/Aurora_Pereira.jpg";
+const id9_Name = "Mariju Carmo";
+const id9_User = "@majuupe";
+const id9_Banner = "id1_banner"
+const id9_Profile = "https://cdn.discordapp.com/attachments/1026668645033709692/1044261001534644274/Aurora_Pereira.jpg";
 //------------------------------------------------------------------------------------------------------------------//
 const id2_Tel = "(11) 9865-7667";
 const id2_City = "Rio de Janeiro";
@@ -457,17 +456,17 @@ const id8_User = "@LucaSerikaw";
 const id8_Banner = "id8_banner"
 const id8_Profile = "https://cdn.discordapp.com/attachments/1026668645033709692/1044261050515718265/Lucas_Serikawa_Souza.jpg";
 //------------------------------------------------------------------------------------------------------------------//
-const id9_Tel = "(11) 9965-7667";
-const id9_City = "Rio de Janeiro";
-const id9_Rescue = "5 Animais";
-const id9_FavOng = "PetTop";
-const id9_VoluntTime = "1 ano";
-const id9_Description = "Guilherme Lorem"
+const id1_Tel = "(11) 9965-7667";
+const id1_City = "Rio de Janeiro";
+const id1_Rescue = "5 Animais";
+const id1_FavOng = "PetTop";
+const id1_VoluntTime = "1 ano";
+const id1_Description = "Guilherme Lorem"
 
-const id9_Name = "Marta Valejo";
-const id9_User = "@MartaValejo";
-const id9_Banner = "id9_banner"
-const id9_Profile = "https://cdn.discordapp.com/attachments/1026668645033709692/1044261050742231080/Marta_Valejo.jpg";
+const id1_Name = "Marta Valejo";
+const id1_User = "@MartaValejo";
+const id1_Banner = "id9_banner"
+const id1_Profile = "https://cdn.discordapp.com/attachments/1026668645033709692/1044261050742231080/Marta_Valejo.jpg";
 
 //------------------------------------------------------------------------------------------------------------------//
 const id10_Tel = "(11) 101065-7667";

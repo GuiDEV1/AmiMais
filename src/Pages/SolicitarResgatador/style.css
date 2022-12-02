@@ -346,54 +346,32 @@ Social Media Icons
     color: var(--orangeMain)
 }
 
-
 .favOngcursor:hover{
     color: var(--orangeMain);
     cursor: pointer;
 }
 
 /*DATABASE CSS---------------------------------------------------------*/
-
 #Solicite .id1_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1039361184907939850/Rectangle_188_1.png");
-}
-
-#Solicite .id2_banner {
+} #Solicite .id2_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261103594639420/b1.png");
-}
-
-#Solicite .id3_banner {
+} #Solicite .id3_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261103909216337/b2.jpg");
-}
-
-#Solicite .id4_banner {
+} #Solicite .id4_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261122687111238/b7.jpg");
-}
-
-#Solicite .id5_banner {
+} #Solicite .id5_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104412528650/b4.jpg");
-}
-
-#Solicite .id6_banner {
+} #Solicite .id6_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104618053662/b5.jpg");
-}
-
-#Solicite .id7_banner {
+} #Solicite .id7_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104790011974/b6.jpg");
-}
-
-#Solicite .id8_banner {
+} #Solicite .id8_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261123295289344/b9.png");
-}
-
-#Solicite .id9_banner {
+} #Solicite .id9_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261123752476733/b11.jpg");
-}
-
-#Solicite .id10_banner {
+} #Solicite .id10_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104156672010/b3.jpg");
-}
-
-#Solicite .id11_banner {
+} #Solicite .id11_banner {
     background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261122896838666/b8.png");
 }
