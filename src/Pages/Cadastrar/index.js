@@ -25,17 +25,24 @@ export function Cadastrar () {
                <option value="resgatador">Resgatador</option>
                <option value="Ong">ONG-instituição</option>
             </select>
-          </form>
+      
 
           <h5>Crie sua conta com:</h5>
           <div id="redeSocial">
              <button id="face"><img src={facebook}/> Facebook</button>
-             <button id="google"><img src={google}/> Go<strong>og</strong>le</button>
+             <button id="google"><img src={google}/> Go<strong id="scd1">og</strong><strong id="scd2">le</strong></button>
              <button id="twiter"><img src={twiter}/> Twiter</button>
           </div>
 
           <h5>Ou</h5>
+         
+          <label>Email:</label> <br/>
+          <input id="email" name="email" type={"email"} placeholder="Seuemail@gmail.com" required></input> <br/>
+         </form>
 
+         <div id="next">
+          <button>Continuar</button>
+         </div>  
        </div>
        <div id="cadastrarimg">
           <img src={svgDraw}/>

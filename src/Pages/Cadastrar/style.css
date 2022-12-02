@@ -82,6 +82,15 @@
     transition: all 0.5ms
 }
 
+/* colors do google */
+#Cadastrar #redeSocial button #scd1 {
+ color: #FBBC05;
+}
+
+#Cadastrar #redeSocial button #scd2 {
+    color: #34A853;
+   }
+
 #Cadastrar #redeSocial #face {
     color: #0033E7;
     border: 1px solid #0033E7;;
@@ -100,9 +109,32 @@
     border: 1px solid #00A2F5;
 }
 
+#Cadastrar form label {
+    margin-left: 8.3em;
+    font-weight: 700;
+}
+#Cadastrar form #email {
+ margin-top: 4px;
+ border: 1px solid #333;
+ width: 240px;
+ height: 30px;
+ margin-left: 9.4em;
+ padding: 6px;
+ border-radius: 6px;
+ font-size: 14px;
+ margin-bottom: 34px;
+}
+
+#cadastrar #cadastro #next  {
+    cursor: pointer;
+    border: 1px solid blue;
+}
+
 #Cadastrar #cadastrarimg img {
     margin-top: 96px;
 }
+
+
 
 
 
