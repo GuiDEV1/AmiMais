@@ -1,0 +1,175 @@
+/* GERAL */
+
+#Login .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Login .tablet {
+    width: 520px;
+    height: 430px;
+}
+
+/* GERAL */
+
+/* FORMULARIO */
+
+#Login .formulario {
+    margin: 38px 0px 22px 0px;
+    border: 1.3px solid transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top, var(--turquesa), var(--Laranja) );
+    background-clip: content-box, border-box;
+    width: 500px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+}
+
+#Login .scd {
+  color: var(--turquesa);
+}
+
+#Login .text-login  {
+    text-align: center;
+    color: var(--Laranja);
+    font-size: 38px;
+    margin: 22px;
+    font-weight: 700;
+}
+
+#Login #label-form {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+#Login #input-form {
+    border: 1px solid #909090;
+    border-radius: 10px;
+    width: 263px;
+    height: 38px;
+    padding: 13px;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+}
+
+
+#Login .zona-select-senha {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8D8C8C;
+    cursor: pointer;
+    gap: 16px;
+}
+
+#Login #buttom-entrar input {
+    display: block;
+    margin: 19px auto;
+    width: 123px;
+    height: 50px;
+    background: var(--backgroundMain);
+    font-weight: 700;
+    font-size: 21px;
+    border-left: 1.3px solid var(--turquesa);
+    border-bottom: 1.3px solid var(--turquesa);
+    border-top: 1.3px solid var(--Laranja);
+    border-right: 1.3px solid var(--Laranja);
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+/* FORMULARIO */
+
+/* TEXTO DO *LOGIN COM* */
+
+#Login .text {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+/* TEXTO DO *LOGIN COM* */
+
+/* BOTOES DAS REDES SOCIAIS */
+
+#Login h2 {
+    background: -webkit-linear-gradient(left, var(--turquesa) 45%, var(--Laranja) 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Login h3 {
+    font-size: 22px;
+    background: -webkit-linear-gradient(left, var(--turquesa) 50%, var(--Laranja) 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 2px;
+}
+
+/* Formatação da div pai dos botões da rede sociais */
+#Login #redeSocial {
+    margin-top: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Estilização dos botões da rede social */
+#Login #redeSocial button {
+    width: 98.2px;
+    height: 40px;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: var(--backgoundMain);
+    }
+
+    /* Estilização dos icons do botão */
+#Login #redeSocial button img {
+    width: 25px;
+    padding-right: 4px;
+    margin-left: 2px;
+    transition: all 0.5ms
+}
+
+/* colors do google */
+#Login #redeSocial button #scd1 {
+    color: #FBBC05;
+   }
+   
+   #Login #redeSocial button #scd2 {
+       color: #34A853;
+      }
+   
+   #Login #redeSocial #google {
+       color: #E70000;
+       border-left: 1px solid #E70000;
+       border-top: 1px solid #E70000;
+       border-right: 1px solid #2E0FED ;
+       border-bottom: 1px solid #2E0FED ;
+   }
+   
+   /* Fim dos colors do google */
+
+   #Login #redeSocial #face {
+    color: #0033E7;
+    border: 1px solid #0033E7;;
+}
+
+#Login #redeSocial #twiter {
+    color: #00A2F5;
+    border: 1px solid #00A2F5;
+}

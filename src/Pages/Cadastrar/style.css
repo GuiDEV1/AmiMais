@@ -62,11 +62,10 @@
     font-size: 14px;
 }
 
-/* Formatação da div pai dos botões dad rede sociais */
+/* Formatação da div pai dos botões da rede sociais */
 #Cadastrar #redeSocial {
     margin-top: 19px;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 15px;
 }

@@ -22,6 +22,7 @@ import {Resgate} from './Pages/Resgate'
 import { MausTratos } from "./Pages/MausTratos";
 import { Agendar } from "./Pages/Agendar";
 import { Cadastrar } from "./Pages/Cadastrar";
+import { Login } from "./Pages/Login";
 var asd = "Resgatador";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="Resgate" element={<Resgate />} />
           <Route path="Agendar" element={<Agendar />} />
           <Route path="Cadastrar" element={<Cadastrar />} />
+          <Route path="Login" element={<Login />} />
           <Route path="Rescue1" element={<Rescue1 />} />
           <Route path="Rescue2" element={<Rescue2 />} />
           <Route path="Rescue3" element={<Rescue3 />} />
