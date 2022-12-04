@@ -2,17 +2,19 @@
 
 /* div pai responsavel pelo comportamento das outras div */
 #Cadastrar #main {
-    margin: 22px 0px 22px 0px;
+    margin: 40px 0px 41px 0px;
     display: flex;
     justify-content: space-evenly;
-    /* border: 1px solid red; */
 }
 
 /* Div cadastro ira ficar todo o conteudo do cadastro */
 #Cadastrar #cadastro {
     width: 500px;
     height: 545px;
-    border: 1px solid blue;
+    border: 1.5px solid transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top, var(--turquesa), var(--Laranja) );
+    background-clip: content-box, border-box;
+    border-radius: 6px;
 }
 
 /* Formatação do h1 do cadastro*/
@@ -64,9 +66,10 @@
 
 /* Formatação da div pai dos botões da rede sociais */
 #Cadastrar #redeSocial {
-    margin-top: 19px;
+    margin-top: 28px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 15px;
 }
 
@@ -123,11 +126,9 @@
     font-weight: 700;
 }
 #Cadastrar form #email {
- margin-top: 4px;
  border: 1px solid #333;
  width: 240px;
  height: 30px;
- margin-left: 9.4em;
  padding: 6px;
  border-radius: 6px;
  font-size: 14px;
@@ -150,7 +151,55 @@
     border-bottom: 2.3px solid var(--Laranja);
 }
 
+#Cadastrar form #next:hover {
+    background: var(--Laranja);
+    color: var(--backgroundMain);
+    border: 2.6px solid var(--turquesa);
+}
+
 /* Formatação da imagem do lado */
 #Cadastrar #cadastrarimg img {
     margin-top: 96px;
 }
+
+/* Cadastro02 */
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px
+}
+#Cadastrar form .grid div label {
+    margin-left: 15px;
+}
+#Cadastrar form .grid div input{
+    margin: 3px 15px;
+    max-width: 200px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    width: 240px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Cadastro02 ---- fim */
+
+
+/* CadastroUsuario */
+
+#Cadastrar #cadastroUsuario1 {
+   border: 1px solid red;
+}
+
+#Cadastrar #cadastroUsuario1 label {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+#Cadastrar #cadastroUsuario1 input {
+    border: 1px solid #000;
+    
+}
+
+/* CadastroUsuario --- fim */

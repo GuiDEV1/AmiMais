@@ -80,11 +80,14 @@ body {
     font-size: 28px;
     margin-right: 18.8em;
     color: var(--Laranja);
+    display: flex;
+    align-items: center;
 }
 
 #SobreNos .titleIcon2 img {
     width: 38px;
-    padding-right: 2px;
+    padding-right: 4px;
+    
 }
 
 #SobreNos .conteudo1 { 

@@ -11,7 +11,7 @@ background-size: cover;
 background-position: center 29%;
 width: 100%;
 height: 420px;
-transition: 0.5s;
+transition: all 0.5s;
 }
 
 /* Menu do carrosel*/
@@ -34,8 +34,12 @@ transition: 0.5s;
     justify-content: space-evenly;
     padding-bottom: 19px;
     cursor: pointer;
+    padding-bottom: 5px;
 }
 
+#Home #title1 {
+    border-bottom: 5.5px solid #000;
+}
 /* Formatação dos icons do menu interativo */
 #Home .iconsMenu  {
     width: 100%;

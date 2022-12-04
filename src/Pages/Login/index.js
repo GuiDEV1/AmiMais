@@ -22,7 +22,7 @@ export function Login() {
 
                <h1 className="text-login">Log<strong className="scd">in</strong></h1>
 
-               <form method="post">
+               <form method="post" action="">
 
                   <div >
 

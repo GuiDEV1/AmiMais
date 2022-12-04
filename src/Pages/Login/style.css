@@ -16,8 +16,8 @@
 /* FORMULARIO */
 
 #Login .formulario {
-    margin: 38px 0px 22px 0px;
-    border: 1.3px solid transparent;
+    margin: 47px 0px 48px 0px;
+    border: 1.5px solid transparent;
     background-image: linear-gradient(white, white), radial-gradient(circle at top, var(--turquesa), var(--Laranja) );
     background-clip: content-box, border-box;
     width: 500px;
@@ -64,8 +64,12 @@
     font-weight: 400;
     line-height: 20px;
     color: #8D8C8C;
-    cursor: pointer;
     gap: 16px;
+}
+
+#Login .zona-select-senha a {
+    text-decoration: none;
+    color: #9D72F9;
 }
 
 #Login #buttom-entrar input {
@@ -82,6 +86,13 @@
     border-right: 1.3px solid var(--Laranja);
     border-radius: 9px;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+#Login #buttom-entrar input:hover {
+    background: var(--Laranja);
+    color: var(--backgroundMain);
+    border: 2.6px solid var(--turquesa);
 }
 
 /* FORMULARIO */

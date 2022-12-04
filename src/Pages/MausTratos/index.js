@@ -5,6 +5,7 @@ import mausTratos2 from "./Imagens/MausTratos2.png";
 import { Rodape } from "../../ComponentesConstantes/Rodape";
 import Girl from "./Imagens/HappyGirl.png";
 import back from "./icons/back.png";
+import { Link } from 'react-router-dom';
 
 export function MausTratos () {
    
@@ -14,7 +15,7 @@ export function MausTratos () {
    <div id="MausTratos">
    
     <div id="headerM">
-      <img src={back} /> 
+     <Link to="/Reportar"><img src={back} /></Link>
       <h1>Maus <strong className="scd">Tratos</strong></h1>
      </div>  
       <div id="headerimg">
@@ -47,7 +48,7 @@ export function MausTratos () {
                    Pena – detenção, de três meses a um ano, e multa.
                 </p>   
               </div>
-              <button>Denunciar</button>
+              <a href="https://www.webdenuncia.org.br/depa"><button>Denunciar</button></a>
           </div>
        </div>
   </div> 

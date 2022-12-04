@@ -12,7 +12,7 @@ import Draw1 from "./Imagens/draw1.png";
 import Draw2 from "./Imagens/draw2.png";
 import { Interface } from '../../ComponentesConstantes/Interface';
 import { Rodape } from '../../ComponentesConstantes/Rodape';
-//import traco from "./Icons/tracoMenu.png";
+import { Link } from 'react-router-dom';
 
 
 
@@ -31,15 +31,15 @@ export function Home () {
          </div>
 
           <div className='tiltleMenu'>
-              <h3>Resgate <br /> um animal</h3>
-              <h3 onClick={TrasitionAdocao}>Buscar por <br /> adoções</h3>
-              <h3>Solicitar um <br /> resgatador</h3>  
+              <h3 id="title1" onClick={TrasitionAdocao}>Resgate <br /> um animal</h3>
+              <h3 id="title2" onClick={TrasitionAdocao2}>Buscar por <br /> adoções</h3>
+              <h3 id="title3" onClick={TrasitionAdocao3}>Solicitar um <br /> resgatador</h3>  
           </div>  
               <hr />
               <h1 id='titleICons'>Faça a diferença</h1>
-              <span>Salvando a vida de um animalzinho</span> <br />
+              <span id="titleSpan">Salvando a vida de um animalzinho</span> <br />
               
-              <button id='buttonMenuHome'>Cadastre-se</button>
+            <Link to="/Cadastrar"><button id='buttonMenuHome'>Cadastre-se</button></Link> 
        </div>   
      </div>
 
@@ -190,6 +190,63 @@ window.addEventListener('scroll', debounce(function() {
 }, 14));
 
 // Função para transição do carrosel na home. 
-function TrasitionAdocao() {
-  console.log("Hellow world");
+function TrasitionAdocao2(color,menu) {
+ 
+  // Configuração da imagem na div
+ color = document.querySelector(".carroselHome");
+ color.style.backgroundImage = "url(https://cdn.discordapp.com/attachments/773372240686350356/1048788222664249444/markus-winkler-PcKhVNNyEio-unsplash.jpg)";
+ color.style.backgroundSize = "cover";
+ color.style.backgroundPosition = "center 70%";
+
+ // Marcação de link
+ menu = document.querySelector("#title2");
+ menu.style.borderBottom = "5.5px solid #000";
+
+ //para remover dos outros elementos
+ document.querySelector("#title3").style.borderBottom = "none";
+ document.querySelector("#title1").style.borderBottom = "none";
+
+// Muda o titulo do carrosel e e mini titulo.
+ document.querySelector("#titleICons").innerHTML = "veja adoções";
+ document.querySelector("#titleSpan").innerHTML = "que estão proximas de você";
+}
+
+function TrasitionAdocao3 (color,menu) {
+   // Troca a imagem de fundo da div
+  color = document.querySelector(".carroselHome");
+  color.style.backgroundImage = "url(https://cdn.discordapp.com/attachments/773372240686350356/1048808288038420592/menuHome3.jpg)";
+  color.style.backgroundSize = "cover";
+  color.style.backgroundPosition = "center 53%";
+ 
+  // Marcação de link
+  menu = document.querySelector("#title3");
+  menu.style.borderBottom = "5.5px solid #000";
+
+  //para remover dos outros elementos
+  document.querySelector("#title2").style.borderBottom = "none";
+  document.querySelector("#title1").style.borderBottom = "none";
+
+ // Muda o titulo do carrosel e e mini titulo.
+ document.querySelector("#titleICons").innerHTML = "Solcite um ";
+ document.querySelector("#titleSpan").innerHTML = "Resgatador para ajudalo";
+}
+
+function TrasitionAdocao (color,menu) {
+  // Troca a imagem de fundo da div
+  color = document.querySelector(".carroselHome");
+  color.style.backgroundImage = "url(https://cdn.discordapp.com/attachments/773372240686350356/1048793614542708776/dogHome.jpg)";
+  color.style.backgroundSize = "cover";
+  color.style.backgroundPosition = "center 29%";
+ 
+  // Marcação de link
+  menu = document.querySelector("#title1");
+  menu.style.borderBottom = "5.5px solid #000";
+
+  //para remover dos outros elementos
+  document.querySelector("#title2").style.borderBottom = "none";
+  document.querySelector("#title3").style.borderBottom = "none";
+
+// Muda o titulo do carrosel e e mini titulo.
+document.querySelector("#titleICons").innerHTML = "Faça a diferença";
+document.querySelector("#titleSpan").innerHTML = "Salvando a vida de um animalzinho";
 }
