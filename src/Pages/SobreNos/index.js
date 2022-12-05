@@ -20,7 +20,7 @@ export function Sobrenos () {
          <h2> <img src={Bag} />Quem <strong className="scd">somos</strong></h2>
       </div>
 
-      <div className="conteudo">
+      <div id="quemsomos" className="conteudo">
          <p>
          Somos a AmiMais uma plataforma web fundada por estudantes  do instituto 
          Proa em 2022 que teve como inspiração o resgate e proteção de animais,  

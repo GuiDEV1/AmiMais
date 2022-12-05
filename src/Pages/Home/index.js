@@ -115,9 +115,9 @@ export function Home () {
      </div>
 
   <div  data-anime="left" id="buttonVermais">
-     <button>Ver mais</button>
-     <button>Ver mais</button>
-     <button>Ver mais</button>
+    <Link to="/SobreNos/"><button>Ver mais</button></Link>
+    <Link to="/SobreNos/"><button>Ver mais</button></Link>
+    <Link to="/SobreNos/"><button>Ver mais</button></Link>
   </div> 
 
   <div  data-anime="right" id="Slogan">
