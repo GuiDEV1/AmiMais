@@ -20,7 +20,7 @@ export function Interface() {
                 <Link to="/" >Inicio</Link>
                 <Link to="/Sobrenos" >Sobre nós </Link>
                 <Link to="/Resgate" >Resgate </Link>
-                <Link to="/SolicitarResgatador" >Curiosidades </Link>
+                <Link to="/Curiosidades" >Curiosidades </Link>
                 <Link to="/Reportar" >Reportar </Link>
                 <LoginRegister />
               </div>
