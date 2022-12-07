@@ -4,7 +4,6 @@ import { IoMdNotificationsOutline } from 'react-icons/io'
 import { BsChatLeftDots, BsGear } from 'react-icons/bs'
 import { FiSearch } from 'react-icons/fi'
 import { SlLocationPin } from 'react-icons/sl'
-
 import { FooterMin } from '../FooterMin';
 import { Link } from 'react-router-dom';
 

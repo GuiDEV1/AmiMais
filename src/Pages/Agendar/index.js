@@ -7,7 +7,9 @@ import sectionPet2 from "./Imagens/sectionPet2.png";
 import sectionPet3 from "./Imagens/sectionPet3.png";
 import { Rodape } from "../../ComponentesConstantes/Rodape";
 import dogFooter from "./Imagens/footerAgendar (1).png";
-
+import iconConfirm from "./Imagens/iconConfirm.png";
+import logoAmiMais from "./Imagens/LogoAmiMais.png";
+import { Link } from "react-router-dom";
 export function Agendar () {
    
    return (
@@ -118,8 +120,9 @@ export function Agendar () {
         <input type={"radio"} id="P5naosei" name="agendamentoPerguntas5" value={"naosei"}/> Não sei <br/> <br/>
 
       </div>  
+      <div id="overlayS"></div>
       <div id="submitAgendar">
-           <input type={"submit"} value="Agendar"/>
+           <button onClick={OverlayReturn}>Agendar</button>
         </div>
       </div>
        
@@ -172,3 +175,40 @@ function selectTypePet3 () {
   document.querySelector("#dog1").style.filter = "brightness(70%)";
 
 }
+
+
+
+// const OverlayReturn = () => {
+
+//   document.querySelector("#overlayS").innerHTML = <OverlayReturn/>
+//   return (
+//    <>
+//    <div id="AgendarOverlay">
+//     <div className="headerOverlay">
+//       <h2>
+//         Agendamento <br/>
+//        <strong className="scd">Concluído</strong>
+//       </h2>
+//        <img src={iconConfirm} alt="icon-de-verificação"/> 
+//     </div>
+
+//     <div className="overlayBody">
+//       <p>
+//         Em breve retornaremos 
+//         contato por email, sobre
+//         sua solicitação de agendamento.
+//       </p>
+//       <img src={logoAmiMais} alt="Logo do amimais"/>
+//     </div>
+//     <div className="buttonConfirm">
+//      <Link to="/Resgate"><button>Concluir</button></Link>
+//     </div>
+//    </div>
+//   </>
+//   )
+// }
+
+function  OverlayReturn () {
+  document.querySelector("#overlayS").innerHTML = "<div id='AgendarOverlay'><div class='headerOverlay'><h2> Agendamento <br/> <strong class='scd'>Concluído</strong></h2> <img src= 'https://cdn.discordapp.com/attachments/773372240686350356/1050162544561627239/iconConfirm.png' alt='icon-de-verificação'/> </div><div class='overlayBody'> <p>  Em breve retornaremos   contato por email, sobre sua solicitação de agendamento. </p>  <img src='https://cdn.discordapp.com/attachments/773372240686350356/1050162544263823410/LogoAmiMais.png' alt='Logo do amimais'/></div> <div class='buttonConfirm'> <Link to='/Resgate'><button>Concluir</button></Link> </div> </div>";
+}
+ 

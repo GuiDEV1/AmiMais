@@ -24,6 +24,7 @@ import { Agendar } from "./Pages/Agendar";
 import { Cadastrar } from "./Pages/Cadastrar";
 import { Login } from "./Pages/Login";
 import Curiosidades from "./Pages/Curiosidades";
+import { DoacaoOption } from "./Pages/VerAdocoes/Doações";
 var asd = "Resgatador";
 
 function App() {
@@ -55,6 +56,8 @@ function App() {
           <Route path="Rescue11" element={<Rescue11 />} />
           <Route path="Chat" element={<Chat />} />
           <Route path="Notifications" element={<Notifications />} />
+          {/* Declaraçãod e rotas das abas de doações */}
+          <Route path="DoacaoOption" element={<DoacaoOption />} />
         </Routes>
       </Router>
       <body>

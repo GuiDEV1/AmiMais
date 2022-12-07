@@ -71,3 +71,7 @@
 } #Footer .footer_copyright p{
     color: rgb(255, 241, 214);
 }
+
+#Footer a {
+    text-decoration: none;
+}

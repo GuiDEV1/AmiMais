@@ -14,9 +14,25 @@
   border: none;
  }
 
+ /* Fundo padrão da plataforma mais propiedade para evitar rolagem lateral. */
  body {
    background-color: var(--backgroundMain);
+   overflow-x: hidden;
  }
+
+ ::-webkit-scrollbar {
+   width: 10px;
+   background: var(--branco);
+   border: 1px solid var(--backgroundMain);
+ }
+
+ ::-webkit-scrollbar-thumb {
+    background-color: var(--azulClaro);
+    border-radius: 50px;
+    border: 2px solid var(--branco);
+ }
+
+ 
 
 
  /* Paleta de cores */

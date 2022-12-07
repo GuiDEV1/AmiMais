@@ -154,9 +154,9 @@
     width: 40%;
 } 
 
-#Agendar form #FooterForms #formsPai #submitAgendar input {
+#Agendar form #FooterForms #formsPai #submitAgendar button {
     background: var(--Laranja);
-    border-radius: 9px;
+    border-radius: 12px;
     color: var(--backgroundMain);
     width: 120px;
     height: 55px;
@@ -166,3 +166,81 @@
     cursor: pointer;
     font-weight: 700;
 }
+
+/* #Agendar form #FooterForms #formsPai #submitAgendar {
+    border: 1px solid blue;
+} */
+
+/* ---------------------------------- overlayReturn------------- */
+
+#AgendarOverlay {
+    border: 1.8px solid #000;
+    margin: auto;
+    width: 485px;
+    height: 320px;
+    background: var(--backgroundMain);
+}
+
+#AgendarOverlay .headerOverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+#AgendarOverlay .headerOverlay h2 {
+    color: var(--Laranja);
+    font-size: 32px;
+}
+
+#AgendarOverlay .headerOverlay img {
+    width: 46px;
+    height: 45px;
+    margin-left: 14px;
+}
+
+#AgendarOverlay .overlayBody {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#AgendarOverlay .overlayBody img {
+    width: 72px;
+    height: 90px;
+}
+
+#AgendarOverlay .overlayBody p {
+  width: 210px;
+  margin-top: 26px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#AgendarOverlay .buttonConfirm {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#AgendarOverlay .buttonConfirm button {
+    background: var(--Laranja);
+    color: var(--backgroundMain);
+    width: 120px;
+    height: 50px;
+    font-size: 21px;
+    font-weight: 700;
+    border-radius: 12px;
+    margin-right: 28px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+#Agendar #overlayS {
+    z-index: 6;
+    margin: auto;
+}
+
+#AgendarOverlay .scd {
+    color: var(--turquesa);
+}
+

@@ -2,6 +2,7 @@ import PetLove_icon from './images/Vector.svg';
 import linkedin from './images/Linkedin.png';
 import instagram from './images/instagram.png';
 import gitHub from './images/GitHub.png';
+import { Link } from 'react-router-dom';
 
 import './style.css'
 export function Rodape() {
@@ -13,23 +14,23 @@ export function Rodape() {
                         <img id="PETLOGO" src={PetLove_icon} alt="AmiMais Logo" />
                         <div>
                             <span>Inicio</span>
-                            <p>Cadastra-se</p>
-                            <p>Login</p>
-                            <p>Adoções</p>
-                            <p>Solicitar resgatador</p>
+                          <Link to="/Cadastrar"><p>Cadastra-se</p></Link>
+                          <Link to="/Login"><p>Login</p></Link>
+                          <Link to="/Resgate"><p>Adoções</p></Link>
+                          <Link to="/Rescue1"><p>Solicitar resgatador</p></Link>
                         </div>
                         <div>
                             <span>Sobre nós</span>
-                            <p>Quem somos</p>
+                            <Link to="SobreNos"><p>Quem somos</p></Link>
                             <p>Empresas</p>
                             <p>Parceiros</p>
                         </div>
                         <FooterContact set_contact="contact_large" />
                     </div>
                     <div className="social_rede">
-                        <img className="social_rede" src={linkedin} alt="Linkedin" />
-                        <img className="social_rede" src={instagram} alt="instagram" />
-                        <img className="social_rede" src={gitHub} alt="gitHub" />
+                      <a href='https://linktr.ee/amimais'><img className="social_rede" src={linkedin} alt="Linkedin" /></a> 
+                      <a href='https://www.instagram.com/amimais_oficial/'><img className="social_rede" src={instagram} alt="instagram" /></a>
+                       <a href='https://github.com/AmiMais'><img className="social_rede" src={gitHub} alt="gitHub" /></a>
                     </div>
                 </div>
                 <div className="footer contact_responsive">
