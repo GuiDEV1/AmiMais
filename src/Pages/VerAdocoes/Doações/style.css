@@ -1,0 +1,105 @@
+
+#Doacao #DoacaoOverlay {
+    border: 1px solid #000;
+    width: 520px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#Doacao #DoacaoOverlay img {
+    margin-top: 9px;
+    margin-left: 4px;
+    width: 100px;
+    height: 80px;
+}
+
+#Doacao #DonateHeader label {
+ font-size: 21px;
+ color: var(--Laranja);
+ font-weight: 700;
+}
+
+#Doacao .scd {
+    color: var(--turquesa);
+}
+#Doacao #DonateHeader {
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ height: 100px;
+}
+
+#Doacao #DonateHeader input {
+    border: 1px solid #000;
+    width: 215px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 6px;
+    font-size: 19px;
+    color: #2c2c2c;
+}
+
+#Doacao #DonateHeader img {
+    margin-bottom: 8px;
+    width: 170px;
+    height: 130px;
+}
+
+#Doacao #areaDePagemnto label {
+    margin-top: 8px;
+    color: var(--Laranja);
+    font-size: 21px;
+    margin-left: 42px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+#Doacao #areaDePagemnto span {
+ margin-left: 42px;
+ margin-top: 4px;
+ font-family: 700;
+}
+
+#Doacao #areaDePagemnto #pagamentoMain {
+    display: flex;
+    flex-direction: column;   
+}
+
+#Doacao #areaDePagemnto #pagamentoMain #OpcoesDePagamento, #OpcoesDePagamento2 {
+    margin-left: 39px;
+    margin-top: 5px;
+}
+
+#Doacao #areaDePagemnto #pagamentoMain #OpcoesDePagamento {
+    display: flex;
+    align-items: center;
+}
+
+#Doacao #areaDePagemnto #pagamentoMain #OpcoesDePagamento span {
+    font-weight: 700;
+    font-size: 16px; 
+}
+
+#Doacao #areaDePagemnto #pagamentoMain img {
+ width: 75px;
+ height: 40px;
+ cursor: pointer;
+}
+
+#Doacao #areaDePagemnto #pagamentoMain #boletoM  {
+    border: 1px solid #000;
+}
+
+#Doacao #DoacaoOverlay .buttonDoar {
+    background: var(--Laranja);
+    color: var(--branco);
+    border-radius: 10px;
+    width: 86px;
+    height: 46px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 400px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}   

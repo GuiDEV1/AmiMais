@@ -35,7 +35,7 @@ export function Home () {
               <h3 id="title2" onClick={TrasitionAdocao2}>Buscar por <br /> adoções</h3>
               <h3 id="title3" onClick={TrasitionAdocao3}>Solicitar um <br /> resgatador</h3>  
           </div>  
-              <hr />
+           <hr/>
               <h1 id='titleICons'>Faça a diferença</h1>
               <span id="titleSpan">Salvando a vida de um animalzinho</span> <br />
               
