@@ -1,27 +1,47 @@
 
-#Doacao #DoacaoOverlay {
-    border: 1px solid #000;
+/*
+ ID Doacao foi criado para não da conflito nas outras páginas
+ o id Doacao ira ter variações devido os outros componentes 
+ */
+
+ /* Id para passar os parametros pai do elemento  */
+ #Doacao #DoacaoOverlay {
+    border: 1px solid var(--preto);
     width: 520px;
     height: 400px;
     margin: 20px auto;
 }
 
-#Doacao #DoacaoOverlay img {
+#Doacao #DoacaoOverlay #headerD {
+    display: flex;
+    align-items: center;
+}
+
+#Doacao #DoacaoOverlay #headerD h3 {
+    color: var(--Laranja);
+}
+
+/* Formatação da logo da aba donate  */
+#Doacao #DoacaoOverlay #headerD img {
     margin-top: 9px;
     margin-left: 4px;
     width: 100px;
     height: 80px;
 }
 
+/* Foramtação da label do header  */
 #Doacao #DonateHeader label {
  font-size: 21px;
  color: var(--Laranja);
  font-weight: 700;
 }
 
-#Doacao .scd {
+/* Cor da página  */
+#Doacao,#Doacao2 .scd {
     color: var(--turquesa);
 }
+
+/* Div pai do comportamento do header */
 #Doacao #DonateHeader {
  display: flex;
  align-items: center;
@@ -29,23 +49,26 @@
  height: 100px;
 }
 
+/* Foramatação do input do header */
 #Doacao #DonateHeader input {
-    border: 1px solid #000;
+    border: 1px solid var(--preto);
     width: 215px;
     height: 30px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 6px;
     margin-top: 6px;
     font-size: 19px;
     color: #2c2c2c;
 }
 
+/* Formatação da imagem do header */
 #Doacao #DonateHeader img {
     margin-bottom: 8px;
     width: 170px;
     height: 130px;
 }
 
+/* Formatação do titulo do body */
 #Doacao #areaDePagemnto label {
     margin-top: 8px;
     color: var(--Laranja);
@@ -55,42 +78,51 @@
     padding-bottom: 8px;
 }
 
+/* Formatação do mini titulo do body */
 #Doacao #areaDePagemnto span {
  margin-left: 42px;
  margin-top: 4px;
  font-family: 700;
+ color: var(--preto);
 }
 
+/* Div pai da area de pagamento */
 #Doacao #areaDePagemnto #pagamentoMain {
     display: flex;
     flex-direction: column;   
 }
 
+/* Posicionamento dos elementos */
 #Doacao #areaDePagemnto #pagamentoMain #OpcoesDePagamento, #OpcoesDePagamento2 {
     margin-left: 39px;
     margin-top: 5px;
 }
+
 
 #Doacao #areaDePagemnto #pagamentoMain #OpcoesDePagamento {
     display: flex;
     align-items: center;
 }
 
+/* Mini titulo da area de pagamento */
 #Doacao #areaDePagemnto #pagamentoMain #OpcoesDePagamento span {
     font-weight: 700;
     font-size: 16px; 
 }
 
+/* Formatação das imagens da area pagamento */
 #Doacao #areaDePagemnto #pagamentoMain img {
  width: 75px;
  height: 40px;
  cursor: pointer;
 }
 
+/* Estilização da imagem boleto */
 #Doacao #areaDePagemnto #pagamentoMain #boletoM  {
     border: 1px solid #000;
 }
 
+/* Botão da aba doacao submit */
 #Doacao #DoacaoOverlay .buttonDoar {
     background: var(--Laranja);
     color: var(--branco);
@@ -103,3 +135,162 @@
     margin-bottom: 6px;
     cursor: pointer;
 }   
+
+/* *********  Donate parte 2 */
+
+#Doacao2 #DoacaoOverlay {
+    border: 1px solid #000;
+    width: 520px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#Doacao2 #DoacaoOverlay #headerD {
+    display: flex;
+    align-items: center;
+}
+
+#Doacao2 #DoacaoOverlay #headerD h3 {
+    color: var(--Laranja);
+}
+
+#Doacao2 #DoacaoOverlay #headerD img {
+    margin-top: 9px;
+    margin-left: 4px;
+    width: 100px;
+    height: 80px;
+    display: flex;
+}
+
+#Doacao2 #forms1 {
+    margin: auto;
+    width: 87%;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Doacao2 #forms1 img {
+    width: 180px;
+    height: 140px;
+}
+
+#Doacao2 #forms1 label {
+   color: var(--Laranja); 
+   font-weight: 700;
+   font-size: 18px;
+}
+
+#Doacao2 #forms1 input {
+    width: 215px;
+    height: 32px;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #000;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 22px;
+}
+
+/* elemento pai */
+
+#Doacao2 #forms2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Doacao2 #forms2 #formsFilho2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+#Doacao2 #forms2 #formsFilho2 label {
+    color: var(--Laranja);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#Doacao2 #forms2 #formsFilho2 input {
+    border: 1px solid var(--preto);
+    font-size: 17px;
+    width: 145.5px;
+    height: 32px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+#Doacao2 #tpcartao label { 
+    color: var(--Laranja);
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+#Doacao2 #tpcartao select {
+    margin-top: 6px;
+    width: 107px;
+    color: #212121;
+}
+
+#Doacao2 button {
+    background: var(--Laranja);
+    color: var(--branco);
+    border-radius: 10px;
+    width: 86px;
+    height: 46px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 404px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+/************** doacao3 *************/
+
+#Doacao3 #DoacaoOverlay {
+    border: 1px solid #000;
+    width: 520px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#Doacao3 #DoacaoOverlay #headerDonate {
+    display: flex;
+    align-items: center;
+}
+
+#Doacao3 #DoacaoOverlay #headerDonate img {
+    margin-top: 9px;
+    margin-left: 4px;
+    width: 100px;
+    height: 80px;
+}
+
+#Doacao3 #DoacaoOverlay #headerDonate h3 {
+    color: var(--Laranja);
+}
+
+#Doacao3 #pixpai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Doacao3 #pixpai .draw img {
+    width: 180px;
+    height: 140px;
+}
+
+#Doacao3 #pixpai .areaPix #logopix {
+    width: 204px;
+    height: 90px;
+}
+
+#Doacao3 #pixpai .areaPix #qrcode {
+    width: 180px;
+    height: 160px;
+}
