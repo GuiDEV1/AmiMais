@@ -11,7 +11,9 @@ import elo from "./imagens/Elo.png";
 import compartilhar from "./imagens/compartilharIcon.png";
 import LogoPix from "./imagens/logopix.png";
 import qrCode from "./imagens/qrCode.png";
-
+import copiar from "./imagens/iconCopiar.png";
+import Logoboleto from "./imagens/LogoBoleto.png";
+import boleto from "./imagens/BoletoDonate.png";
 
 
 export function DoacaoOption () {
@@ -22,10 +24,12 @@ export function DoacaoOption () {
  <DoacaoValor />
  <DoacaoCartao />
  <DoacaoPix />
+ <DoacaoBoleto />
+ <DoacaoBoleto2 />
+ <DoacaoPagamentoEfetuado />
  </>
   )
 }
-
 
 const DoacaoValor = () => {
   return(
@@ -141,23 +145,111 @@ const DoacaoPix = () => {
           <h3>Doa<strong className="scd">ção:</strong></h3>
         </div>
 
-        <div id="pixpai">
-          <div>
-            <img src={compartilhar} alt="icon compartilhar"/>
-          </div>
+        <div id="pixPai">
+           <img id="compartilhar" src={compartilhar} alt="Icone de compartilhamento"/>
 
-          <div className="areaPix">
-            <img id="logopix" src={LogoPix}/>
-            <img id="qrcode" src={qrCode}/>
-            <div>Conteudo</div>
-          </div>
+           <div className="areaPix">
+              <img id="LogoPix" src={LogoPix}/>
+              <img src={qrCode} alt="qrCodePix"/>
+              <div className="chavePix">
+                <div>
+                  <h4>Chave pix</h4>
+                  <span>0000000-00</span>
+                </div>
 
-          <div className="draw">
-            <img src={donatedraw}/>
-          </div>
+                <img src={copiar} alt="iconDeCopiar"/>
+              </div>
+           </div>
+
+           <img id="donateDraw" src={donatedraw} alt="DonateDraw"/>
         </div>
+       
+        <button>Doar</button>
       </div>
     </div>
   </>
  )
+}
+
+const DoacaoBoleto = () => {
+  return (
+    <>
+      <div id="Doacao4">
+        <div id="DoacaoOverlay">
+          <div id="headerDonate">
+            <img src={donate} alt="logo-d0-donate"/>
+            <h3>Doa<strong className="scd">ção:</strong></h3> 
+          <div id="LogoBoleto">
+           <img src={Logoboleto} alt="icone-Boleto"/>
+          </div>
+          </div>
+
+          <div id="boletoPai">
+            <div className="forms">
+                <label>Nome <strong className="scd">completo:</strong></label> <br/>
+                <input type={"text"} name="nameUser" id="nmuser" required placeholder="Seu nome:"/> <br/>
+
+                <label>CP<strong className="scd">F:</strong></label> <br/>
+                <input type={"number"} name="cpfUser" id="cpfuser" required placeholder="Seu cpf:"/> <br/>
+
+                <label>Em<strong className="scd">ail</strong></label> <br/>
+                <input type={"email"} name="emailuser" id="emailuser" required placeholder="Seu endereço de email"/> <br/>
+            </div>
+
+            <div>
+               <img src={donatedraw} alt="draw-ilustration"/>
+            </div>
+          </div>
+
+            <div className="submit">
+             <button>Avançar</button>
+            </div> 
+        </div>
+      </div>
+    </>
+  )
+}
+
+const DoacaoBoleto2 = () => {
+  return(
+    <>
+      <div id="Doacao5">
+       <div id="DoacaoOverlay">
+        <div id="headerDonate">
+              <img src={donate} alt="logo-d0-donate"/>
+              <h3>Solicitação <strong className="scd">efetuada</strong></h3> 
+        </div>     
+
+          <div className="titleBoleto">
+             <img id="logoBoleto" src={Logoboleto} alt="logo da logo do boleto"/>
+             <img id="ilustration" src={donatedraw} alt="ilustrtionDraw"/>
+          </div>    
+
+          <div className="bodyBoleto">
+             <img src={boleto} alt="BoletoPagamento"/>
+          </div>
+
+         
+          <div className="submit">
+             <button>Concluir</button>
+            </div> 
+       </div>  
+      </div>
+    </>
+  )
+}
+
+const DoacaoPagamentoEfetuado = () => {
+  return (
+    <>
+      <div id="Doacao6">
+        <div id="DoacaoOverlay">
+          <div id="headerDonate">
+             <img id="logoDonate" src={donate} alt="Logo donate"/>
+             <img id="ilustrationdraw" src={donatedraw} alt="ilustratoDraw"/>
+          </div>
+        </div>
+      </div>
+    </>
+  )
 }

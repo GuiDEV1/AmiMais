@@ -274,23 +274,260 @@
     color: var(--Laranja);
 }
 
-#Doacao3 #pixpai {
+/***** body option  Pix *****/
+
+#Doacao3 #DoacaoOverlay #pixPai {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 6px;
+    width: 95%;
+    margin-left: 25px;
 }
 
-#Doacao3 #pixpai .draw img {
-    width: 180px;
+#Doacao3 #DoacaoOverlay #pixPai #compartilhar {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#Doacao3 #DoacaoOverlay #pixPai .areaPix {
+    display: flex;
+    flex-direction: column;
+}
+
+#Doacao3 #DoacaoOverlay #pixPai .areaPix img {
+    width: 155px;
+    height: 152px;  
+}
+
+#Doacao3 #DoacaoOverlay #pixPai .areaPix #LogoPix  {
+    width: 140px;
+    height: 52px; 
+}
+
+#Doacao3 #DoacaoOverlay #pixPai #donateDraw {
+    width: 135px;
+    height: 120px;
+}
+
+#Doacao3 #DoacaoOverlay #pixPai .chavePix {
+    margin-top: 4px;
+    background: #00BDAE;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 13px;
+}
+
+#Doacao3 #DoacaoOverlay #pixPai .chavePix img {
+    margin-top: 4px;
+    width: 25px;
+    height: 30px;
+    margin-left: 23px;
+}
+
+#Doacao3 #DoacaoOverlay #pixPai .chavePix h4,span {
+    color: var(--branco);
+    padding-top: 2px;
+}
+
+#Doacao3 #DoacaoOverlay button {
+    background: var(--Laranja);
+    color: var(--branco);
+    border-radius: 10px;
+    width: 86px;
+    height: 46px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 404px;
+    cursor: pointer;
+}
+
+
+/****** Doacao4 ***********************/
+
+#Doacao4 #DoacaoOverlay {
+    border: 1px solid #000;
+    width: 520px;
+    height: 400px;
+    margin: 20px auto;  
+}
+
+#Doacao4 .scd {
+    color: var(--turquesa);
+}
+
+#Doacao4 #DoacaoOverlay #headerDonate {
+  display: flex;
+  align-items: center;
+
+}
+
+#Doacao4 #DoacaoOverlay #headerDonate img {
+    margin-top: 9px;
+    margin-left: 4px;
+    width: 100px;
+    height: 80px;
+}
+
+#Doacao4 #DoacaoOverlay #headerDonate h3 {
+    color: var(--Laranja);
+}
+
+#Doacao4 #DoacaoOverlay #LogoBoleto {
+ display: flex;
+ margin-left: 31px;
+}
+
+#Doacao4 #DoacaoOverlay #LogoBoleto img {
+    width: 140px;
+    height: 60px;
+}
+
+#Doacao4 #DoacaoOverlay #boletoPai {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Doacao4 #DoacaoOverlay #boletoPai img{
+    width: 175px;
     height: 140px;
 }
 
-#Doacao3 #pixpai .areaPix #logopix {
-    width: 204px;
-    height: 90px;
+#Doacao4 #DoacaoOverlay #boletoPai label {
+    color: var(--Laranja);
+    font-weight: 700;
+    font-size: 18px;
 }
 
-#Doacao3 #pixpai .areaPix #qrcode {
-    width: 180px;
-    height: 160px;
+#Doacao4 #DoacaoOverlay #boletoPai input {
+    margin-bottom: 25px;
+    width: 220px;
+    height: 30px;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid var(--preto);
+    font-size: 16px;
 }
+
+#Doacao4 #DoacaoOverlay .submit {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+}
+
+#Doacao4 #DoacaoOverlay .submit button {
+background: var(--Laranja);
+color: var(--branco);
+border-radius: 10px;
+width: 86px;
+height: 46px;
+font-size: 16px;
+font-weight: 700;
+cursor: pointer;
+}
+
+/********** Doacao5 **********/
+
+#Doacao5 #DoacaoOverlay {
+    border: 1px solid var(--preto);
+    width: 520px;
+    height: 400px;
+    margin: 20px auto;  
+}
+
+#Doacao5 #DoacaoOverlay #headerDonate {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  #Doacao5 #DoacaoOverlay #headerDonate img {
+      margin-top: 9px;
+      margin-left: 4px;
+      width: 100px;
+      height: 80px;
+  }
+  
+  #Doacao5 #DoacaoOverlay #headerDonate h3 {
+      color: var(--Laranja);
+  }
+
+  #Doacao5 #DoacaoOverlay .titleBoleto {
+    margin-left: 129px;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6px;
+  }
+
+#Doacao5 #DoacaoOverlay .titleBoleto #logoBoleto {
+    width: 120px;
+    height: 55px;
+    margin-left: 27px;
+}
+
+#Doacao5 #DoacaoOverlay .titleBoleto #ilustration {
+    width: 116px;
+    height: 84px;
+}
+
+#Doacao5 #DoacaoOverlay .bodyBoleto img {
+    display: flex;
+    margin: auto;
+    width: 215px;
+    height: 165px;
+}
+
+#Doacao5 #DoacaoOverlay .submit {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+}
+
+#Doacao5 #DoacaoOverlay .submit button {
+background: var(--Laranja);
+color: var(--branco);
+border-radius: 10px;
+width: 86px;
+height: 46px;
+font-size: 16px;
+font-weight: 700;
+cursor: pointer;
+}
+
+/*********** Doação6 ******************/
+
+#Doacao6 #DoacaoOverlay {
+    border: 1px solid var(--preto);
+    width: 520px;
+    height: 400px;
+    margin: 20px auto;  
+}
+
+#Doacao6 #DoacaoOverlay #headerDonate  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Doacao6 #DoacaoOverlay #headerDonate #logoDonate {
+    margin-top: 9px;
+    margin-left: 4px;
+    width: 100px;
+    height: 80px;
+}
+
+#Doacao6 #DoacaoOverlay #headerDonate #ilustrationdraw {
+  width: 100px;
+  height: 75px;
+  margin-top: 9px;
+  margin-right: 8px;
+}
+
+
+
+
+
