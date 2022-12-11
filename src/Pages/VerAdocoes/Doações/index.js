@@ -14,7 +14,17 @@ import qrCode from "./imagens/qrCode.png";
 import copiar from "./imagens/iconCopiar.png";
 import Logoboleto from "./imagens/LogoBoleto.png";
 import boleto from "./imagens/BoletoDonate.png";
-
+import iconConfirm from "./imagens/iconConfirm.png";
+import casualMan from "./imagens/CasualMan.png";
+import Compartilhar from "./imagens/Compartilhar.png";
+import IlustrationDonmate from "./imagens/IlustrationCompartilhar.png";
+import Fechar from "./imagens/fecharIcon.png";
+import blue from "./imagens/Blue.png";
+import Gmail from "./imagens/Gmail.png";
+import Messenger from "./imagens/Messenger.png";
+import Whats from "./imagens/Whats.png";
+import Direct from "./imagens/Direct.png";
+import Telegram from "./imagens/telegram.png";
 
 export function DoacaoOption () {
    
@@ -27,6 +37,7 @@ export function DoacaoOption () {
  <DoacaoBoleto />
  <DoacaoBoleto2 />
  <DoacaoPagamentoEfetuado />
+ <CompartilharDonate />
  </>
   )
 }
@@ -247,6 +258,72 @@ const DoacaoPagamentoEfetuado = () => {
           <div id="headerDonate">
              <img id="logoDonate" src={donate} alt="Logo donate"/>
              <img id="ilustrationdraw" src={donatedraw} alt="ilustratoDraw"/>
+          </div>
+          <div className="protocoloPai">
+              <div id="confirmtitle">
+                <h2>Pagamento <strong className="scd">efetuado</strong></h2>
+                 <p>Protocolo 000000xx00</p>
+                   <img id="CasualMan" src={casualMan} alt="Um homem de blusa roxa com estilo casual e a logo do amimais"/>
+              </div>
+              <img src={iconConfirm} alt="icone de confirmação"/>
+          </div>
+
+          <div className="submit">
+             <button>Concluir</button>
+            </div> 
+        </div>
+      </div>
+    </>
+  )
+}
+
+const CompartilharDonate = () => {
+  return(
+    <>
+      <div id="Doacao7">
+        <div id="DoacaoOverlay">
+          <div id="headerDonate">
+              <img id="iconDonate" src={Compartilhar}  alt="icone - de compatilhar"/>
+              <img id="ilustrtionDonate" src={IlustrationDonmate}  alt="Ilustração draw"/>
+              <img id="Fechar" src={Fechar}  alt="Icone de fechar"/>
+          </div>
+
+          <div id="compartilahemnto">
+            <h3>Compar<strong className="scd">tilhar:</strong></h3>
+          
+           <div id="redes-sociais">
+
+              <div>
+                 <img src={blue} alt="Bluetooth"/>
+                 <p>Bluetooth</p>
+              </div>
+
+              <div>
+                <img src={Gmail} alt="Gmail"/>
+                <p>Gmail</p>
+              </div>
+
+              <div>
+                <img src={Messenger} alt="Mensager"/>
+                <p>Mensseger</p>
+              </div>
+
+              <div>
+                <img src={Whats} alt="WhatsApp"/>
+                <p>WhatsApp</p>
+              </div>
+
+              <div>
+                <img src={Direct} alt="Direct"/>
+                <p>Direct</p>
+              </div>
+
+              <div>
+                <img src={Telegram} alt="Telegram"/>
+                <p>Telegram</p>
+              </div>
+
+           </div>
           </div>
         </div>
       </div>
