@@ -25,3 +25,29 @@
   z-index: 5;
 }
 
+
+.SearchRescuer {
+  position: absolute;
+  top: 10;
+  padding: 20px;
+  border: 1px solid black;
+  width: fit-content;
+  z-index: 12;
+  background: white;
+  margin-top:10px;
+  right: 0;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.SearchRescuer>* {
+  margin: auto 10px;
+  font-weight: normal;
+
+}
+
+.SearchRescuer:hover {
+  color: white;
+  background: var(--Laranja);;
+}
+

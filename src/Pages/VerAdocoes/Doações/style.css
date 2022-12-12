@@ -138,8 +138,13 @@
 
 /* *********  Donate parte 2 */
 
+
+/*
+ Segue a mesma Lógica da primeira parte,e todos que virão também,
+*/
+
 #Doacao2 #DoacaoOverlay {
-    border: 1px solid #000;
+    border: 1px solid var(--preto);
     width: 520px;
     height: 400px;
     margin: 20px auto;
@@ -252,7 +257,7 @@
 /************** doacao3 *************/
 
 #Doacao3 #DoacaoOverlay {
-    border: 1px solid #000;
+    border: 1px solid var(--preto);
     width: 520px;
     height: 400px;
     margin: 20px auto;
@@ -348,7 +353,7 @@
 /****** Doacao4 ***********************/
 
 #Doacao4 #DoacaoOverlay {
-    border: 1px solid #000;
+    border: 1px solid var(--preto);
     width: 520px;
     height: 400px;
     margin: 20px auto;  

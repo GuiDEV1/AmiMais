@@ -27,9 +27,7 @@
     position: relative;
 }
 
-
-
-.FooterMin {
+.sideBar .FooterMin {
     position: absolute;
     left: -70px;
     width: 98.9vw;
@@ -46,7 +44,7 @@
     list-style: none;
 }
 
-.sideButton{
+.sideBar .sideButton{
     margin: 30px 0px;
 }
 

@@ -9,6 +9,12 @@
     --backgroundName: #F1F1F1;
 
 }
+#Solicite span {
+    color:black;
+}
+#Solicite .favOngcursor:hover span{
+    color:var(--orangeMain);
+}
 
 /* Solicite CSS -------------------------------------------------------------*/
 #Solicite .sideBar { min-height: 722px; }
@@ -22,13 +28,17 @@
     left: 335px;
     position: absolute;
     padding-top: 50px;
-}
+    color:var(--turquoiseMain)
 
-#Solicite .perfilRescue {
-    width: fit-content;
-    height: 600px;
-    margin: 40px 10px 80px;
-    max-width: 480px;
+}
+#Solicite strong{
+    color:var(--orangeMain)
+}
+/* 
+BarSide Style
+*/
+#Solicite #searchButton a{
+    color: var(--orangeMain)
 }
 
 /* 
@@ -79,31 +89,41 @@ Carrosel Style
 }
 
 
-/* PerfilRescue const --------------------------------------
+/* PerfilContent const --------------------------------------
 MainBorder 
 */
+#Solicite .PerfilContent {
+    width: fit-content;
+    height: 600px;
+    margin: 40px 10px 80px;
+    max-width: 480px;
+}
+
 #Solicite .mainBorder {
     margin: 20px 0px 0px 0px;
     max-width: 550px;
     background: var(--backgroundMain);
 }
 
-#Solicite .mainBorder, #Solicite .PerfilHeader {
+#Solicite .mainBorder, 
+#Solicite .perfilHeader {
     border: 1px solid var(--turquoiseLight);
     border-radius: 10px;
 }
 
 /*
-MainTop Style
+PerfilTop Style
 */
-#Solicite .mainTop{
+#Solicite .perfilTop{
     transition: 1s;
     margin-top: 135px;
 }
 
-#Solicite .mainTop.show { margin-top: 50px; }
+#Solicite .perfilTop.show { 
+    margin-top: 50px; 
+}
 
-#Solicite .PerfilHeader {
+#Solicite .perfilTop .perfilHeader {
     height: 180px;
     z-index: 2;
     position: relative;
@@ -115,240 +135,278 @@ MainTop Style
 }
 
 /* 
-ButtonMoreOption Style
+PerfilBottom Style
 */
-#Solicite .buttonMoreOption {
+#Solicite .perfilBottom .buttonMoreOption {
     width: fit-content;
     margin: 0px auto 20px;
 }
 
-#Solicite .buttonMoreOption button {
+#Solicite .perfilBottom .buttonMoreOption button {
     border: var(--turquoiseMain) solid 1px;
     padding: 6px 18px 6px 18px;
     background: none;
     border-radius: 13px;
-
 }
 
-/* 
-MainBottom Style
-*/
-#Solicite .mainBottom {
+#Solicite .perfilBottom .perfilDetails {
     height: 0;
     overflow: hidden;
     transition: 1s;
 }
   
-#Solicite .mainBottom.show {
+#Solicite .perfilBottom .perfilDetails.show {
     height: 175px;
     margin-top: 0px;
 }
 
 /* 
-PerfilHeader const -------------------------------------------
+Hovers Styles
 */
-#StarICon { color: orange; }
-#StarIConOrange { color: gray;}
-
-#Solicite .PerfilHeader button, #Solicite .PerfilHeader img, #Solicite .PerfilHeader p {
-    margin: auto 10px;
-}
-
-#Solicite .headerDetails {
-    display: flex;
-    background: var(--backgroundMain);
-    padding-right: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-#Solicite .headerContainer {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-  
-#Solicite .headerContainer div {
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
-#Solicite .perfilPhoto  {
-    margin: 120px 0px 0px 20px;
-}
-
-#Solicite .perfilPhoto img {
-    width: 94px;
-    border: 3px solid var(--orangeMain);
-    position: relative;
-    border-radius: 50%;
-}
-
-#Solicite .headerName {
-    margin: 150px 0px 0px 80px;
-    background: var(--backgroundName);
-    padding-left: 10px;
-}
-
-#Solicite .headerName p {
-    font-size: 20px;
-    margin-left: 40px;
-    margin-right: -1px;
-}
-
-#Solicite .justify,
-#Solicite .headerTitle {  
-    margin-left: 60px; 
-}
-
-#Solicite .borderIcon, 
-#Solicite .headerDetails button {
-    border: 1px solid black;
-    padding: 2px 3px 1px 3px;
-    margin-top: 8px;
-    border-radius: 8px;
-}
-
-#Solicite .headerDetails button {
-    padding: 6px 18px 7px 18px;
-    background: none;
-}
-
-#Solicite .borderIcon, #Solicite .headerDetails button, #Solicite .buttonMoreOption button {
+#Solicite .perfilTop .borderIcon, 
+#Solicite .perfilTop .headerDetails button, 
+#Solicite .perfilBottom .buttonMoreOption button {
     color:  var(--turquoiseMain) ;
-
 }
 
-#Solicite .borderIcon:hover, #Solicite .headerDetails button:hover, #Solicite .buttonMoreOption button:hover {
+#Solicite .perfilTop .borderIcon:hover,
+#Solicite .perfilTop .headerDetails button:hover, 
+#Solicite .perfilBottom .buttonMoreOption button:hover {
     color: var(--orangeMain);
     cursor: pointer;
     font-style: var(--orangeMain);
     border-color: var(--orangeMain);
 }
 
-#buttonMensage p{
+#Solicite .perfilBottom .favOngcursor:hover{
+    color: var(--orangeMain);
+    cursor: pointer;
+}
+
+/* 
+perfilHeader const -------------------------------------------
+*/
+#Solicite .perfilHeader button, 
+#Solicite .perfilHeader img, 
+#Solicite .perfilHeader p {
+    margin: auto 10px;
+    
+}
+
+/* 
+headerContainer Style
+*/
+#Solicite .perfilHeader .headerContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+  
+#Solicite .perfilHeader .headerContainer div {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+/* 
+perfilPhoto Style
+*/
+#Solicite .perfilHeader .perfilPhoto  {
+    margin: 120px 0px 0px 20px;
+}
+
+#Solicite .perfilHeader .perfilPhoto img {
+    width: 94px;
+    position: relative;
+    border-radius: 50%;
+    border: 3px solid white;
+    outline: 2px solid var(--orangeMain);
+}
+
+/* 
+headerName  + headerTitle Style
+*/
+#Solicite .perfilHeader .headerName {
+    margin: 150px 0px 0px 80px;
+    background: var(--backgroundName);
+    padding-left: 10px;
+}
+
+#Solicite .perfilHeader .headerName p {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: -1px;
+}
+
+#Solicite .perfilHeader .justify,
+#Solicite .perfilHeader .headerTitle {  
+    margin-left: 60px; 
+}
+
+/* 
+headerDetails Style
+*/
+#Solicite .perfilHeader .headerDetails {
+    display: flex;
+    background: var(--backgroundMain);
+    padding-right: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#Solicite .perfilHeader .headerDetails button,
+#Solicite .perfilHeader .borderIcon {
+    border: 1px solid black;
+    padding: 2px 3px 1px 3px;
+    background: none;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+#Solicite .perfilHeader .headerDetails button {
+    padding: 6px 18px 7px 18px;
+}
+
+/* 
+ButtonStar + ButtonMensage Style
+*/
+#Solicite .perfilHeader #StarICon { color: orange; }
+#Solicite .perfilHeader #StarIConOrange {  color: gray; }
+
+#Solicite .perfilHeader #buttonMensage p{
     color:gray;
 }
 
 /*
-PerfilBody const---------------------------------------------------------
+PerfilReputation const---------------------------------------------------------
 */
-#Solicite .bodyContainer { padding: 0px 20px; }
-#Solicite .bodyComponent { margin: 20px auto; }
-
-#Solicite .bodyComponent span {
+#Solicite .PerfilReputation { 
+    padding: 0px 20px; 
+}
+#Solicite .PerfilReputation .bodyComponent { 
+    margin: 20px auto; 
+}
+#Solicite .PerfilReputation .bodyComponent span {
     margin: 0 2px;
-    font-size: 27px;
+    font-size: 24px;
 }
 
+#Solicite  .PerfilReputation .favOngcursor, 
+#Solicite  .PerfilReputation .reputationCenter{
+    width: fit-content;
+    margin: 0px auto;
+}
 /*
 PerfilFooter const---------------------------------------------------------
 */
-#Solicite .footerContainer {
+#Solicite .PerfilFooter {
     display: grid;
     grid-template-columns: 60% 40%;
 }
 
-#Solicite .footerContainer span {
+#Solicite .PerfilFooter p{
+    padding: 10px 10px 0px 0px ;
+}
+
+#Solicite .PerfilFooter span {
     margin: 4px 0px;
     font-weight: 550;
     white-space: nowrap;
 }
 
-#Solicite .footerComponent {
+#Solicite .PerfilFooter .footerIcon{
+    margin: 10px 5px 0;
+}
+
+#Solicite .PerfilFooter .right, 
+#Solicite .PerfilFooter .right span{
+    float: right;
+    white-space: nowrap;
+}
+
+#Solicite .PerfilFooter .footerComponent {
     margin: 0px 0px 0px 24px;
     word-wrap: none;
     min-height: 56px;
 }
 
-#Solicite .footerContainer div p { 
-    padding-top: 10px; 
+#Solicite .PerfilFooter .footerComponent section p {
+    min-height: 82px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
 
-#Solicite .footerComponent + .right{
+#Solicite .PerfilFooter .footerComponent + .right{
      margin: 10px 44px 10px 0px;
 }
 
-.footerComponent p{
-    padding-right: 10px
-}
-
-#Solicite .right, #Solicite .right span{
-    float: right;
-    white-space: nowrap;
-}
-
-#Solicite .footerIcon{
-    margin: 10px 5px 0;
-}
-
 /*
-Donate button  
+buttonDonate style
 */
-#Solicite .buttonDonate {
+#Solicite .PerfilFooter .buttonDonate, 
+#Solicite .PerfilFooter .buttonDonate div {
+    border-radius: 10px;
+}
+
+#Solicite .PerfilFooter .buttonDonate {
     margin: 15px 20px 0 0 ;
     padding: 1px;
     background: linear-gradient(to right, var(--turquoiseLight), var(--orangeMain));
     white-space: nowrap;
 }
 
-#Solicite .buttonDonate:hover {
-    padding: 2px;
+#Solicite .PerfilFooter .buttonDonate:hover {
     cursor: pointer;
+    padding: 2px;
+    color:var(--orangeMain);
+    background: var(--orangeMain);
+}
+#Solicite .PerfilFooter .buttonDonate:hover div p {
+    color:var(--orangeMain)
 }
 
-#Solicite .buttonDonate, #Solicite .buttonDonate div {
-    border-radius: 10px;
-}
 
-#Solicite .buttonDonate div .iIcon {
-    color: var(--orangeMain);
-    margin: auto;
-}
 
-#Solicite .buttonDonate div {
+
+#Solicite .PerfilFooter .buttonDonate div {
     padding: 9px;
     background: var(--backgroundMain);
 }
 
-#Solicite .buttonDonate div p {
+#Solicite .PerfilFooter .buttonDonate div p {
     color: var(--turquoiseMain);
     margin: 0 auto;
     padding: 0px;
 }
+#Solicite .PerfilFooter .buttonDonate div .iIcon {
+    color: var(--orangeMain);
+    margin: auto;
+}
 
 /*
-Social Media Icons 
+lookMoreButton style 
 */
-#Solicite .vermais {
+#Solicite .PerfilFooter .lookMoreButton {
+    color:#0c7070;
     border: 1px solid var(--turquoiseLight);
     margin: 15px 40px auto 0px;
     padding: 1px;
     background: var(--turquoiseLight);
     white-space: nowrap;
     border-radius: 9px;
+
 }
 
-#Solicite .vermais div p{
-    color:#0c7070;
-    margin: 0 auto;
-    padding: 2px;
-    font-weight: 600;
-}
-
-#Solicite .vermais:hover {
+#Solicite .PerfilFooter .lookMoreButton:hover {
     border: 1px solid var(--orangeMain);
     background: var(--orangeMain);
-}
-#Solicite .vermais div p:hover{
     color:white;
 }
 
-#searchButton a{
-    color: var(--orangeMain)
-}
-
-.favOngcursor:hover{
-    color: var(--orangeMain);
-    cursor: pointer;
+#Solicite .PerfilFooter .lookMoreButton div p{
+    margin: 0 auto;
+    padding: 2px;
+    font-weight: 600;
 }
 
 /*DATABASE CSS---------------------------------------------------------*/

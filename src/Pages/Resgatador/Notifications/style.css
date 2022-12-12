@@ -1,0 +1,160 @@
+
+.notiPop{
+    width: 700px;
+    padding: 10px 30px;
+    border: 1px solid var(--azulClaro);
+    border-bottom: none;
+}
+
+.lastPop{
+    border-bottom: 1px solid var(--azulClaro);
+}
+
+.notiPop .profileNoti{
+    border: 3px solid var(--Laranja);
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+}
+
+.notiPop img{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+}
+
+.notiPop section > *{
+    margin: 10px;
+
+}
+.notiPop .leftSide section{
+    margin: auto 0px;
+}
+.notiPop .leftSide p{
+    margin: 3px 10px;
+}
+
+
+
+.notiPop .rightSide{
+    margin: 10px 0px;
+}
+.notiPop .rightSide p{
+    margin: 0px 10px 0px 0px
+}
+.notifyDetails{
+    width: 350px;
+}
+
+.notBorder{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 190px;
+    font-weight: bold;
+    height: fit-content;
+    margin: auto;
+}
+.notAchiviment > *,
+.notBorder div > * {
+    color: var(--Laranja);
+    margin: auto auto auto 0px;
+}
+
+.notBorder div{
+    color: var(--Laranja);
+    margin: auto;
+}
+.notBorder div > *:not(span) {
+    margin-bottom: -4px;
+    margin-left: 10px;
+
+}
+#threeDots:hover{
+    color: var(--Laranja);
+    cursor: pointer;
+}
+#threeDots:hover{
+    color: var(--Laranja);
+    cursor: pointer;
+}
+#threeDots:hover .threeDotsPainel{
+    color: black;
+    display: block;
+}
+
+.threeDotsPainel{
+    position: relative;
+    display: none;
+}
+
+.threeDotsPainel > *{
+    position: absolute;
+    right: 0;
+    border: 1px solid rgb(219, 219, 219);
+    background: white;
+    padding: 10px;
+    top: -5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px -3px black;
+    width: 220px;
+    height: 120px;
+
+
+}
+.threeDotsPainel div section{
+    width: fit-content;
+    margin: 10px auto 10px 0px;
+}
+
+.threeDotsPainel div section >*{
+    margin: auto 10px auto auto;
+}
+
+.threeDotsPainel section:hover{
+    color: var(--Laranja);
+}
+
+
+#Notify #searchButton a{
+    color: var(--orangeMain)
+}
+
+.notifyContainer{
+    margin: 0px auto 50px;
+}
+.notifyContainer h2{
+    margin: 50px auto;
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+
+div.sticky .FooterMin{
+    display: none;
+}
+div.sticky .sideBar{
+    height: 100vh;
+}
+
+.notAchiviment >*{
+margin-left: 10px;
+}
+
+
+.notBorder:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    border-color: var(--turquesa);
+    background: var(--Laranja);
+}
+
+.notBorder:hover div >*{
+    transition: all 0.5s;
+    color:white;
+}

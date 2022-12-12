@@ -10,29 +10,29 @@
 
 }
 /* Diga não ao CSS inline */
-.RescuerJS .justify { justify-content: space-between; }
+.RescuerPerfil .justify { justify-content: space-between; }
 
 /* 
 Rescue1
 */
-.RescuerJS .flex { display: flex; } 
+.RescuerPerfil .flex { display: flex; } 
 
-.RescuerJS .container{
+.RescuerPerfil .container{
     padding: 20px;
     margin: 0px 20px 60px;
     height: 930px;
 }
-.RescuerJS .component {
+.RescuerPerfil .component {
     margin: 20px 0px 0px 0px;
     margin: 0px 20px;
 }
-.RescuerJS .component, 
-.RescuerJS .mainHeader {
+.RescuerPerfil .component, 
+.RescuerPerfil .mainHeader {
     border: 1px solid var(--turquoiseLight);
     border-radius: 10px;
 }
 
-.RescuerJS .mainHeader { /*- Banner -*/
+.RescuerPerfil .mainHeader { /*- Banner -*/
     height: 180px;
     margin-bottom: 35px;
     background-size: 100%;
@@ -40,86 +40,91 @@ Rescue1
     border-bottom-left-radius: 35px;
 }
 
-.RescuerJS .column{ margin-top: 30px; }
+.RescuerPerfil .column{ margin-top: 30px; }
 
 /* 
 Component Header
 */
-.RescuerJS .headerContainer p, 
-.RescuerJS .headerContainer img, 
-.RescuerJS .headerContainer button {
+.RescuerPerfil .headerContainer p, 
+.RescuerPerfil .headerContainer img, 
+.RescuerPerfil .headerContainer button {
     margin: auto 10px;
 }
 
-.RescuerJS .headerContainer {
+.RescuerPerfil .headerContainer {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.RescuerJS .headerContainer section{
+.RescuerPerfil .headerContainer section{
     grid-row-start: 1;
     grid-column-start: 1;
 }
 
-.RescuerJS .headerPhoto {
+.RescuerPerfil .headerPhoto {
     margin: 230px 0px 0px 20px;
 }
 
-.RescuerJS .headerPhoto img {
+.RescuerPerfil .headerPhoto img {
     width: 94px;
     border: 3px solid var(--orangeMain);
     position: relative;
     border-radius: 50%;
 }
 
-.RescuerJS .headerName {
+.RescuerPerfil .headerName {
     margin: 250px -1px 0px 110px;
     padding: 5px 10px ;
     background: var(--backgroundName);
 }
 
-.RescuerJS .headerName p {
+.RescuerPerfil .headerName p {
     font-size: 20px;
 }
 
-.RescuerJS .headerDetails {
+.RescuerPerfil .headerDetails {
     margin-left: 60px;
     background: var(--backgroundMain);
     margin-right: -1px;
     padding-top: 4px;
 }
 
-.RescuerJS .headerDetails p{
+
+#StarICon{
+    color:var(--orangeMain)
+}
+.RescuerPerfil .headerDetails p{
     padding-left: 60px;
 
 }
-.RescuerJS .interactButton:hover{
+.RescuerPerfil .interactButton:hover{
     color: var(--orangeMain);
-    border-color: var(--orangeMain);
+    border-color: var(--turquoiseMain);
     cursor: pointer;
 }
-.RescuerJS .headerDetails button, 
-.RescuerJS .profileBBorder{
+
+.RescuerPerfil .headerDetails button, 
+.RescuerPerfil .profileBBorder{
     border: 1px solid black;
     padding: 4px 3px 2px 3px;
     border-radius: 8px;
     margin: auto;
 }
-.RescuerJS .profileBBorder p{
+.RescuerPerfil .profileBBorder p{
     padding: 4px 0px 7px;
 
 }
-.RescuerJS .headerDetails button {
+.RescuerPerfil .headerDetails button {
     padding: 8px 18px 8px 18px;
     background: none;
     font-size: 17px;
 }
 
-.RescuerJS .borderIcon{
+.RescuerPerfil .borderIcon{
     padding-right: 40px;
 }
-.RescuerJS .borderIcon div,
-.RescuerJS .borderIcon button{
+.RescuerPerfil .borderIcon div,
+.RescuerPerfil .borderIcon button{
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -127,87 +132,92 @@ Component Header
 /* 
 Component Reputation
 */
-.RescuerJS .reputationContainer {
+.RescuerPerfil .reputationContainer {
     padding: 0px 20px;
 }
-
-.RescuerJS .reputationContainer div {
+.RescuerPerfil .reputationContainer div {
     margin: 20px auto;
 }
-
-.RescuerJS .reputationContainer span {
+.RescuerPerfil .reputationContainer span {
     margin: 0 2px;
-    font-size: 27px;
+    font-size: 24px;
+}
+
+.RescuerPerfil .reputationContainer div .interactButton,
+.RescuerPerfil .reputationContainer .reputationCenter{
+    width: fit-content;
+    margin: 0px auto;
 }
 
 /* 
 Component Body
 */
-.RescuerJS .bodyContainer {
+.RescuerPerfil .bodyContainer {
     display: grid;
     grid-template-columns: 60% 40%;
 }
 
-.RescuerJS .bodyContainer span {
+.RescuerPerfil .bodyContainer span {
     margin: 4px 0px;
     font-weight: 550;
     white-space: nowrap;
 }
-.RescuerJS .bodyContainer section {
-    margin: 10px 0px 10px 24px;
+.RescuerPerfil .bodyContainer .bodyLeft section {
+    margin: 20px 0px 20px 24px;
     word-wrap: none;
     min-height: 56px;
 }
-.RescuerJS .bodyContainer section span,
-.RescuerJS .bodyContainer p {
+.RescuerPerfil .bodyContainer section span,
+.RescuerPerfil .bodyContainer p {
     margin: 4px 0px;
 }
 
-.RescuerJS .bodyContainer section + .bodyRight{
-    margin: 10px 44px 10px 0px;
+
+.RescuerPerfil .bodyIcons{
+    margin: 0px 5px;
 }
 
-.RescuerJS .bodyRight, 
-.RescuerJS .bodyRight span{
-    float: right;
-    white-space: nowrap;
-} 
-
-.RescuerJS .bodyIcons{
-    margin: 0px 5px;
+.RescuerPerfil .bodyRight section{
+    margin-top:30px;
 }
 
 /*
 Button Donate
 */
-.RescuerJS .buttonDonate {
+.RescuerPerfil .buttonDonate {
     margin: auto  40px auto 0px;
     padding: 1px;
     background: linear-gradient(to right, var(--turquoiseLight), var(--orangeMain));
     white-space: nowrap;
+    height: 58px;
 }
 
-.RescuerJS .buttonDonate:hover {
-    padding: 2px;
+.RescuerPerfil .buttonDonate:hover {
     cursor: pointer;
+    padding: 2px;
+    color:var(--orangeMain);
+    background: var(--orangeMain);
+}
+.RescuerPerfil .buttonDonate:hover div p {
+    color:var(--orangeMain)
 }
 
-.RescuerJS .buttonDonate, 
-.RescuerJS .buttonDonate div {
+.RescuerPerfil .buttonDonate, 
+.RescuerPerfil .buttonDonate div {
     border-radius: 10px;
 }
 
-.RescuerJS .buttonDonate div .Iicon {
+.RescuerPerfil .buttonDonate div .Iicon {
     color: var(--orangeMain);
     margin: auto;
 }
 
-.RescuerJS .buttonDonate div {
-    padding: 9px;
+.RescuerPerfil .buttonDonate div {
+    padding: 9.5px;
     background: var(--backgroundMain);
 }
 
-.RescuerJS .buttonDonate div p {
+.RescuerPerfil .buttonDonate div p {
     color: var(--turquoiseMain);
     margin: 0 auto;
 }
@@ -215,35 +225,42 @@ Button Donate
 /*
 Button Achievements
 */
-.RescuerJS .achievements div {
+.RescuerPerfil .achievements div {
     margin: 3px 6px;
     padding: 2px 4px;
     border: 1px solid black;
     border-radius: 9px;
 }
 
-.RescuerJS .achievements div p {
+.RescuerPerfil .achievements div p {
     margin: 3px;
 }
 
 /*
 Button Social Media
 */
-.RescuerJS .socialmedia {
+.RescuerPerfil .bodyContainer section + .lLeft{
+    margin: 10px 0px 10px 0px;
+    word-wrap: none;
+    min-height: 56px;
+}
+
+
+
+.RescuerPerfil .socialmedia {
     margin: auto 3px;
 }
 
-.RescuerJS .socialmedia:hover {
+.RescuerPerfil .socialmedia:hover {
     color: var(--orangeMain);
     padding: 0.5px;
     transition: 250ms;
     cursor: pointer;
-
 }
 /*
 Achievements border
 */
-.RescuerJS .achievementBorder {
+.RescuerPerfil .achievementBorder {
     margin: 3px 0px;
     border: 1px solid var(--turquoiseMain);
     padding:  0px 170px 0px 0px;
@@ -252,8 +269,6 @@ Achievements border
     max-width: 190px;
     border-radius: 20px;
 }
-
-
 
 .badgeBox{
     width: 220px;
@@ -264,7 +279,6 @@ Achievements border
     margin: 25px 0px;
     z-index: 3;
     cursor: pointer;
-
 }
 
 .badgeBox span{
@@ -286,7 +300,6 @@ Achievements border
     border-radius: 12px;
     transition: 0.5s;
     cursor: pointer;
-
 }
 
 .badgeBox:hover span{
@@ -301,13 +314,13 @@ Achievements border
 
 }
 
-.RescuerJS .achievementBorder div {
+.RescuerPerfil .achievementBorder div {
     margin: 0px 10px 0px 0px;
     padding: 2px 3px 2px 3px;
     
 }
 
-.RescuerJS .reachievementsBlue {
+.RescuerPerfil .reachievementsBlue {
     width: 144px;
     height: 32px;
     margin: 3px 0px;
@@ -323,116 +336,76 @@ Achievements border
 /*
 Favorites
 */
-.RescuerJS .galleryContainer{
-    height: 262px;
+.RescuerPerfil .title{
+    font-weight: 550;
 }
-.RescuerJS .favContainer, 
-.RescuerJS .galleryContainer{
+
+.RescuerPerfil .favContainer, 
+.RescuerPerfil .galleryContainer{
     padding: 20px;
 }
-.RescuerJS .favContainer p, 
-.RescuerJS .favContainer span{
+.RescuerPerfil .favContainer p, 
+.RescuerPerfil .favContainer span{
     white-space: nowrap;
 }
 
-.RescuerJS .favContainer img{
+.RescuerPerfil .favContainer img{
     border-radius: 50%;
     width: 60px;
     margin: 0px 10px;
 }
 
-.RescuerJS .favTitle{
+.RescuerPerfil .favContainer .flex div p{
+    text-align: center;
+    margin-right: 5px;
+}
+
+.RescuerPerfil .favTitle{
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 20px;
 }
 
-.RescuerJS .favTitle span{
+.RescuerPerfil .favTitle span{
     margin: 0px;
     float: right;
-
-}
-.RescuerJS .favContainer .flex div p{
-    text-align: center;
-    margin-right: 5px;
 }
 
-/*
-Gallery
-*/
-.RescuerJS .galleryContainer .img1 img{
-    width: 220px;
-    height: 180px;
-    border-radius: 10px;
-
-}
-
-.RescuerJS .galleryContainer .img2 img{
-    margin: 20px 0px 20px 20px;
-    width: 170px;
-    border-radius: 10px;
-
-}
-.lLeft{
-    margin: 0px auto;    
-}
-
-
-/*DATABASE CSS---------------------------------------------------------*/
-.RescuerJS .bodyContainer section + .lLeft{
-    margin: 10px 0px 10px 0px;
-    word-wrap: none;
-    min-height: 56px;
-}
-
-.favContainer .flex div p {
-    font-size: 14px;
-
-    overflow: hidden;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-}
-
-
-.achievementBorder .flex{
-    border-radius: 50px;
-    background: hsl(194, 100%, 78%);
-    width: fit-content;
-} 
-
-.bodyContainer .description{
-    padding-right: 25px;
-}
-
-.badges:hover{
-    margin: -1px -3px 0px;
-    color: var(--orangeMain);
-    cursor: pointer;
-    font-weight: 550;
-    
-}
-
-.favProfile{
+.RescuerPerfil .favProfile{
     padding: 6px 0px;
-
 }
 
-
-
-.favProfile:hover{
+.RescuerPerfil .favProfile:hover{
     width: fit-content;
     margin: -1px 0;
     cursor: pointer;
     background: #f5f5f5;
     border-radius: 10px;
     box-shadow: 0px 0px 10px -2px rgb(170, 170, 170);
+}
 
+/*
+Gallery
+*/
+.RescuerPerfil .galleryContainer{
+    height: 262px;
 }
 
 
-.title{
-    font-weight: 550;
+.RescuerPerfil .galleryContainer .img1 img{
+    width: 220px;
+    height: 180px;
+    border-radius: 10px;
 }
+
+.RescuerPerfil .galleryContainer .img2 img{
+    margin: 20px 0px 20px 20px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+
+
 
 .galleryContainer img:hover{
     box-shadow: 0px 0px 40px -10px rgb(170, 170, 170);
@@ -445,21 +418,67 @@ Gallery
     margin: -2px 0px;
 }
 
-.RescuerJS .id1_banner, .RescuerJS .id2_banner,
-.RescuerJS .id3_banner, .RescuerJS .id4_banner,
-.RescuerJS .id5_banner, .RescuerJS .id6_banner,
-.RescuerJS .id7_banner, .RescuerJS .id8_banner,
-.RescuerJS .id9_banner, .RescuerJS .id10_banner, 
-.RescuerJS .id11_banner{ padding-bottom: 300px ;}
 
-.RescuerJS .id1_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1039361184907939850/Rectangle_188_1.png");}
-.RescuerJS .id2_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261103594639420/b1.png");}
-.RescuerJS .id3_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261103909216337/b2.jpg");}
-.RescuerJS .id4_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261122687111238/b7.jpg");}
-.RescuerJS .id5_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104412528650/b4.jpg");}
-.RescuerJS .id6_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104618053662/b5.jpg");}
-.RescuerJS .id7_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104790011974/b6.jpg");}
-.RescuerJS .id8_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261123295289344/b9.png");}
-.RescuerJS .id9_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261123752476733/b11.jpg");}
-.RescuerJS .id10_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104156672010/b3.jpg");}
-.RescuerJS .id11_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261122896838666/b8.png");}
+/*
+Gallery
+*/
+
+.RescuerPerfil .lLeft{
+    margin: 0px auto;    
+}
+
+/*DATABASE CSS---------------------------------------------------------*/
+
+.RescuerPerfil .bodyContainer .titleMargin,
+.RescuerPerfil .informations{
+    padding-bottom: 5px;
+}
+
+/*
+Gallery
+*/
+
+.RescuerPerfil .favContainer .flex div p {
+    font-size: 14px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+.RescuerPerfil .achievementBorder .flex{
+    border-radius: 50px;
+    background: hsl(194, 100%, 78%);
+    width: fit-content;
+} 
+
+.RescuerPerfil .bodyContainer .description{
+    padding-right: 25px;
+}
+
+.RescuerPerfil .badges:hover{
+    color: var(--orangeMain);
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.RescuerPerfil .id1_banner, .RescuerPerfil .id2_banner,
+.RescuerPerfil .id3_banner, .RescuerPerfil .id4_banner,
+.RescuerPerfil .id5_banner, .RescuerPerfil .id6_banner,
+.RescuerPerfil .id7_banner, .RescuerPerfil .id8_banner,
+.RescuerPerfil .id9_banner, .RescuerPerfil .id10_banner, 
+.RescuerPerfil .id11_banner{ padding-bottom: 300px ;}
+
+.RescuerPerfil .id1_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1039361184907939850/Rectangle_188_1.png");}
+.RescuerPerfil .id2_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261103594639420/b1.png");}
+.RescuerPerfil .id3_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261103909216337/b2.jpg");}
+.RescuerPerfil .id4_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261122687111238/b7.jpg");}
+.RescuerPerfil .id5_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104412528650/b4.jpg");}
+.RescuerPerfil .id6_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104618053662/b5.jpg");}
+.RescuerPerfil .id7_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104790011974/b6.jpg");}
+.RescuerPerfil .id8_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261123295289344/b9.png");}
+.RescuerPerfil .id9_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261123752476733/b11.jpg");}
+.RescuerPerfil .id10_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261104156672010/b3.jpg");}
+.RescuerPerfil .id11_banner { background-image: url("https://cdn.discordapp.com/attachments/1026668645033709692/1044261122896838666/b8.png");}
+
+

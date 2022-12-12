@@ -4,10 +4,15 @@
 .justify{ justify-content: space-between;}
 .right{ float: right;}
 
+
+
+.CHAT span{
+    color: black;
+}
 /* Root Component Sytle*/
 .CHAT {
     margin: 30px;
-    border: 1px solid black;
+    border: 1px solid #33B6FF;
     border-radius: 10px;
 }
 .CHAT span{ font-weight: 600; }
@@ -31,80 +36,83 @@
     box-shadow: 0px 10px 10px -10px rgb(124, 124, 124);
 }
 
-/* When Contact is Selected*/
-.CHAT .select .container { background: var(--turquoiseLight); }
-.CHAT .select .container section { padding-bottom: 10px; }
-
 
 /*
 -------------------------------------------------------------------------------
 Const ChatContacts Syle
 */
-.container{ 
+.CHAT .container{ 
     padding: 10px;
     border-bottom: 1px solid var(--turquoiseMain);
 }
 
-.container img{
+.CHAT .container img{
     width: 80px;
     border-radius: 100%;
+    border: 3px solid white;
+    outline: 2px solid var(--orangeMain);
 }
 
-.container .contact div{ width: 150px; }
-.container .lastViewed{ padding: 10px 0px; }
+.CHAT .container .contact div{ width: 150px; }
+.CHAT .container .lastViewed{ padding: 10px 0px; }
 
 /*
 -------------------------------------------------------------------------------
 */
 
-.conversation{
+.CHAT .conversation{
     width: 100%;
     background: rgb(248, 248, 248);
     border-radius: 10px;
+    height: 709px;
 }
 
-.perfilheader{
+.CHAT .perfilheader{
     padding:10px;
+    border-bottom: 1px solid rgb(104, 104, 104);
     background:var(--backgroundMain);
-    box-shadow: 0px 10px 10px -10px black;
+    box-shadow: 0px 10px 10px -10px rgb(104, 104, 104);
     border-top-right-radius: 10px;
 }
-.perfilheader section{
+.CHAT .perfilheader section{
     width: 100%;
     margin: auto 50px auto 10px ;
 }
 
-.perfilheader img{
+.CHAT .perfilheader img{
     border-radius: 100%;
     height: 60px;
+    border: 2px solid white;
+    outline: 2px solid var(--orangeMain);
 }
-.status span{
+
+.CHAT .status span{
     margin-right: 5px;
 }
-.contactChat div{
+.CHAT .contactChat div{
     padding: 10px;
     border: 1px solid black;
     width: 285px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.contactChat .left{
+.CHAT .contactChat .left{
     margin-left: 10px;
     margin-right: 50%;
     float: left;
 
 }
-.contactChat .right{
+.CHAT .contactChat .right{
     margin-right: 10px;
 
     margin-left: 65%;
     float: right;
 }
-.contactChat .center{
+.CHAT .contactChat .center{
     margin: 10px 0px;
     text-align: center;
 }
-.contact .right{
+.CHAT .contact .right{
     padding-left: 80px;
     float: right;
 
@@ -113,10 +121,10 @@ Const ChatContacts Syle
 
 
 
-.contactChat .bollon{
+.CHAT .contactChat .bollon{
     width: 300px;
     padding: 20px;
-    background: url("./bollon.svg");
+    background: url("./imagens/bollon.svg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -124,71 +132,163 @@ Const ChatContacts Syle
 
 }
 
-.contactChat .bfirst.right{
+.CHAT .contactChat .bfirst.right{
     width: 333px;
     padding: 20px;
-    background: url("./bollonFirst.svg");
+    background: url("./imagens/bollonFirst.svg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0px 5px;
 
 }
-.contactChat .bfirstLeft{
+.CHAT .contactChat .bfirstLeft{
     width: 333px;
     padding: 20px;
-    background: url("./bollonFirstLeft.svg");
+    background: url("./imagens/bollonFirstLeft.svg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0px 5px;
     float: left;
 }
-.contactChat .bfirstLeft p{
+.CHAT .contactChat .bfirstLeft p{
     margin:0px 40px;
 }
-.contactChat .bfirstLeft span{
+.CHAT .contactChat .bfirstLeft span{
     margin:0px;
 }
 
-.contactChat section span{
+.CHAT .contactChat section span{
     float: right;
     margin: 0px 40px
 }
 
-.contactChat .bollon span{
+.CHAT .contactChat .bollon span{
     margin: 0px 5px;
-    color: #848484;
+    color: black;
 
 }
-.conversation .contactFoot{
+.CHAT .conversation .contactFoot{
     margin-top: 30px;
     float: right;
     margin-right: 20%;
 }
-.conversation .contactFoot .bollon{
+.CHAT .conversation .contactFoot .bollon{
     width: 400px;
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
     height: 120px;
 }
-.contactChat .byUser{
+.CHAT .contactChat .byUser{
     border: 1px solid black;
     background: var(--turquoiseLight);
     border-radius: 10px;
 
 }
-.conversation .contactFoot section{
+.CHAT .conversation .contactFoot section{
     margin: 10px 0px;
 }
-.conversation .contactFoot section p{
+.CHAT .conversation .contactFoot section p{
     margin: 0px 10px;
 }
-.conversation .contactFoot .bottom{
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    margin-left: 10px;
+
+
+
+/* When Contact is Selected*/
+.CHAT .select .container { 
+    background: var(--turquoiseLight); 
+
+}
+.list{
+    height: 709px;
+
+}
+.CHAT .list div{
+    cursor: pointer;
+    transition: 0.3s;
+
 }
 
+.CHAT .container:hover{
+    background: var(--turquoiseLight);
+    transition: all 0.2s;
+
+}
+
+.CHAT .last_div div{ 
+    padding-bottom: 24px; 
+    margin-bottom: -26px;
+
+}
+.CHAT .IiconChat{
+padding:5px;
+cursor: pointer;
+margin: 5px;
+margin: auto 5px;
+}
+
+.CHAT .IiconChat:hover{
+    background: var(--orangeMain);
+    color:white;
+    border-radius: 100%;
+    height: 35px;
+    transition: all 0.1s;
+
+}
+
+.CHAT .conversation .contactFoot .bottom{
+    border-radius: 5px;
+    height: 39px;
+    width: 83px;
+}
+
+.bottom{
+    background: linear-gradient(to right, var(--turquoiseLight), var(--orangeMain));
+    padding:1px;
+    border-radius: 5px;
+}
+
+.bottom div{
+    background: rgb(255, 255, 255);
+    padding:9px;
+    border-radius: 5px;
+}
+
+.bottom:hover{
+    background: var(--turquoiseMain);
+}
+.bottom div:hover{
+    color:white;
+    cursor: pointer;
+    background:  var(--orangeMain);;
+    transition: all 0.2s;
+}
+
+
+
+.CHAT #searchButton a{
+    color: var(--orangeMain)
+}
+
+.CHAT  .contactChat{
+    height: 409px;
+}
+
+.CHAT textarea{
+    font-size: 16px;
+    background: rgb(248, 248, 248);
+    max-width: 398px;
+}
+
+
+.CHATT  #searchButton a{
+    color: var(--orangeMain)
+}
+
+
+.CHAT .status > *:not(p){
+    margin-right: 5px;
+    color:rgb(0, 189, 0);
+}

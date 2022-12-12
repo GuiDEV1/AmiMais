@@ -7,97 +7,94 @@ import Dog2 from "./Imagens/DogRe2.png";
 import { Rodape } from "../../ComponentesConstantes/Rodape";
 import { Link } from 'react-router-dom';
 
+export function Reporta() {
 
+  return (
+    <>
+      <Interface />
+      <div id="Reporta">
+        <h1 id="h2Reporta">Rep<strong className="scd" >ortar</strong></h1>
 
+        <div className="titleTopiics">
+          <h2>Animais <strong className="scd">desaparecidos</strong></h2>
+          <h2>Maus <stong className="scd">tratos</stong></h2>
+        </div>
 
-export function Reporta () {
-   
-   return (
- <>
-    <Interface />
-  <div id="Reporta">
-    <h1 id = "h2Reporta">Rep<strong  className ="scd" >orta</strong></h1>
+        <div className="titleImg">
+          <img src={Reporta1} />
+          <img src={Reporta2} />
+        </div>
 
-    <div className="titleTopiics">
-       <h2>Animais <strong className="scd">desaparecidos</strong></h2>
-       <h2>Maus <stong className="scd">tratos</stong></h2>
-    </div>
+        <div data-anime="left" className="divMain">
+          <div>
+            <h3 >Maus <strong className="scd">tratos</strong></h3>
+            <p>
+              Se você conhece algum animal que esta sofrendo maus tratos, denuncie.
+            </p>
+            <Link to="/MausTratos"><button>Denunciar</button></Link>
+          </div>
 
-    <div className="titleImg">
-      <img src={Reporta1}/>
-      <img src={Reporta2}/>
-    </div>
+          <div id="BodyReporta">
+            <img src={Dog1} />
+          </div>
+        </div>
 
-    <div data-anime="left" className="divMain">
-       <div>
-          <h3 >Maus <strong className="scd">tratos</strong></h3>
-           <p>
-           Se você conhece algum animal que esta sofrendo maus tratos, denuncie.
-           </p>
-           <Link to="/MausTratos"><button>Denunciar</button></Link> 
-       </div>
+        <div data-anime="left" className="divMain">
+          <div id="BodyReporta2">
+            <img src={Dog2} />
+          </div>
 
-       <div id="BodyReporta">
-          <img src={Dog1}/>
-       </div>
-    </div>
-
-    <div data-anime="left" className="divMain">
-      <div id="BodyReporta2">
-         <img src={Dog2}/>
+          <div>
+            <h3>Animais <strong className="scd">desaparecidos</strong></h3>
+            <p>
+              Se você acabou perdendo seu animalzinho ou encountrou algúm
+              animal na rua que você acha que tem dono.
+            </p>
+            <button>Visualizar</button>
+          </div>
+        </div>
       </div>
-
-      <div>
-          <h3>Animais <strong className="scd">desaparecidos</strong></h3>
-           <p>
-           Se você acabou perdendo seu animalzinho ou encountrou algúm 
-           animal na rua que você acha que tem dono.
-           </p>
-             <button>Visualizar</button>
-       </div>
-    </div>
-</div>    
-    <Rodape />
- </>
-   )
+      <Rodape />
+    </>
+  )
 }
 
 /* Função para animação de rolagem da página */
 
-const debounce = function(func, wait, immediate) {
-   let timeout;
-   return function(...args) {
-     const context = this;
-     const later = function () {
-       timeout = null;
-       if (!immediate) func.apply(context, args);
-     };
-     const callNow = immediate && !timeout;
-     clearTimeout(timeout);
-     timeout = setTimeout(later, wait);
-     if (callNow) func.apply(context, args);
-   };
- };
- 
- function animationScroll() {
+const debounce = function (func, wait, immediate) {
+  let timeout;
+  return function (...args) {
+    const context = this;
+    const later = function () {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    const callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+};
+
+function animationScroll() {
   const target = document.querySelectorAll('[data-anime]');
   const animationClass = "animate";
- //630
+  //630
   const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
-  target.forEach(function(element) {
-   if(windowTop > element.offsetTop) {
-     element.classList.add(animationClass);
-   }
-   else {
-     element.classList.remove(animationClass);
-   }
+  target.forEach(function (element) {
+    if (windowTop > element.offsetTop) {
+      element.classList.add(animationClass);
+    }
+    else {
+      element.classList.remove(animationClass);
+    }
   })
- }
- 
- animationScroll();
- 
-  // evento do scroll 
- window.addEventListener('scroll', debounce(function() {
-   animationScroll();
-   console.log("okay!!");
- }, 14));
+}
+
+animationScroll();
+
+// evento do scroll 
+window.addEventListener('scroll', debounce(function () {
+  animationScroll();
+  console.log("okay!!");
+}, 14));

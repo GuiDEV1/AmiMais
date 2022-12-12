@@ -1,6 +1,6 @@
 /* IDSobreNos criado para não da conflito nas outras páginas*/
 
-body {
+#SobreNos body {
     background: var(----backgroundMain);
 }
 
@@ -11,7 +11,7 @@ body {
     font-size: 29px;
 }
 
-.scd {
+#SobreNos .scd {
     color: var(--turquesa);
 }
 

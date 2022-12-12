@@ -2,28 +2,16 @@
     background-color: var(--backgroundMain);
 }
 
-#Curiosidade .turquesa {
+#Curiosidade .scd {
     color: var(--turquesa);
 }
 
-#Curiosidade .laranja {
-    color: var(--Laranja);
-}
-
 /*Inicio do titulo*/
-#Curiosidade .curiosidades {
-    top: 100px;
+#Curiosidade h1 {
+    margin-top: 22px;
     text-align: center;
-}
-
-#Curiosidade .curiosidades p {
-    font-family: 'Asap';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 73px;
-    letter-spacing: -0.025em;
-    margin-top: 75px;
+    color: var(--Laranja);
+    font-size: 34px;
 }
 
 /*Final Do titulo*/
@@ -32,14 +20,15 @@
 #Curiosidade .Pcuriosidades {
     margin-top: 40px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #Curiosidade .Pcuriosidades h2 {
     margin-left: 20px;
     margin-top: 5%;
     margin-bottom: 10px;
-    font-size: 35px;
+    color: var(--Laranja);
+    font-size: 29px;
     line-height: 41px;
     letter-spacing: -0.025em;
 
@@ -47,10 +36,8 @@
 
 #Curiosidade .Pcuriosidades p {
     text-align: left;
-
     margin-left: 20px;
-    font-size: 25px;
-    font-family: 'Asap';
+    font-size: 21px;
     font-weight: 500;
     letter-spacing: -0.025em;
     width: 50vw;
@@ -59,9 +46,7 @@
 
 #Curiosidade .Pcuriosidades img {
     width: 394px;
-    height: 351px;
-
-    margin-left: 200px;
+    height: 351px
 }
 
 /*Final da primeira Curiosidade*/
@@ -72,7 +57,7 @@
 /*elemento pai dos quadrados*/
 
 #Curiosidade .tresquadrados {
-    margin-top: 12%;
+    margin-top: 14.4%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -95,26 +80,19 @@
 #Curiosidade #quadrado h3 {
     margin-top: 5%;
     text-align: center;
-
-    font-family: 'Inria Sans';
-    font-style: italic;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 24px;
 }
 
 #Curiosidade #quadrado p {
+    padding: 8px;
     margin-top: 15%;
-
     text-align: center;
-
-    font-family: 'Inria Sans';
     font-style: italic;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 17px;
     line-height: 24px;
-
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -133,17 +111,16 @@
 }
 
 
-#Curiosidade #triangulo {
+/* #Curiosidade #triangulo {
     position: absolute;
     top: 1030px;
     left: 48%;
-
     width: 70px;
     height: 70px;
     background-color: var(--Laranja);
     -webkit-clip-path: polygon(52% 100%, 0 0, 100% 0);
     clip-path: polygon(52% 100%, 0 0, 100% 0);
-}
+} */
 
 /*Fim do titulo e conteudo do quadrado*/
 
@@ -154,7 +131,7 @@
 
 
 #Curiosidade .gatoV {
-    top: 77%;
+    top: 77.2%;
     left: 16%;
 }
 
@@ -177,35 +154,32 @@
 }
 
 #Curiosidade .tcuriosidades p,
-h2 {
+#Curiosidade h2 {
     margin-left: 50px;
 }
 
 #Curiosidade .tcuriosidades h2 {
     margin-top: 100px;
-
-
-    font-family: 'Asap';
+    color: var(--Laranja);
     font-weight: 700;
-    font-size: 36px;
+    font-size: 29px;
     line-height: 41px;
     letter-spacing: -0.025em;
 }
 
 #Curiosidade .tcuriosidades p {
     width: 700px;
-
-
     font-family: 'Asap';
     font-weight: 500;
-    font-size: 28px;
+    font-size: 21px;
     line-height: 28px;
     letter-spacing: -0.025em;
 
 }
 
 #Curiosidade .tcuriosidades img {
-    margin-left: 200px;
+    margin-left: 100px;
+    margin-bottom: 8px;
 }
 
 

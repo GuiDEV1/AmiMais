@@ -9,11 +9,11 @@
     margin-top: 20px;
 } 
 
-body {
+#Reporta body {
     background: var(--backgroundMain);
 }
 
-.scd {
+#Reporta .scd {
     color: var(--turquesa);
 }
 

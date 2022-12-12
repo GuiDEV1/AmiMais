@@ -44,7 +44,7 @@ export function PreVisualization() {
                   </div>
                   <section>
                      <div >
-                     <p>Visualizar Ong</p>
+                     <p><Link to="/VerONG">Visualizar Ong</Link></p>
                      </div>
                   </section>
                </div>

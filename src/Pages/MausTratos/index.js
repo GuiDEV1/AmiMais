@@ -48,7 +48,7 @@ export function MausTratos () {
                    Pena – detenção, de três meses a um ano, e multa.
                 </p>   
               </div>
-              <a href="https://www.webdenuncia.org.br/depa"><button>Denunciar</button></a>
+              <a target={"_blank"} href="https://www.webdenuncia.org.br/depa"><button>Denunciar</button></a>
           </div>
        </div>
   </div> 
@@ -56,6 +56,7 @@ export function MausTratos () {
  </>
    )
 }
+
 
 /* Função para animação de rolagem da página */
 

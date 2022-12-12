@@ -1,205 +1,581 @@
 /* ID Cadastrar criado para não da conflito com outras abas */
+/*
 
+    border: 1px solid #909090;
+    border-radius: 10px;
+    height: 30px;
+    padding: 17px 15px;
+    font-variant: bold;
+
+
+    width: 334px;
+
+-
+*/
 /* div pai responsavel pelo comportamento das outras div */
-#Cadastrar #main {
-    margin: 40px 0px 41px 0px;
+#REGISTER #cadastro strong {
+    color: purple;
+}
+#REGISTER #Cadastrar #main {
+    margin: 22px auto;
+    width: fit-content;
     display: flex;
-    justify-content: space-evenly;
+    /* border: 1px solid red; */
 }
 
-/* Div cadastro ira ficar todo o conteudo do cadastro */
-#Cadastrar #cadastro {
-    width: 500px;
-    height: 545px;
-    border: 1.5px solid transparent;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top, var(--turquesa), var(--Laranja) );
-    background-clip: content-box, border-box;
-    border-radius: 6px;
-}
-
-/* Formatação do h1 do cadastro*/
-#Cadastrar #cadastro h1 {
-    color: var(--Laranja);
-    font-weight: 700;
-    font-size: 38px;
-    text-align: center;
-    margin-top: 9px; 
-    margin-bottom: 3px;
-}
-
-/* Cor secundaria */
-.scd {
-   color: var(--turquesa);
-}
-
-/* Formatação do mini titulo */
-#Cadastrar #cadastro span {
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    color: var(--turquesa);
-}
-
-/* Formatação do mini titulo */
-#Cadastrar #cadastro h4 {
-    margin-top: 36px;
-    text-align: center;
-    font-size: 16px;
-}
-
-/* Estilização dos selects do cadastro */
-#Cadastrar #selectS select {
-    display: block;
-    margin: 12px auto;
-    border: 1.3px solid #9b9b9b; 
-    border-radius: 6px;
-    font-size: 15px;
-    width: 173px;
-    padding: 7.8px;   
-}
-
-#Cadastrar h5 {
-    margin-top: 32px;
-    text-align: center;
+#REGISTER input {
     font-size: 14px;
 }
 
-/* Formatação da div pai dos botões da rede sociais */
-#Cadastrar #redeSocial {
-    margin-top: 28px;
+#REGISTER label {
+    font-size: 15px;
+}
+
+#REGISTER .flexa {
     display: flex;
+}
+
+
+
+/* Div cadastro ira ficar todo o conteudo do cadastro */
+#REGISTER #Cadastrar #cadastro {
+    width: 540px;
+    min-height: 566px;
+    border: 1px solid blue;
+}
+
+
+
+
+
+
+#REGISTER .img_logo {
+    padding-right: 20px;
+}
+
+
+
+
+#REGISTER .aflex {
+    display: flex;
+
+}
+
+/*
+#REGISTER #Cadastrar #cadastro span {
+    color: var(--turquesa);
+    font-weight: bold;
+}
+#REGISTER #Cadastrar #cadastro h2 {
+    color: var(--Laranja);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+
+/* Cor secundaria */
+
+#REGISTER .colorTurquese {
+    color: var(--turquesa);
+}
+
+#REGISTER form label {
+    font-weight: bold;
+
+}
+
+/* 
+------------------------------------------
+*/
+
+#REGISTER #cadastro h1 {
+    color: var(--Laranja);
+    margin: 29px 0px 3px;
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#REGISTER #cadastro h3 {
+    color: var(--turquesa);
+    font-size: 16px;
+    text-align: center;
+}
+
+#REGISTER #cadastro h4 {
+    margin-top: 36px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* 
+Form Tipo de Cadastro 
+*/
+
+#REGISTER #cadastro select {
+    width: 173px;
+    margin: 12px auto;
+    cursor: pointer;
+    border: 1px solid #909090;
+    display: block;
+    padding: 7px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+#REGISTER #cadastro h5 {
+    font-size: 14px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+/* 
+Botao continuar
+*/
+
+#REGISTER .nextstep {
+    width: 170px;
+    margin: auto;
+    height: 38px;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, rgba(9, 169, 169, 0.7031) 40.04%, rgba(249, 129, 61, 0.6952) 59.96%);;
+}
+
+#REGISTER .nextstep p{
+    width: 166px;
+    margin: 0px auto;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: white;
+
+}
+
+#REGISTER .nextstep:hover {
+    color: var(--Laranja);
+    background: var(--Laranja);
+}
+
+/* 
+Imagem na direita
+*/
+
+#REGISTER #Cadastrar .imageRight {
+    width: 522px;
+    height: 330px;
+    margin: auto 0px;
+}
+
+#REGISTER #Cadastrar .imageRight img {
+    height: 330px;
+    margin: 0px auto;
+    display: block;
+}
+
+
+/* 
+--------------------------------------------------------------------
+*/
+
+/* 
+Rede Social Buttons
+*/
+
+#REGISTER #redeSocial {
+    gap: 11px;
+    display: flex;
+    margin-top: 19px;
     align-items: center;
     justify-content: center;
-    gap: 15px;
 }
 
-/* Estilização dos botões da rede social */
-#Cadastrar #redeSocial button {
-    width: 98.2px;
-    height: 40px;
+#REGISTER #redeSocial button {
+    width: 110px;
     cursor: pointer;
-    padding: 7px;
-    border-radius: 10px;
+    height: 40px;
     display: flex;
-    align-items: center;
+    padding: 7px;
     background: var(--backgoundMain);
-    }
-
-/* Estilização dos icons do botão */
-#Cadastrar #redeSocial button img {
-    width: 23px;
-    padding-right: 4px;
-    margin-left: 2px;
-    transition: all 0.5ms
+    align-items: center;
+    border-radius: 10px;
 }
 
-/* colors do google */
-#Cadastrar #redeSocial button #scd1 {
- color: #FBBC05;
+#REGISTER #redeSocial button p {
+    width: 10px;
+    margin-left: 8px;
 }
 
-#Cadastrar #redeSocial button #scd2 {
-    color: #34A853;
-   }
-
-#Cadastrar #redeSocial #google {
-    color: #E70000;
-    border-left: 1px solid #E70000;
-    border-top: 1px solid #E70000;
-    border-right: 1px solid #2E0FED ;
-    border-bottom: 1px solid #2E0FED ;
-}
-
-/* Fim dos colors do google */
-#Cadastrar #redeSocial #face {
+#REGISTER #redeSocial #faceButton {
     color: #0033E7;
-    border: 1px solid #0033E7;;
+    border: 1px solid #0033E7;
 }
 
-#Cadastrar #redeSocial #twiter {
+#REGISTER #redeSocial #googleButton {
+    color: #E70000;
+    border-top: 1px solid #E70000;
+    border-left: 1px solid #E70000;
+    border-right: 1px solid #2E0FED;
+    border-bottom: 1px solid #2E0FED;
+}
+
+#REGISTER #redeSocial #twiterButton {
     color: #00A2F5;
     border: 1px solid #00A2F5;
 }
 
-#Cadastrar form label {
-    margin-left: 8.3em;
-    font-weight: 700;
-}
-#Cadastrar form #email {
- border: 1px solid #333;
- width: 240px;
- height: 30px;
- padding: 6px;
- border-radius: 6px;
- font-size: 14px;
- margin-bottom: 45px;
+/* 
+Campo inserir e-mail
+*/
+
+#REGISTER #cadastro .inputEmail {
+    width: 334px;
+    margin: 10px auto 40px;
 }
 
-#Cadastrar form #next {
-    width: 140px;
-    height: 46px;
-    cursor: pointer;
-    border-radius: 9px;  
-    font-size: 17px;
-    font-weight: 700;
-    background: var(--backgoundMain);
-    display: block;
-    margin: auto;
-    border-left: 2.3px solid var(--turquesa);
-    border-top: 2.3px solid var(--turquesa);
-    border-right: 2.3px solid var(--Laranja);
-    border-bottom: 2.3px solid var(--Laranja);
-}
-
-#Cadastrar form #next:hover {
-    background: var(--Laranja);
-    color: var(--backgroundMain);
-    border: 2.6px solid var(--turquesa);
-}
-
-/* Formatação da imagem do lado */
-#Cadastrar #cadastrarimg img {
-    margin-top: 96px;
-}
-
-/* Cadastro02 */
-.grid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 30px
-}
-#Cadastrar form .grid div label {
-    margin-left: 15px;
-}
-#Cadastrar form .grid div input{
-    margin: 3px 15px;
-    max-width: 200px;
-    margin-bottom: 15px;
-    border: 1px solid #333;
-    width: 240px;
+#REGISTER #cadastro #email {
+    width: 310px;
     height: 30px;
-    padding: 6px;
-    border-radius: 6px;
-    font-size: 14px;
+    border: 1px solid #909090;
+    padding: 17px 15px;
+    font-variant: bold;
+    border-radius: 10px;
 }
 
-/* Cadastro02 ---- fim */
+/* ---------------------------------------------------
+Register Sep2
+*/
 
-
-/* CadastroUsuario */
-
-#Cadastrar #cadastroUsuario1 {
-   border: 1px solid red;
+#REGISTER .registerStep2 .nextstep {
+    margin: auto 10px 0px 0px;
+    padding: 1px;
+    width: 120px;
 }
 
-#Cadastrar #cadastroUsuario1 label {
-    font-size: 16px;
-    margin-bottom: 2px;
+#REGISTER .registerStep2 .nextstep p{
+    width: 117px;
 }
 
-#Cadastrar #cadastroUsuario1 input {
-    border: 1px solid #000;
-    
+#REGISTER .centerContent {
+    width: fit-content;
+    margin: 0px auto 20px;
 }
 
-/* CadastroUsuario --- fim */
+/*
+Type Form Balls Progress
+*/
+
+#REGISTER .typeForm {
+    width: fit-content;
+    margin: 20px auto 0px;
+}
+
+#REGISTER .typeForm div:first-child,
+#REGISTER .typeForm .centerContent{
+    margin: 10px auto 0px;
+}
+
+#REGISTER .typeForm .centerContent h2{
+    color: var(--Laranja)
+}
+
+#REGISTER .typeForm .flex > * {
+    margin: 0px 5px;
+}
+
+#REGISTER .circleWhite {
+    color: white;
+    z-index: 2;
+}
+
+#REGISTER .circleOverlay {
+    z-index: 2;
+    position: absolute;
+    padding-left: 50px;
+}
+
+#REGISTER .typeFormLine {
+    position: absolute;
+    padding-top: 7px;
+    border-bottom: 2px solid black;
+    width: 76px;
+}
+#REGISTER .typeStep3 .typeFormLine {
+    width: 78px;
+}
+
+#REGISTER .typeStep3{
+    padding-top: 20px;
+}
+
+#REGISTER .registerStep3  .centerContent h2{
+    margin-top: 25px;
+}
+
+/*
+------------------------------------------
+REGISTER GENERAL CLASSES
+------------------------------------------
+*/
+#REGISTER .containerMedium { 
+    margin: 10px; 
+    width: 210px;
+}
+#REGISTER .containerMedium label{ 
+    white-space: nowrap;
+}
+
+#REGISTER .inputLarger,
+#REGISTER .inputBorder,
+#REGISTER .inputMedium,
+#REGISTER .inputYoung,
+#REGISTER .inputSmall {
+    height: 30px;
+    border: 1px solid #909090;
+    padding: 17px 15px;
+    font-variant: bold;
+    border-radius: 10px;
+
+}
+
+#REGISTER .cadastroSucess a,
+#REGISTER #redeSocial a{
+    text-decoration: none;
+}
+
+#REGISTER .sucessNext {
+justify-content: space-between;
+}
+#REGISTER .inputLarger{ 
+    width: 430px; 
+}
+#REGISTER .inputMedium { 
+    width: 200px; 
+    margin-right: 10px;
+    margin-left: 0px;
+}
+#REGISTER .inputYoung { 
+    max-width: 180px; 
+}
+#REGISTER .inputSmall { 
+    max-width: 120px; 
+    margin-bottom: 20px;
+
+}
+
+#REGISTER section {
+    margin: 10px 0px;
+}
+
+#REGISTER .containterBottom{
+    margin-left: 10px;
+}
+
+
+
+/*
+Form step 2
+*/
+
+#REGISTER .formStep2 {
+    margin: 0px 50px 30px;
+}
+#REGISTER .inputGenre{
+    margin: 10px;
+}
+
+#REGISTER .inputGenre div label{
+    margin: 0px 10px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#REGISTER #genreNull { 
+    margin-left: 30px;
+}
+
+#REGISTER .inputLocation {
+    margin: auto 0px 20px 10px;
+    color: purple;
+}
+#REGISTER .inputLocation label {
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+#REGISTER .inputNEndress {
+    margin-right: 37px;
+}
+
+#REGISTER .inputNEndress input {
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #909090;
+    padding: 17px 15px;
+    font-variant: bold;
+    border-radius: 10px;
+}
+
+/*
+-----------------------------------------
+Form step 2
+*/
+
+
+#REGISTER .registerStep3 input {
+    margin-bottom: 10px;
+}
+
+#REGISTER .formStep3 .inputPassword {
+    margin: 20px 10px;
+}
+
+#REGISTER .formStep3 .inputPassword input {
+    display: block;
+    width: 290px;
+    margin-bottom: 0px;
+}
+
+#REGISTER .formStep3 section:first-of-type input {
+    width: 170px;
+}
+
+#REGISTER .formStep3,
+#REGISTER .sucess_margin {
+    margin: 20px 50px 40px 50px
+}
+#REGISTER .formStep3 .terms strong{
+    cursor: pointer;
+}
+#REGISTER #cadastro .formStep3 .terms strong:hover{
+    color: gray;
+}
+#REGISTER .formStep3 .terms label{
+   font-weight: normal;
+}
+#REGISTER .small {
+    width: 53px;
+}
+
+
+#REGISTER .form_space {
+    margin: 0px 0px 0px 30px;
+
+}
+
+#REGISTER .inputCapcha {
+    width: 235px;
+    margin: 0px auto;
+    height: fit-content;
+    border-radius: 5px;
+    border-color:rgba(213, 212, 215, 1);
+    background-color: rgba(249, 249, 249, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    user-select: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#REGISTER .inputCapcha img{
+    width: 35px;
+    height: 35px;
+}
+#REGISTER .inputCapcha div{
+    margin: auto 0px
+}
+#REGISTER .inputCapcha div:hover{
+    color: gray;
+}
+
+#REGISTER .inputCapcha label{
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#REGISTER .inputCapcha section{
+    position:absolute;
+}
+#REGISTER .inputCapcha section.unliked{
+    margin: 0px 5px 
+}
+#REGISTER .inputCapcha section.liked{
+    margin: -5px 0px;
+    color:green;
+}
+
+#REGISTER .inputCapcha div div{
+    margin: auto 10px auto 32px;
+    white-space: nowrap;
+}
+
+#REGISTER .inputCapcha .inputCapcha span{
+    padding: 2px 10px ;
+    border: 1px solid black;
+}
+
+
+#REGISTER input#robot {
+display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#REGISTER .registerStep3 #robot,
+.terms input {
+    width: auto;
+    margin: auto 10px;
+}
+
+#REGISTER .robot div {
+    margin: auto 0px;
+}
+
+#REGISTER .terms input {
+    margin-bottom: 10px;
+}
+
+#REGISTER .registerStep3 .nextstep {
+    margin-top: 25px;
+}
+
+#REGISTER .cadastroSucess {
+    text-align: center;
+}
+#REGISTER #Cadastrar #cadastro .sucess_margin {
+    margin: 70px;
+}
+#REGISTER #Cadastrar #cadastro .sucess_margin h2 {
+    margin-bottom: 10px;
+    color: var(--Laranja)
+}
+#REGISTER #Cadastrar #cadastro .sucess_margin span {
+font-weight: bold;
+}
+#REGISTER #Cadastrar #cadastro .sucess_margin p {
+    margin-bottom: 30px;
+}
+
+#REGISTER .cadastroSucess span {
+    margin-bottom: 20px;
+}
+#REGISTER  .cadastroSucess .nextstep{
+    padding: 1px;
+}

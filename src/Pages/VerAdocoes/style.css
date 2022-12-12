@@ -1,0 +1,328 @@
+.colorTurquese {
+    color: var(--turquesa);
+}
+
+.colorOrange {
+    color: var(--Laranja);
+}
+
+#LookAdotions{
+    padding: 0px 
+}
+#LookAdotions .bannerOng img{
+    width: 100%;
+}
+/*
+-----------------------------------
+*/
+#LookAdotions .header {
+    padding: 5px 10px;
+    background-color: var(--azulClaro);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 100%;
+    position: absolute;
+    margin-top: -70px;
+}
+
+#LookAdotions .header >* {
+    margin: 10px;
+}
+
+#LookAdotions .header div * {
+    margin: 0px 5px;
+}
+
+#LookAdotions .header .ongTitle {
+    margin-left: 130px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#LookAdotions .header img {
+    position: absolute;
+    width: 90px;
+    border-radius: 100%;
+    border: 4px solid var(--Laranja);
+    margin-top: -45px;
+    margin-left: 30px;
+}
+
+#LookAdotions .header button {
+    padding: 3px 2px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+#LookAdotions .header button:hover {
+    color: var(--Laranja);
+    border-color: var(--Laranja);
+    cursor: pointer;
+}
+#LookAdotions{
+    border: 1px solid rgb(214, 214, 214);
+}
+
+#LookAdotions .body{
+    zoom: 155%;
+}
+#LookAdotions .body p,
+#LookAdotions .body h2,
+#LookAdotions .body h3,
+#LookAdotions .body textarea{
+    zoom: 80%;
+}
+/*
+-----------------------------------
+*/
+#LookAdotions .carrosel {
+    margin: 0px auto 50px;
+    padding: 10px 40px;
+    text-align: center;
+    box-shadow: 0px 0px 10px -5px ;
+}
+
+#LookAdotions .carrosel img{
+    height: 250px;
+}
+
+#LookAdotions .carrosel .rec-pagination{
+    display: none;
+}
+
+
+
+#LookAdotions .rec.rec-arrow {
+    color:orange;
+    font-size: 40px;
+    box-shadow:none;
+    background-color:white;
+}
+
+#LookAdotions .rec.rec-arrow:disabled {
+    color:white;
+    box-shadow:none;
+    transition: 0.5s;
+    background-color:white;
+}
+
+#LookAdotions .rec.rec-arrow:hover:enabled, 
+#LookAdotions .rec.rec-arrow:focus:enabled{
+    color:black;
+    box-shadow:none;
+    background-color:white;
+}
+
+#LookAdotions .rec .rec-dot:hover{
+    border: 1px solid rgb(0 0 0 / 50%);
+    box-shadow: 0 0 1px 3px white;
+}
+
+#LookAdotions .rec.rec-dot_active, 
+#LookAdotions .rec.rec-dot_active:focus{
+    background: orange;
+    box-shadow: 0 0 1px 3px orange;
+}
+
+#LookAdotions .rec.rec-dot_active:hover{
+    background: orange;
+    box-shadow: 0 0 1px 3px white;
+}
+
+#LookAdotions .rec-pagination{
+    color:orange;
+    z-index: 1;
+    position: absolute;
+    padding-top: 29px;
+}
+
+
+
+
+
+/*
+-----------------------------------
+*/
+#LookAdotions .ongButtons {
+    padding: 0px 30px;
+}
+
+#LookAdotions .ongCircle {
+    margin: 0px auto;
+    text-align: center;
+    color: var(--turquesa);
+    font-size: 18px;
+}
+
+#LookAdotions .ongCircle button {
+    height: fit-content;
+    border-radius: 100%;
+    background: none;
+    color: var(--Laranja);
+    padding: 1px;
+    background-image: linear-gradient(90deg, rgba(9, 169, 169, 0.7031) 40.04%, rgba(249, 129, 61, 0.6952) 59.96%);
+    ;
+}
+
+#LookAdotions .ongCircle button>* {
+    margin: 0px auto -3px;
+    padding: 10px;
+    border-radius: 100%;
+    background: white;
+}
+
+#LookAdotions .ongCircle:hover>* {
+    color: var(--Laranja);
+    cursor: pointer;
+}
+
+#LookAdotions .ongCircle:hover>*:not(p) {
+    background: var(--Laranja);
+}
+
+#LookAdotions .ongIformations {
+    padding: 50px 80px;
+    white-space: nowrap;
+}
+
+#LookAdotions .ongIformations img {
+    margin: auto;
+    width: 170px;
+}
+
+#LookAdotions .ongIformations section {
+    margin: auto;
+}
+
+#LookAdotions .ongIformations section div {
+    margin: 10px auto;
+
+}
+
+#LookAdotions .ongIformations section div:first-child {
+    margin-left: -4px;
+}
+
+#LookAdotions .ongIformations section div:nth-child(2) {
+    margin-left: -1px;
+}
+
+#LookAdotions .ongIformations section p {
+    margin: auto 10px;
+}
+
+#LookAdotions .ongIformations #streetDetails p {
+    margin-left: 7px;
+}
+
+#LookAdotions .ongIformations #streetDetails>*:not(p) {
+    margin: auto;
+}
+
+#LookAdotions .ongIformations div>*:not(p) {
+    color: var(--Laranja)
+}
+
+/*
+-----------------------------------
+*/
+#LookAdotions .ongReputation {
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+#LookAdotions .reviewCircle {
+    width: fit-content;
+    padding: 2px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, rgba(9, 169, 169, 0.7031) 40.04%, rgba(249, 129, 61, 0.6952) 59.96%);
+    ;
+}
+
+#LookAdotions .reviewCircle>* {
+    background: white;
+    border-radius: 100%;
+    padding: 25px 17px;
+    height: 70px;
+    width: 70px;
+}
+
+#LookAdotions .ongReputation section {
+    margin: 0px 20px;
+}
+
+#LookAdotions .ongReputation section>* {
+    margin: auto;
+}
+
+#LookAdotions .ongReputation section:first-child .reviewCircle>* {
+    padding: 35px 30px;
+    height: 100px;
+    width: 100px;
+}
+
+#LookAdotions .ongReputation section p {
+    color: var(--turquesa);
+    margin-bottom: 5px;
+}
+
+
+/*
+-----------------------------------
+*/
+
+#LookAdotions .ongReview{
+    padding: 20px;
+    justify-content: space-around;}
+#LookAdotions .ongReview h3 {
+    margin: 0px 10px;
+    }
+
+#LookAdotions .ongReview form div {
+    background-image: linear-gradient(90deg, rgba(9, 169, 169, 0.7031) 40.04%, rgba(249, 129, 61, 0.6952) 59.96%);
+    padding: 1px;
+    height: 125px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+
+}
+
+
+#LookAdotions .ongReview form textarea {
+    font-size: 16px;
+    padding: 10px;
+    min-height: 153px;
+    max-height: 153px;
+    border-radius: 10px;
+    width: 20vw;
+}
+
+#LookAdotions .ongReview form button {
+    height: fit-content;
+    background-image: linear-gradient(90deg, rgba(9, 169, 169, 0.7031) 40.04%, rgba(249, 129, 61, 0.6952) 59.96%);
+    padding: 1px;
+    border-radius: 10px;
+    margin: auto 0px 20px 20px;
+}
+
+#LookAdotions .ongReview form button p {
+    padding: 13px 18px;
+    background: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#LookAdotions .ongReview .imgReview{
+    margin-left:10px;
+    position: relative;
+    padding: 10px;
+    min-width: 200px;
+}
+
+#LookAdotions .ongReview img{
+    position: absolute;
+    width: 200px;
+    margin: auto;
+    right: 0px;
+    bottom: 0px;
+}

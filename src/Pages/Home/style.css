@@ -1,5 +1,5 @@
 /*Background padrão do site e id Home criado para n prejudicar as outras páginas*/
-body {   
+#Home body {   
  background: var(--backgroundMain);
 }
 
@@ -38,7 +38,7 @@ transition: all 0.5s;
 }
 
 #Home #title1 {
-    border-bottom: 5.5px solid #000;
+    border-bottom: 5.5px solid var(--preto);
 }
 /* Formatação dos icons do menu interativo */
 #Home .iconsMenu  {

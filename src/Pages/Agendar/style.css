@@ -8,16 +8,19 @@
     height: 261px;
 }
 
+/* Estilização do h1 da página*/
 #Agendar #headerMain h1 {
     margin-top: 12px;
     text-align: center;
     color: var(--Laranja);
 }
 
+/* cor secundaria */
 #Agendar .scd {
     color: var(--turquesa);
 }
 
+/* Espaçamento dos elementos do header*/
 #Agendar #perfilHeader {
     display: flex;
     justify-content: space-around;
@@ -25,12 +28,14 @@
     margin-right: 15.8em;
 }
 
+/* Elemento pai do nome e foto de perfil da empresa*/
 #Agendar #UserPerfil {
  display: flex;
  align-items: center;
  gap: 13px;
 }
 
+/* Estilização da foto de perfil*/
 #Agendar #UserPerfil img {
     width: 90px;
     height: 87px;
@@ -38,12 +43,14 @@
     border: 2px solid var(--turquesa);
 }
 
+/* Estilização do nome da empresa*/
 #Agendar #UserPerfil h3 {
     font-size: 21px;
     font-weight: 700;
     color: var(--Laranja);
 }
 
+/* Estilização da ilustração*/
 #Agendar #ilustration img {
     width: 208px;
     height: 175px;
@@ -52,6 +59,7 @@
 
 /* Fim do header da página */
 
+/* Estilização do titulo do body */
 #Agendar h2 {
     text-align: center;
     margin-top: 14px;
@@ -59,6 +67,7 @@
     font-size: 25px;
 }
 
+/* Elemento pai das opções de pet*/
 #Agendar #sectionPetMain {
     display: flex;
     align-items: center;
@@ -66,6 +75,7 @@
     margin-top: 28px;
 }
 
+/* titulos das opções*/
 #Agendar #sectionPetMain h3 {
     text-align: center;
     font-size: 22.5px;
@@ -73,6 +83,7 @@
     margin-bottom: 6px;
 }
 
+/* Estilização das imagens*/
 #Agendar #sectionPetMain img {
     display: flex;
     align-items: center;
@@ -83,6 +94,7 @@
     transition: all 0.2s;
 }
 
+/* Efeito hover de cada imagem*/
 #Agendar #sectionPetMain img:hover {
    filter: brightness(100%);
 }
@@ -95,6 +107,7 @@
     margin-top: 7px;
 }
 
+/* Estilização do forms*/
 #Agendar form #forms1 {
     display: flex;
     flex-direction: column;
@@ -117,7 +130,7 @@
 }
 
 #Agendar form #forms1 input, select {
-    border: 1px solid #000;
+    border: 1px solid var(--preto);
     border-radius: 6px;
     margin-left: 40px;
     width: 196px;
@@ -167,62 +180,59 @@
     font-weight: 700;
 }
 
-/* #Agendar form #FooterForms #formsPai #submitAgendar {
-    border: 1px solid blue;
-} */
-
 /* ---------------------------------- overlayReturn------------- */
 
-#AgendarOverlay {
-    border: 1.8px solid #000;
+/* Estilização do overlay de confirmação de agendamento*/
+#Agendar #AgendarOverlay {
+    border: 1.8px solid var(--preto);
     margin: auto;
     width: 485px;
     height: 320px;
     background: var(--backgroundMain);
 }
 
-#AgendarOverlay .headerOverlay {
+#Agendar #AgendarOverlay .headerOverlay {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 8px;
 }
 
-#AgendarOverlay .headerOverlay h2 {
+#Agendar #AgendarOverlay .headerOverlay h2 {
     color: var(--Laranja);
     font-size: 32px;
 }
 
-#AgendarOverlay .headerOverlay img {
+#Agendar #AgendarOverlay .headerOverlay img {
     width: 46px;
     height: 45px;
     margin-left: 14px;
 }
 
-#AgendarOverlay .overlayBody {
+#Agendar #AgendarOverlay .overlayBody {
     margin-top: 23px;
     display: flex;
     justify-content: space-evenly;
 }
 
-#AgendarOverlay .overlayBody img {
+#Agendar #AgendarOverlay .overlayBody img {
     width: 72px;
     height: 90px;
 }
 
-#AgendarOverlay .overlayBody p {
+#Agendar #AgendarOverlay .overlayBody p {
   width: 210px;
   margin-top: 26px;
   font-size: 20px;
   font-weight: 700;
 }
 
-#AgendarOverlay .buttonConfirm {
+#Agendar #AgendarOverlay .buttonConfirm {
     display: flex;
     justify-content: flex-end;
 }
 
-#AgendarOverlay .buttonConfirm button {
+#Agendar #AgendarOverlay .buttonConfirm button {
     background: var(--Laranja);
     color: var(--backgroundMain);
     width: 120px;
@@ -240,7 +250,7 @@
     margin: auto;
 }
 
-#AgendarOverlay .scd {
+#Agendar #AgendarOverlay .scd {
     color: var(--turquesa);
 }
 
