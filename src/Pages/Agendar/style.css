@@ -115,12 +115,14 @@
     margin-bottom: 36px;
 }
 
+/* Estilização da label do forms */
 #Agendar form #forms1 label {
     color: var(--Laranja);
     font-size: 21px;
     font-weight: 700;
 }
 
+/* Ajustando posições */
 #Agendar form #lb1 {
     margin-right: 14px;
 }
@@ -129,6 +131,7 @@
     margin-right: 78px;
 }
 
+/* Estilização do select */
 #Agendar form #forms1 input, select {
     border: 1px solid var(--preto);
     border-radius: 6px;
@@ -140,33 +143,39 @@
     transition: 0.5s;
 }
 
+/* Espaçamento dos elementos*/
 #Agendar form #FooterForms {
     display: flex;
     justify-content: space-between;
 } 
 
+/* Estilização do segundo forms type radio */
 #Agendar form #FooterForms #forms2 {
     margin-left: 58px;
 }
 
+/* Estilização do label do froms2*/
 #Agendar form #FooterForms #forms2 label {
     color: var(--Laranja);
     font-weight: 700;
     font-size: 19px;
 }
 
+/* Formatação da imagem */
 #Agendar form #FooterForms #buttonforms img {
    height: 598px;
    width: 320x;
    z-index: 2;
 }
 
+/* Elemento pai */
 #Agendar form #FooterForms #formsPai {
     display: flex;
     align-items: center;
     width: 40%;
 } 
 
+/* Formtação do button submit*/
 #Agendar form #FooterForms #formsPai #submitAgendar button {
     background: var(--Laranja);
     border-radius: 12px;
@@ -191,6 +200,7 @@
     background: var(--backgroundMain);
 }
 
+/* Estilização do overlay de confirmação de ag*/
 #Agendar #AgendarOverlay .headerOverlay {
     display: flex;
     align-items: center;
