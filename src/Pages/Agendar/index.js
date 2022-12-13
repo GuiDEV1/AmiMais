@@ -29,7 +29,7 @@ export function Agendar () {
           <img src={DrawHeader} alt="DrawIlustrator" />
         </div>
       </div>
-
+{/* ssss */}
      </div>
 
      <h2>Selecione o <strong className="scd">tipo de animal</strong></h2>
