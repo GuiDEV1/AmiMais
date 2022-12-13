@@ -94,6 +94,7 @@ function preVisuaizacao() {
    overlay.classList.toggle(viewOverlay);
 }
 
+// Funão para segunda ong 
 function preVisuaizacao1() {
    let overlay = document.querySelector(".saida1");
    const viewOverlay1 = "viewOverlay1";
