@@ -61,7 +61,7 @@
 
 <a href="https://www.figma.com/proto/YmAuXpSn9QZaWqShiZggDC/web-site----ideas?node-id=312%3A7971&scaling=scale-down-width&page-id=59%3A595&starting-point-node-id=312%3A7971&hide-ui=1"><img  width="18px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054550678493741146/figma.png" /> Visualizar o prototipo no Figma</a>
 
-<a href=""><img  width="18px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054550330467164261/science.png" /> Visualizar o web site</a>
+<a href="https://ami-mais-guidev1.vercel.app"><img  width="18px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054550330467164261/science.png" /> Visualizar o web site</a>
 
 
 
