@@ -1,4 +1,4 @@
-<h1>Ami Mais</h1>
+<h1>AmiMais</h1>
  
 <div align="center">
    <img width="550px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054500953744744448/LogoAmiMais.png"/>
@@ -6,7 +6,7 @@
 <br/>
  
 <div align="center">
-   <h2> <img width="30px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054524159998316584/happy.png"/> Quem somos</h2>
+   <h2> <img width="30px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054524159998316584/happy.png"/> Quem somos?</h2>
    
    <p>
       Somos uma plataforma com o objetivo de direcionar animais resgatados em
@@ -17,7 +17,7 @@
       animais precisam.
    </p>
    
-   <h2> <img  width="40px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054526951672528927/thinking.png"/> Como surgiu a idea?</h2>
+   <h2> <img  width="40px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054526951672528927/thinking.png"/> Como surgiu a ideia?</h2>
    
    <p>
       Realizamos uma pesquisa em conjunto e concluímos que o número de abandono era
