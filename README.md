@@ -4,7 +4,7 @@
    <img width="550px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054500953744744448/LogoAmiMais.png"/>
 </div>
 <br/>
- a
+ 
 <div align="center">
    <h2> <img width="30px" src="https://cdn.discordapp.com/attachments/773372240686350356/1054524159998316584/happy.png"/> Quem somos</h2>
    
